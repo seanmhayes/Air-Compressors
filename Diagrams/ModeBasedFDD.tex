@@ -1,0 +1,35 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage{verbatim}
+\usepackage{times}
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{comment}
+:Title: 1D navigation
+:Slug: nav1d
+:Tags: Block diagrams
+
+A simple block diagram.
+
+| Author: Kjell Magne Fauske
+
+\end{comment}
+%
+\tikzstyle{int}=[draw, fill=blue!20, minimum size=2em]
+\tikzstyle{init} = [pin edge={to-,thin,black}]
+
+\begin{tikzpicture}[node distance=6cm,auto,>=latex']
+    \node [int] (a) {Generate Residuals};
+    \node (b) [left of=a,node distance=5cm, coordinate] {a};
+    \node [int] (c) [right of=a] {Evaluate Residuals};
+    \node [coordinate] (end) [right of=c, node distance=5cm]{};
+    \path[->] (b) edge node {Observations} (a);
+    \path[->] (a) edge node {Residuals} (c);
+    \draw[->] (c) edge node {Decision} (end) ;
+\end{tikzpicture}
+
+\end{document}
