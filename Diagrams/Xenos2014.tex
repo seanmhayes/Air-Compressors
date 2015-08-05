@@ -1,0 +1,46 @@
+\documentclass{standalone}
+
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usepackage{hyperref}
+\usetikzlibrary{shapes,arrows}
+\begin{document}
+\pagestyle{empty}
+
+
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+    text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+    text width=9em, text centered, rounded corners, minimum height=4em]
+    \tikzstyle{whiteblock} = [rectangle, draw, 
+        text width=9em, text centered, rounded corners, minimum height=4em]
+    
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
+    minimum height=2em]
+    
+\begin{tikzpicture}[node distance = 5cm, auto]
+    % Place nodes
+    \node [block] (init) {Black Box BB1};
+    \node [whiteblock, left of=init] (expert) {X = [$\theta$, p$_{in}$, T$_{in}$, p$_{out}$]};
+    \node [whiteblock, right of=init] (system) {Y$_{1}$  = m$_{a}$};
+\node[draw,text width=4cm,align=center] at (-5,2) {Input \\ Measured Variables};
+\node[draw,text width=4cm,align=center] at (5,2) {Output\\ Predicted Variable};
+
+\node [block] at (5,-2) (bbtwo) {Black Box BB2} ;
+
+\node [whiteblock, right of=bbtwo] (power) {Y$_{1}$  = P$_{el}$};
+
+\node[draw,text width=4cm,align=center] at (10,-.5) {Output\\ Predicted Variable};
+
+    % Draw edges
+     \path [line] (expert) -- (init);
+    \path [line] (init) -- (system);
+    \path [line] (system) -- (bbtwo);
+    \path [line] (init) |- (bbtwo);
+    \path [line] (bbtwo) |- (power);
+\end{tikzpicture}
+
+
+\end{document}
