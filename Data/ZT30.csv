@@ -1,52 +1,52 @@
-Unix Time,Excel Time,Machine Running,Compressor Outlet (Bar),Oil Pressure (Bar),Intercooler (Bar),Element 1 Outlet (degC),Element 2 Inlet (degC),Element 2 Outlet (degC),Emergency Stop,Remote Start/Stop,Remote Load/Unload,Remote Pressure Sensing,Overload Motor,Overload Fanmotor,PB1 open / PB2 closed,Running Hours,Loaded Hours,Motor Starts,Module Hours,Load Relay,Dryer Starts
-1437037764,16/07/2015 10:09:24,No,7,0,0.02,20,36,21,closed,open,open,open,closed,closed,open,9565,591,207818,83858,140725,
-1437038540,16/07/2015 10:22:20,No,7.1,0,0.02,29,21,28,closed,open,open,open,closed,closed,open,9565,591,207818,83858,140725,
-1437039001,16/07/2015 10:30:01,No,7.4,0,0.02,27,21,26,closed,open,open, open,closed,closed,open,9565,591,207818,83858,140725,
-1437039491,16/07/2015 10:38:11,No,7,0,0.02,25,21,26,closed,open,open, open,closed,closed,open,9565,591,207818,83858,140725,
-1437040222,16/07/2015 10:50:22,No,7,0,0.02,24,21,25,closed,open,open,open, closed,closed,open,9565,591,207818,83859,140725,
-1437041500,16/07/2015 11:11:40,No,6.9,0,0.01,40,21,35,closed,open,open,open,closed,closed,open,9565,591,207820,83859,140725,
-1437042190,16/07/2015 11:23:10,No,6.9,0,0.02,32,21,29,closed,open,open,open,closed,closed,open,9565,591,207820,83859,140725,
-1437042702,16/07/2015 11:31:42,No,7.4,0.3,0.02,73,21,73,closed,open,open,open,closed,closed,open,9565,591,207821,83859,140725,
-1437043362,16/07/2015 11:42:42,No,7,0,0.01,33,21,30,closed,open,open,open,closed,closed,open,9565,591,207821,83859,140725,
-1437043680,16/07/2015 11:48:00,No,7.3,0,0.01,31,21,28,closed,open,open,open,closed,closed,open,9565,591,207821,83860,140725,
-1437045704,16/07/2015 12:21:44,No,7.3,0,0.01,35,22,33,closed,open,open,open,closed,closed,open,9565,591,207822,83860,140725,
-1437045981,16/07/2015 12:26:21,No,7,0,0.01,32,22,29,closed,open,open,open,closed,closed,open,9565,591,207822,83860,140725,
-1437046414,16/07/2015 12:33:34,No,7.4,0,0.01,40,22,38,closed,open,open,open,closed,closed,open,9565,591,207823,83860,140725,
-1437046842,16/07/2015 12:40:42,No,7.1,0,0.02,33,22,29,closed,open,open,open,closed,closed, open,9565,591,207823,83860,140725,
-1437047189,16/07/2015 12:46:29,No,7.3,0,0.02,31,22,28,closed,open,open,open,closed,closed,open,9565,591,207823,83861,140725,
-1437049245,16/07/2015 13:20:45,No,7.4,0,0.01,75,21,76,closed,open,open,open,closed,closed,open,9565,591,207827,83861,140725,
-1437049920,16/07/2015 13:32:00,Yes,7.1,2.5,-0.63,109,20,120,closed,open,open,open,closes,closed,open,9565,591,207830,83861,140725,
-1437050323,16/07/2015 13:38:43,No,7.3,0,0.01,77,22,78,closed,open,open,open,closed,closed,open,9566,591,207830,83861,140725,
-1437050699,16/07/2015 13:44:59,No,6.9,0,0.01,59,22,57,closed,open,open,open,closed,closed,open,9566,591,207831,83861,140725,
-1437051107,16/07/2015 13:51:47,Yes,7,0.1,-0.02,102,23,106,closed,open,open,open,closed,closed,open,9566,591,207832,83862,140725,
-1437052678,16/07/2015 14:17:58,No,6.9,0,0.01,59,22,59,closed,open,open,open,closed,closed,open,9566,591,207835,83862,140725,
-1437053051,16/07/2015 14:24:11,No,7.2,0,0.01,52,24,52,closed,open, open,open,closed,closed,open,9566,591,207836,83862,140725,
-1437053355,16/07/2015 14:29:15,No,6.9,2.5,0.06,108,23,110,closed,open,open,open,closes,closed,open,9566,591,207837,83862,140725,
-1437053355,16/07/2015 14:29:15,No,7.3,0,0.02,80,23,80,closed,open,open,open,closed,closed,open,9566,591,207837,83862,140725,
-1437053355,16/07/2015 14:29:15,No,7,0,0.02,67,22,66,closed,open,open,open,closed,closed,open,9566,591,207837,83862,140725,
-1437055939,16/07/2015 15:12:19,Yes,7,0,0.01,47,24,45,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,207839,83863,140725,
-1437056429,16/07/2015 15:20:29,No,6.9,0,0.02,85,25,88,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,287841,83863,140725,
-1437057155,16/07/2015 15:32:35,No,7.3,0,0.02,101,24,104,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,207842,83863,140725,
-1437057831,16/07/2015 15:43:51,No,6.9,0,0.02,59,23,56,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,207843,83863,140725,
-1437058643,16/07/2015 15:57:23,No,7.3,0,0.02,80,23,80,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,207845,83864,140725,
-1437058980,16/07/2015 16:03:00,No,7,0,0.02,80,24,80,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,207846,83864,140725,
-1437060443,16/07/2015 16:27:23,No,7.1,0,0.02,91,24,92,closed, open,open,open,closed,closed,open,9566,591,207849,83864,140725,
-1437060844,16/07/2015 16:34:04,No,7,2.5,-0.62,100,23,106,closed, open, open,open,closed,closed,open,9566,591,207851,83864,140725,
-1437061199,16/07/2015 16:39:59,No,6.9,2.5,-0.63,108,22,115,closed,open,open,open, closed, closed,open,9566,591,207852,83864,140725,
-1437061485,16/07/2015 16:44:45,No,7.4,2.5,-0.63,116,22,124,closed,open,open,open,closed,closed,open,9567,591,207852,83864,140725,
-1437062904,16/07/2015 17:08:24,No,7,0,0.01,47,25,48,closed, open,open,open,closed,closed,open,9567,591,207853,83865,140725,
-1437063240,16/07/2015 17:14:00,No,7,0,0.01,43,26,45,closed, open,open,open,closed,closed,open,9567,591,207853,83865,140725,
-1437063426,16/07/2015 17:17:06,No,6.9,0,0.01,41,26,43,closed,open,open,open,closed,closed,open,9567,591,207853,83865,140725,
-1437063765,16/07/2015 17:22:45,No,7.1,0,0.02,38,27,41,closed,open,open,open,closed,closed,open,9567,591,207853,83865,140725,
-1437065139,16/07/2015 17:45:39,No,7.1,0,0.02,35,27,38,closed,open,open,open,closed,closed,op,9567,591,207854,83865,140725,
-1437065402,16/07/2015 17:50:02,No,6.9,0,0.02,68,26,71,closed,open,open,open,closed,closed,open,9567,591,207855,83866,140725,
-1437065692,16/07/2015 17:54:52,No,7.1,0,0.02,41,26,42,closed,open,open,open,closed,closed,open,9567,591,207855,83866,140725,
-1437066381,16/07/2015 18:06:21,No,7.3,0,0.02,90,26,92,closed,open,open,open,closed,closed,open,9567,591,207856,83866,140725,
-1437066712,16/07/2015 18:11:52,No,7,0,0.02,47,26,47,closed,open,open,open,closed,closed,open,9567,591,207856,83866,140725,
-1437066984,16/07/2015 18:16:24,No,6.9,0,0.02,40,26,39,closed,open,open,open,closed,closed,open,9567,591,207856,83866,140725,
-1437068661,16/07/2015 18:44:21,No,7,0,0.02,43,25,43,closed,open,open,open,closed,closed,open,9567,591,207858,83866,140725,
-1437068923,16/07/2015 18:48:43,No,7.3,0,0.02,55,25,55,closed,open,open,open,closed,closed,open,9561,591,207859,83867,140725,
-1437069226,16/07/2015 18:53:46,No,6.9,0,0.02,40,25,38,closed,open,open,open,closed,closed,open,9567,591,207859,83867,140725,
-1437069639,16/07/2015 19:00:39,No,6.9,0,0.02,36,25,36,closed,open,open,open,closed,closed,open,9567,591,207859,83867,140725,
-1437069982,16/07/2015 19:06:22,No,7.3,0,0.02,80,25,81,closed,open,open,open,closed,closed,open,9567,591,207860,83867,140725,
-1437121453,17/07/2015 09:24:13,No,7.2,0,0.02,64,20,61,Closed,Open,Open,Open,Closed,Closed,Open,9568,591,207910,83881,140725,
+YYYY-MM-DD HH:MM:SS Time,Machine Running,Compressor Outlet (Bar),Oil Pressure (Bar),Intercooler (Bar),Element 1 Outlet (degC),Element 2 Inlet (degC),Element 2 Outlet (degC),Emergency Stop,Remote Start/Stop,Remote Load/Unload,Remote Pressure Sensing,Overload Motor,Overload Fanmotor,PB1 open / PB2 closed,Running Hours,Loaded Hours,Motor Starts,Module Hours,Load Relay,Dryer Starts
+2015-07-16 10:09:24,No,7,0,0.02,20,36,21,closed,open,open,open,closed,closed,open,9565,591,207818,83858,140725,0
+2015-07-16 10:22:20,No,7.1,0,0.02,29,21,28,closed,open,open,open,closed,closed,open,9565,591,207818,83858,140725,0
+2015-07-16 10:30:01,No,7.4,0,0.02,27,21,26,closed,open,open, open,closed,closed,open,9565,591,207818,83858,140725,0
+2015-07-16 10:38:11,No,7,0,0.02,25,21,26,closed,open,open, open,closed,closed,open,9565,591,207818,83858,140725,0
+2015-07-16 10:50:22,No,7,0,0.02,24,21,25,closed,open,open,open, closed,closed,open,9565,591,207818,83859,140725,0
+2015-07-16 11:11:40,No,6.9,0,0.01,40,21,35,closed,open,open,open,closed,closed,open,9565,591,207820,83859,140725,0
+2015-07-16 11:23:10,No,6.9,0,0.02,32,21,29,closed,open,open,open,closed,closed,open,9565,591,207820,83859,140725,0
+2015-07-16 11:31:42,No,7.4,0.3,0.02,73,21,73,closed,open,open,open,closed,closed,open,9565,591,207821,83859,140725,0
+2015-07-16 11:42:42,No,7,0,0.01,33,21,30,closed,open,open,open,closed,closed,open,9565,591,207821,83859,140725,0
+2015-07-16 11:48:00,No,7.3,0,0.01,31,21,28,closed,open,open,open,closed,closed,open,9565,591,207821,83860,140725,0
+2015-07-16 12:21:44,No,7.3,0,0.01,35,22,33,closed,open,open,open,closed,closed,open,9565,591,207822,83860,140725,0
+2015-07-16 12:26:21,No,7,0,0.01,32,22,29,closed,open,open,open,closed,closed,open,9565,591,207822,83860,140725,0
+2015-07-16 12:33:34,No,7.4,0,0.01,40,22,38,closed,open,open,open,closed,closed,open,9565,591,207823,83860,140725,0
+2015-07-16 12:40:42,No,7.1,0,0.02,33,22,29,closed,open,open,open,closed,closed, open,9565,591,207823,83860,140725,0
+2015-07-16 12:46:29,No,7.3,0,0.02,31,22,28,closed,open,open,open,closed,closed,open,9565,591,207823,83861,140725,0
+2015-07-16 13:20:45,No,7.4,0,0.01,75,21,76,closed,open,open,open,closed,closed,open,9565,591,207827,83861,140725,0
+2015-07-16 13:32:00,Yes,7.1,2.5,-0.63,109,20,120,closed,open,open,open,closes,closed,open,9565,591,207830,83861,140725,0
+2015-07-16 13:38:43,No,7.3,0,0.01,77,22,78,closed,open,open,open,closed,closed,open,9566,591,207830,83861,140725,0
+2015-07-16 13:44:59,No,6.9,0,0.01,59,22,57,closed,open,open,open,closed,closed,open,9566,591,207831,83861,140725,0
+2015-07-16 13:51:47,Yes,7,0.1,-0.02,102,23,106,closed,open,open,open,closed,closed,open,9566,591,207832,83862,140725,0
+2015-07-16 14:17:58,No,6.9,0,0.01,59,22,59,closed,open,open,open,closed,closed,open,9566,591,207835,83862,140725,0
+2015-07-16 14:24:11,No,7.2,0,0.01,52,24,52,closed,open, open,open,closed,closed,open,9566,591,207836,83862,140725,0
+2015-07-16 14:29:15,No,6.9,2.5,0.06,108,23,110,closed,open,open,open,closes,closed,open,9566,591,207837,83862,140725,0
+2015-07-16 14:29:15,No,7.3,0,0.02,80,23,80,closed,open,open,open,closed,closed,open,9566,591,207837,83862,140725,0
+2015-07-16 14:29:15,No,7,0,0.02,67,22,66,closed,open,open,open,closed,closed,open,9566,591,207837,83862,140725,0
+2015-07-16 15:12:19,Yes,7,0,0.01,47,24,45,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,207839,83863,140725,0
+2015-07-16 15:20:29,No,6.9,0,0.02,85,25,88,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,287841,83863,140725,0
+2015-07-16 15:32:35,No,7.3,0,0.02,101,24,104,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,207842,83863,140725,0
+2015-07-16 15:43:51,No,6.9,0,0.02,59,23,56,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,207843,83863,140725,0
+2015-07-16 15:57:23,No,7.3,0,0.02,80,23,80,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,207845,83864,140725,0
+2015-07-16 16:03:00,No,7,0,0.02,80,24,80,Closed,Open,Open,Open,Closed,Closed,Open,9566,591,207846,83864,140725,0
+2015-07-16 16:27:23,No,7.1,0,0.02,91,24,92,closed, open,open,open,closed,closed,open,9566,591,207849,83864,140725,0
+2015-07-16 16:34:04,No,7,2.5,-0.62,100,23,106,closed, open, open,open,closed,closed,open,9566,591,207851,83864,140725,0
+2015-07-16 16:39:59,No,6.9,2.5,-0.63,108,22,115,closed,open,open,open, closed, closed,open,9566,591,207852,83864,140725,0
+2015-07-16 16:44:45,No,7.4,2.5,-0.63,116,22,124,closed,open,open,open,closed,closed,open,9567,591,207852,83864,140725,0
+2015-07-16 17:08:24,No,7,0,0.01,47,25,48,closed, open,open,open,closed,closed,open,9567,591,207853,83865,140725,0
+2015-07-16 17:14:00,No,7,0,0.01,43,26,45,closed, open,open,open,closed,closed,open,9567,591,207853,83865,140725,0
+2015-07-16 17:17:06,No,6.9,0,0.01,41,26,43,closed,open,open,open,closed,closed,open,9567,591,207853,83865,140725,0
+2015-07-16 17:22:45,No,7.1,0,0.02,38,27,41,closed,open,open,open,closed,closed,open,9567,591,207853,83865,140725,0
+2015-07-16 17:45:39,No,7.1,0,0.02,35,27,38,closed,open,open,open,closed,closed,open,9567,591,207854,83865,140725,0
+2015-07-16 17:50:02,No,6.9,0,0.02,68,26,71,closed,open,open,open,closed,closed,open,9567,591,207855,83866,140725,0
+2015-07-16 17:54:52,No,7.1,0,0.02,41,26,42,closed,open,open,open,closed,closed,open,9567,591,207855,83866,140725,0
+2015-07-16 18:06:21,No,7.3,0,0.02,90,26,92,closed,open,open,open,closed,closed,open,9567,591,207856,83866,140725,0
+2015-07-16 18:11:52,No,7,0,0.02,47,26,47,closed,open,open,open,closed,closed,open,9567,591,207856,83866,140725,0
+2015-07-16 18:16:24,No,6.9,0,0.02,40,26,39,closed,open,open,open,closed,closed,open,9567,591,207856,83866,140725,0
+2015-07-16 18:44:21,No,7,0,0.02,43,25,43,closed,open,open,open,closed,closed,open,9567,591,207858,83866,140725,0
+2015-07-16 18:48:43,No,7.3,0,0.02,55,25,55,closed,open,open,open,closed,closed,open,9561,591,207859,83867,140725,0
+2015-07-16 18:53:46,No,6.9,0,0.02,40,25,38,closed,open,open,open,closed,closed,open,9567,591,207859,83867,140725,0
+2015-07-16 19:00:39,No,6.9,0,0.02,36,25,36,closed,open,open,open,closed,closed,open,9567,591,207859,83867,140725,0
+2015-07-16 19:06:22,No,7.3,0,0.02,80,25,81,closed,open,open,open,closed,closed,open,9567,591,207860,83867,140725,0
+2015-07-17 09:24:13,No,7.2,0,0.02,64,20,61,Closed,Open,Open,Open,Closed,Closed,Open,9568,591,207910,83881,140725,0

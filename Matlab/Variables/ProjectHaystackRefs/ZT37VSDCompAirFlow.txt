@@ -1,0 +1,12 @@
+id: @uccpharmacy.zt37vsd.dat
+dis: "UCC Pharmacy ZT37VSD Compressed Air Flow"
+point
+siteRef: @uccpharmacy
+equipRef: @uccpharmacy.zt37vsd
+discharge
+air
+flow
+sensor
+kind: "Number"
+unit: "l / s"
+his

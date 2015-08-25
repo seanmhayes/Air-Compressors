@@ -1,0 +1,11 @@
+id: @uccpharmacy.zt37vsd.dat
+dis: "UCC Pharmacy ZT37VSD Element 2 InletAirTemp"
+point
+siteRef: @uccpharmacy
+equipRef: @uccpharmacy.zt37vsd
+secondstageintake
+air
+temp
+learned
+kind: "Number"
+unit: "°C"

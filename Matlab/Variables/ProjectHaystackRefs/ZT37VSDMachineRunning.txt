@@ -1,0 +1,8 @@
+id: @uccpharmacy.zt37vsd.dat
+dis: "UCC Pharmacy ZT37VSD Machine Running"
+point
+siteRef: @uccpharmacy
+equipRef: @uccpharmacy.zt37vsd
+sensor
+kind: "Bool"
+his

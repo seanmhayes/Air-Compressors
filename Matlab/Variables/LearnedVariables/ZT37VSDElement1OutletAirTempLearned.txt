@@ -1,0 +1,11 @@
+id: @uccpharmacy.zt37vsd.dat
+dis: "UCC Pharmacy ZT37VSD Element 1 OutletAirTemp"
+point
+siteRef: @uccpharmacy
+equipRef: @uccpharmacy.zt37vsd
+firststagedischarge
+air
+temp
+learned
+kind: "Number"
+unit: "°C"
