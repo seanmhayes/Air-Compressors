@@ -1,0 +1,7 @@
+history:UCC_Compressor_Data/PB1 Open PB2 Closed_CMP1
+01-Jan-15 12:00 AM GMT  to  25-Aug-15 4:17 PM BST
+
+Timestamp,Trend Flags,Status,Value
+"16-Jul-15 1:30:12 AM BST","{start}","{ok}","0.0"
+"20-Aug-15 5:07:23 PM BST","{ }","{fault}","0.0"
+"20-Aug-15 5:07:28 PM BST","{ }","{ok}","0.0"

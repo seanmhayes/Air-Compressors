@@ -1,0 +1,12 @@
+history:UCC_Compressor_Data/Running Seconds_DRYER
+01-Jan-15 12:00 AM GMT  to  25-Aug-15 4:22 PM BST
+
+Timestamp,Trend Flags,Status,Value (hr)
+"16-Jul-15 1:35:00 AM BST","{start}","{ok}","69317.0 hr"
+"16-Jul-15 1:40:00 AM BST","{ }","{ok}","69317.1 hr"
+"16-Jul-15 1:45:00 AM BST","{ }","{ok}","69317.1 hr"
+"16-Jul-15 1:50:00 AM BST","{ }","{ok}","69317.2 hr"
+"16-Jul-15 1:55:00 AM BST","{ }","{ok}","69317.3 hr"
+"16-Jul-15 2:00:00 AM BST","{ }","{ok}","69317.4 hr"
+"16-Jul-15 2:05:00 AM BST","{ }","{ok}","69317.5 hr"
+"16-Jul-15 2:10:00 AM BST","{ }","{ok}","69317.6 hr"
