@@ -1,7 +1,4 @@
-history:UCC_Compressor_Data/Ouerload Motor_CMP1
-16-Jul-15 1:30 AM BST  to  ?
-
 Timestamp,Trend Flags,Status,Value
-"16-Jul-15 1:30:12 AM BST","{start}","{ok}","1.0"
-"18-Jul-15 6:07:09 PM BST","{ }","{fault}","1.0"
-"18-Jul-15 6:07:14 PM BST","{ }","{ok}","1.0"
+16/07/2015 01:30,{start},{ok},1
+18/07/2015 18:07,{ },{fault},1
+18/07/2015 18:07,{ },{ok},1

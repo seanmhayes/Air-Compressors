@@ -1,7 +1,4 @@
-history:UCC_Compressor_Data/E-Stop Pressed_DRYER
-01-Jan-15 12:00 AM GMT  to  26-Aug-15 2:45 PM BST
-
 Timestamp,Trend Flags,Status,Value
-"16-Jul-15 1:30:10 AM BST","{start}","{ok}","1.0"
-"22-Aug-15 12:05:14 PM BST","{ }","{fault}","1.0"
-"22-Aug-15 12:05:19 PM BST","{ }","{ok}","1.0"
+16/07/2015 01:30,{start},{ok},1
+22/08/2015 12:05,{ },{fault},1
+22/08/2015 12:05,{ },{ok},1
