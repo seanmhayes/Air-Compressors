@@ -1,0 +1,40 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{multicol}
+\usepackage{indentfirst}
+\usepackage{palatino}
+\usepackage{amsmath}
+\usepackage[gen]{eurosym}
+%\usepackage{fancyhdr}
+
+\title{Pressure-Temperature Adiabatic Relationship For Gases}
+\author{Se\'an Hayes}
+\date{26-Sep-2015}
+
+\begin{document}
+
+\maketitle
+\begin{align*}
+P . V^\gamma = Constant \\
+P . V = n . R . T \\
+V = \frac{n . R . T}{P} \\
+P . \left(\frac{n . R . T}{P}\right)^\gamma = Constant \\
+P^{1-\gamma} . T^\gamma . (n . R)^\gamma = Constant \\
+\text{n and R and gamma are also constants} \\
+P^{1-\gamma} . T^\gamma = Constant \\
+P_1^{1-\gamma} . T_1^\gamma = P_2^{1-\gamma} . T_2^\gamma \\
+T_2^\gamma = \left(\frac{P_1^{1-\gamma}}{P_2^{1-\gamma}}\right) . T_1^\gamma\\
+T_2^\gamma = \left(\frac{P_2^{\gamma-1}}{P_1^{\gamma-1}}\right) . T_1^\gamma\\
+\left(T_2^\gamma\right)^{\frac{1}{\gamma}} = \left(\left(\frac{P_2^{\gamma-1}}{P_1^{\gamma-1}}\right) . T_1^\gamma\right)^{\frac{1}{\gamma}}\\
+T_2 = T_1 . \left(\frac{P_2}{P_1}\right)^{\frac{\gamma-1}{\gamma}} \\
+\end{align*}
+
+$\gamma = $ Specific heat ratio $\left(\frac{c_p}{c_v}\right)$. Dimensionless, 1.40 for Air, Standard (Engineering Toolbox).
+\\
+
+Use absolute pressure and temperature.
+
+
+
+\end{document}
