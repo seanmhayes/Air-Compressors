@@ -26,7 +26,7 @@ rules_fired.Rule15 = false(height(TestDataMatlab),1);
 
 %   Test Rules
 for i = 1:length(TestDataMatlab.Timest)
-    rule1_fired = Rule_1(TestDataMatlab.InletDryerTemperature(i), TestDataMatlab.Element1OutletTemp(i), true);
+    rule1_fired = Rule_1(TestDataMatlab.PlantroomTemperature(i), TestDataMatlab.Element1OutletTemp(i), true);
     rules_fired.Rule1(i,1) = rule1_fired;
 
     rule2_fired = Rule_2(TestDataMatlab.Element1OutletTemp(i),TestDataMatlab.Element2InletTemp(i),true);
@@ -38,7 +38,7 @@ for i = 1:length(TestDataMatlab.Timest)
     rule4_fired = Rule_4(TestDataMatlab.Element2OutletTemp(i),TestDataMatlab.InletDryerTemperature(i),true);
     rules_fired.Rule4(i,1) = rule4_fired;
     
-    rule5_fired = Rule_5(TestDataMatlab.InletDryerTemperature(i),T11,true);
+    rule5_fired = Rule_5(TestDataMatlab.PlantroomTemperature(i),T11,true);
     rules_fired.Rule5(i,1) = rule5_fired;
     
     rule6_fired = Rule_6(TestDataMatlab.Element1OutletTemp(i),T12,true);

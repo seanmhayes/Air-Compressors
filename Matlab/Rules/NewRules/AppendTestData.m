@@ -25,5 +25,14 @@ for i = 1:length(TestDataMatlab.Timest)
 end
 
 TestDataMatlab.PlantroomPressure(1:height(TestDataMatlab),1) = 0;
+
+%   Initialise plantroom temperature
+TestDataMatlab.PlantroomTemperature(1:height(TestDataMatlab),1) = 25;
+%   Make plantroom temperature random between 18 and 22 degC
+for i = 1: height(TestDataMatlab)
+    TestDataMatlab.PlantroomTemperature(i,1) = ((22 - 18)*rand(1,1))+18;
+end
+
+
     
    
