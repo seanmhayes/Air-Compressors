@@ -31,14 +31,14 @@ n = Q_standard * (1 / V_standard);
 
 clf
 
-subplot(1,2,1)
+subplot(2,1,1)
 
 xlabel('Volume (l/s FAD)');
 ylabel('Pressure (barg)');
 title('P-V Diagram')
 hold on
-ylim([0 4]);
-xlim([0 50]);
+ylim([0 3]);
+xlim([10 50]);
 
 stage1_outlet_v_isothermal = isothermal_volume(n,R,T1,P2);
 
@@ -56,8 +56,8 @@ legend('Isothermal')
 grid on
 grid minor
 
-subplot(1,2,2)
-p2 = plot([x_vals_1_2(1,:)*1000 x_vals_1_2(end,:)*1000], [T1-273.15 T1-273.15])
+subplot(2,1,2)
+p2 = plot([x_vals_1_2(1,:)*1000 x_vals_1_2(end,:)*1000], [T1-273.15 T1-273.15]);
 xlabel('Volume (l/s FAD)');
 ylabel('Temperature(^{\circ}C)');
 title('T-V Diagram')
@@ -75,14 +75,23 @@ adi_volume = (air_adi_constant * (1 ./ pressure_rise_1ststage)) ...
     .^ (1 / gamma_air);
 adi_volume = adi_volume';
 
-subplot(1,2,1);
+subplot(2,1,1);
 hold on;
 p3 = plot(adi_volume*1000, pressure_rise_1ststage/100000);
 legend([p1,p3],'Isothermal','Adiabatic');
 
+%   Calculate new temperature of compressed air under compression
+P1_V1 = pressure_rise_1ststage(1)*adi_volume(1);
 
+P2_V2 = pressure_rise_1ststage.*adi_volume';
 
+T2 = (P2_V2 ./ P1_V1) * T1;
 
+subplot(2,1,2);
+hold on;
+p4 = plot(adi_volume*1000 , T2 - 273.15);
+xlim([10 50]);
+legend([p2,p4],'Isothermal','Adiabatic');
 
 
 

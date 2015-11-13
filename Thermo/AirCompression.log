@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.17)  10 NOV 2015 16:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.17)  13 NOV 2015 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -331,24 +331,54 @@ d on input line 52.
  [1
 
 {c:/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
- [2 <./IsothermalCompressionOneStage-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
+Package epstopdf Info: Source file: <Adiabatic_Isothermal.eps>
+(epstopdf)                    date: 2015-11-13 16:24:56
+(epstopdf)                    size: 141952 bytes
+(epstopdf)             Output file: <Adiabatic_Isothermal-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-11-13 16:24:41
+(epstopdf)                    size: 40886 bytes
+(epstopdf)             Command: <repstopdf --outfile=Adiabatic_Isothermal-eps-c
+onverted-to.pdf Adiabatic_Isothermal.eps>
+(epstopdf)             \includegraphics on input line 83.
+runsystem(repstopdf --outfile=Adiabatic_Isothermal-eps-converted-to.pdf Adiabat
+ic_Isothermal.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <Adiabatic_Isothermal-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-11-13 16:25:22
+(epstopdf)                    size: 40869 bytes.
+
+<Adiabatic_Isothermal-eps-converted-to.pdf, id=38, 319.1925pt x 589.20125pt>
+File: Adiabatic_Isothermal-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Adiabatic_Isothermal-eps-converted-to.pdf>
+Package pdftex.def Info: Adiabatic_Isothermal-eps-converted-to.pdf used on inpu
+t line 83.
+(pdftex.def)             Requested size: 345.0pt x 636.84032pt.
+
+
+LaTeX Warning: Float too large for page by 111.00523pt on input line 86.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
+[2 <./IsothermalCompressionOneStage-eps-converted-to.pdf>] [3 <./Adiabatic_Isot
+hermal-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
  (./AirCompression.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `AirCompression.out' has not changed.
 (rerunfilecheck)             Checksum: 11CF58E47EE286C6187919E317CBFD4C;192.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 5702 strings out of 493308
- 82924 string characters out of 6141367
- 170902 words of memory out of 5000000
- 9112 multiletter control sequences out of 15000+600000
+ 5710 strings out of 493308
+ 83171 string characters out of 6141367
+ 170960 words of memory out of 5000000
+ 9117 multiletter control sequences out of 15000+600000
  8826 words of font info for 23 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,5n,28p,320b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,5n,28p,320b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2013/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2013/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2013/texmf-dist/fonts/type1
@@ -359,10 +389,10 @@ c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/
 2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2013/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2013/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb>
-Output written on AirCompression.pdf (2 pages, 120352 bytes).
+Output written on AirCompression.pdf (3 pages, 158134 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 30 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 35 words of extra memory for PDF output out of 10000 (max. 10000000)
 
