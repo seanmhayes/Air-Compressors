@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/W32TeX)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: SeanHayesPaper1.aux
+The top-level auxiliary file: SeanHayesPaper1longtable.aux
 The style file: spbasic.bst
 Database file #1: JournalPaper1.bib.bib
 Warning--I didn't find a database entry for "RefB"
@@ -23,7 +23,7 @@ Warning--missing institution in SEAI2007
 Warning--there's a number but no volume in Wang2010
 You've used 48 entries,
             3270 wiz_defined-function locations,
-            1055 strings with 18232 characters,
+            1055 strings with 18250 characters,
 and the built_in function-call counts, 81377 in all, are:
 = -- 9573
 > -- 1376

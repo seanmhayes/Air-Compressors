@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.17)  25 NOV 2015 17:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.17)  25 NOV 2015 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**SeanHayesPaper1.tex
-(./SeanHayesPaper1.tex
+**SeanHayesPaper1longtable.tex
+(./SeanHayesPaper1longtable.tex
 LaTeX2e <2011/06/27>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 
@@ -336,40 +336,46 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count126
 \LT@p@ftn=\toks19
 )
-(./SeanHayesPaper1.aux)
-\openout1 = `SeanHayesPaper1.aux'.
+(c:/texlive/2013/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count127
+)
+(./SeanHayesPaper1longtable.aux)
+\openout1 = `SeanHayesPaper1longtable.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 72.
- (c:/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 73.
+
+(c:/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (c:/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+)
+(c:/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count127
+\scratchcounter=\count128
 \scratchdimen=\dimen143
 \scratchbox=\box33
-\nofMPsegments=\count128
-\nofMParguments=\count129
+\nofMPsegments=\count129
+\nofMParguments=\count130
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count130
+\MPscratchCnt=\count131
 \MPscratchDim=\dimen144
-\MPnumerator=\count131
-\makeMPintoPDFobject=\count132
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
 \everyMPtoPDFconversion=\toks21
 ) (c:/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -388,7 +394,7 @@ e
 ))
 \big@size=\dimen145
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring OFF on input line 72.
+Package hyperref Info: Link coloring OFF on input line 73.
 
 (c:/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -396,60 +402,60 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (c:/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count133
+\c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
 
-(./SeanHayesPaper1.out) (./SeanHayesPaper1.out)
+(./SeanHayesPaper1longtable.out) (./SeanHayesPaper1longtable.out)
 \@outlinefile=\write3
-\openout3 = `SeanHayesPaper1.out'.
+\openout3 = `SeanHayesPaper1longtable.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
 
 
-Package mathptmx Warning: There are no bold math fonts on input line 106.
+Package mathptmx Warning: There are no bold math fonts on input line 107.
 
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 10
-6.
+7.
 (c:/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 10
-6.
+7.
 
 (c:/texlive/2013/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 10
-6.
+7.
 
 (c:/texlive/2013/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 10
-6.
+7.
 
 (c:/texlive/2013/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 106.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 107.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.29004> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.10005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 107.
 
-Overfull \hbox (1.26398pt too wide) in paragraph at lines 108--110
+Overfull \hbox (1.26398pt too wide) in paragraph at lines 109--111
 []\OT1/ptm/m/n/10 Insert your ab-stract here. In-clude key-words, PACS
  []
 
@@ -466,72 +472,72 @@ Missing character: There is no  in font ptmr7t!
 Underfull \vbox (badness 5741) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\OT1/ptm/m/n/8.5 Performance Man-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []|\OT1/ptm/m/n/8.5 Maintenance Con-
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 136--136
+Underfull \hbox (badness 2922) in paragraph at lines 137--137
 \OT1/ptm/m/n/8.5 com-mon op-por-tu-ni-
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 136--137
+Underfull \hbox (badness 2512) in paragraph at lines 137--138
 []|\OT1/ptm/m/n/8.5 Dependent on skill
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 []|\OT1/ptm/m/n/8.5 Sequence Con-
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 137--137
+Underfull \hbox (badness 1210) in paragraph at lines 138--138
 []|\OT1/ptm/m/n/8.5 Can draw on man-
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 137--138
+Underfull \hbox (badness 2922) in paragraph at lines 138--139
 []|\OT1/ptm/m/n/8.5 Initial con-fig-u-ra-tion
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 137--138
+Underfull \hbox (badness 3049) in paragraph at lines 138--139
 \OT1/ptm/m/n/8.5 may not be main-
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 138--138
+Underfull \hbox (badness 4120) in paragraph at lines 139--139
 \OT1/ptm/m/n/8.5 mon-i-tor-ing ca-pa-bil-
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 138--139
+Underfull \hbox (badness 2512) in paragraph at lines 139--140
 []|\OT1/ptm/m/n/8.5 Dependent on skill
  []
 
 
-Underfull \hbox (badness 5637) in paragraph at lines 138--139
+Underfull \hbox (badness 5637) in paragraph at lines 139--140
 \OT1/ptm/m/n/8.5 level of BMS re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 \OT1/ptm/m/n/8.5 viewer. Un-able to
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 138--139
+Underfull \hbox (badness 3049) in paragraph at lines 139--140
 \OT1/ptm/m/n/8.5 pick up on sen-sor
  []
 
 
-Overfull \hbox (12.10574pt too wide) in paragraph at lines 131--142
+Overfull \hbox (12.10574pt too wide) in paragraph at lines 132--143
  [][][] 
  []
 
@@ -548,7 +554,7 @@ pdf>
 (epstopdf)                    size: 19670 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Images/PharmacyCompAir-e
 ps-converted-to.pdf ./Images/PharmacyCompAir.eps>
-(epstopdf)             \includegraphics on input line 150.
+(epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Images/PharmacyCompAir-eps-converted-to.pdf, id=97, 541.02126pt x 255.95625p
@@ -556,14 +562,14 @@ t>
 File: ./Images/PharmacyCompAir-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Images/PharmacyCompAir-eps-converted-to.pdf>
 Package pdftex.def Info: ./Images/PharmacyCompAir-eps-converted-to.pdf used on 
-input line 150.
+input line 151.
 (pdftex.def)             Requested size: 495.0pt x 234.18985pt.
 
 <./Images/CompApps.pdf, id=98, 304.63812pt x 309.155pt>
 File: ./Images/CompApps.pdf Graphic file (type pdf)
 
 <use ./Images/CompApps.pdf>
-Package pdftex.def Info: ./Images/CompApps.pdf used on input line 156.
+Package pdftex.def Info: ./Images/CompApps.pdf used on input line 157.
 (pdftex.def)             Requested size: 238.96417pt x 242.51266pt.
 
 <./Images/CompressorClassification.pdf, id=99, 963.6pt x 542.025pt>
@@ -571,120 +577,120 @@ File: ./Images/CompressorClassification.pdf Graphic file (type pdf)
 
 <use ./Images/CompressorClassification.pdf>
 Package pdftex.def Info: ./Images/CompressorClassification.pdf used on input li
-ne 162.
+ne 163.
 (pdftex.def)             Requested size: 495.0pt x 278.43057pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 []|\OT1/ptm/m/n/8.5 Monitor sys-tem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 \OT1/ptm/m/n/8.5 for the iden-ti-fied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 []|\OT1/ptm/m/n/8.5 Using vi-bra-tion,
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 177--178
+Underfull \hbox (badness 2057) in paragraph at lines 178--179
 \OT1/ptm/m/n/8.5 sig-nals to di-ag-nose
  []
 
 
-Underfull \hbox (badness 5726) in paragraph at lines 177--178
+Underfull \hbox (badness 5726) in paragraph at lines 178--179
 \OT1/ptm/m/n/8.5 valve faults for a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 \OT1/ptm/m/n/8.5 re-cip-ro-cat-ing com-
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 177--178
+Underfull \hbox (badness 3690) in paragraph at lines 178--179
 \OT1/ptm/m/n/8.5 pres-sor []Tran et al[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 []|\OT1/ptm/m/n/8.5 Monitoring sys-
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 178--178
+Underfull \hbox (badness 7558) in paragraph at lines 179--179
 \OT1/ptm/m/n/8.5 tem pa-ram-e-ters to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \OT1/ptm/m/n/8.5 de-ter-mine when
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \OT1/ptm/m/n/8.5 a com-po-nent of
  []
 
 
-Underfull \hbox (badness 7595) in paragraph at lines 178--178
+Underfull \hbox (badness 7595) in paragraph at lines 179--179
 \OT1/ptm/m/n/8.5 a sys-tem will no
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 178--178
+Underfull \hbox (badness 6608) in paragraph at lines 179--179
 \OT1/ptm/m/n/8.5 longer per-form its
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \OT1/ptm/m/n/8.5 in-tended func-tion
  []
 
 
-Underfull \hbox (badness 4886) in paragraph at lines 178--178
+Underfull \hbox (badness 4886) in paragraph at lines 179--179
 []\OT1/ptm/m/n/8.5 Vacht-se-vanos et al[]
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 178--179
+Underfull \hbox (badness 2512) in paragraph at lines 179--180
 \OT1/ptm/m/n/8.5 main-ing use-ful life
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 178--179
+Underfull \hbox (badness 2073) in paragraph at lines 179--180
 \OT1/ptm/m/n/8.5 pres-sure and am-bi-
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 178--179
+Underfull \hbox (badness 1337) in paragraph at lines 179--180
 \OT1/ptm/m/n/8.5 ter-son and Costello[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 []|\OT1/ptm/m/n/8.5 Monitoring sys-tem
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 179--179
+Underfull \hbox (badness 7558) in paragraph at lines 180--180
 \OT1/ptm/m/n/8.5 pa-ram-e-ters to dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 \OT1/ptm/m/n/8.5 cover mean-ing-ful
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 179--179
+Underfull \hbox (badness 2512) in paragraph at lines 180--180
 \OT1/ptm/m/n/8.5 ad-vise on po-ten-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 \OT1/ptm/m/n/8.5 im-prove-ments to
  []
 
@@ -692,137 +698,137 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 []|\OT1/ptm/m/n/8.5 Determining ab-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 \OT1/ptm/m/n/8.5 nor-mal ap-pli-ance
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 179--180
+Underfull \hbox (badness 4739) in paragraph at lines 180--181
 \OT1/ptm/m/n/8.5 power con-sump-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 \OT1/ptm/m/n/8.5 based on anal-y-sis
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 179--180
+Underfull \hbox (badness 1478) in paragraph at lines 180--181
 \OT1/ptm/m/n/8.5 of in-di-vid-ual ap-pli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 \OT1/ptm/m/n/8.5 and doc-u-ment-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 \OT1/ptm/m/n/8.5 the cur-rent user
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 180--181
+Underfull \hbox (badness 1354) in paragraph at lines 181--182
 \OT1/ptm/m/n/8.5 ing out the nor-mal
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 180--181
+Underfull \hbox (badness 1983) in paragraph at lines 181--182
 \OT1/ptm/m/n/8.5 dur-ing com-mis-sion-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 []|\OT1/ptm/m/n/8.5 Improving sys-tem
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 181--181
+Underfull \hbox (badness 1342) in paragraph at lines 182--182
 \OT1/ptm/m/n/8.5 op-er-a-tion or de-sign
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 []|\OT1/ptm/m/n/8.5 Development of a
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 181--182
+Underfull \hbox (badness 1953) in paragraph at lines 182--183
 \OT1/ptm/m/n/8.5 tool which de-liv-ers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 \OT1/ptm/m/n/8.5 an op-ti-mal de-sign
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
 \OT1/ptm/m/n/8.5 for a com-pressed
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 182--182
+Underfull \hbox (badness 4739) in paragraph at lines 183--183
 \OT1/ptm/m/n/8.5 a-tion of a sys-tem
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 182--182
+Underfull \hbox (badness 1924) in paragraph at lines 183--183
 \OT1/ptm/m/n/8.5 in or-der that op-er-
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 182--182
+Underfull \hbox (badness 1048) in paragraph at lines 183--183
 \OT1/ptm/m/n/8.5 at-ing con-di-tions re-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 182--182
+Underfull \hbox (badness 1158) in paragraph at lines 183--183
 \OT1/ptm/m/n/8.5 sign states and un-
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 182--182
+Underfull \hbox (badness 2529) in paragraph at lines 183--183
 \OT1/ptm/m/n/8.5 de-sir-able states are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 []|\OT1/ptm/m/n/8.5 Development of a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 \OT1/ptm/m/n/8.5 sors that pro-vides
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 \OT1/ptm/m/n/8.5 ca-pa-bil-i-ties of a
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 182--183
+Underfull \hbox (badness 2269) in paragraph at lines 183--184
 \OT1/ptm/m/n/8.5 vari-able speed sys-
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 182--183
+Underfull \hbox (badness 4205) in paragraph at lines 183--184
 \OT1/ptm/m/n/8.5 tem while lim-it-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 []\OT1/ptm/m/n/8.5 Facchinetti et al[]
  []
 
 
-Overfull \hbox (12.10574pt too wide) in paragraph at lines 173--186
+Overfull \hbox (12.10574pt too wide) in paragraph at lines 174--187
  [][][] 
  []
 
@@ -834,68 +840,68 @@ Package epstopdf Info: Source file: <./Images/perfmgmt.eps>
 (epstopdf)                    size: 148524 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Images/perfmgmt-eps-conv
 erted-to.pdf ./Images/perfmgmt.eps>
-(epstopdf)             \includegraphics on input line 193.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 <./Images/perfmgmt-eps-converted-to.pdf, id=116, 997.7275pt x 613.29124pt>
 File: ./Images/perfmgmt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Images/perfmgmt-eps-converted-to.pdf>
 Package pdftex.def Info: ./Images/perfmgmt-eps-converted-to.pdf used on input l
-ine 193.
+ine 194.
 (pdftex.def)             Requested size: 495.0pt x 304.26791pt.
 
 Underfull \vbox (badness 5217) has occurred while \output is active []
 
 
-Overfull \vbox (60.0pt too high) detected at line 206
+Overfull \vbox (60.0pt too high) detected at line 207
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\OT1/ptm/m/n/8.5 Computationally ex-pen-
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 206--207
+Underfull \hbox (badness 3503) in paragraph at lines 207--208
 []|\OT1/ptm/m/n/8.5 Surge con-trol for ax-ial
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 207--208
+Underfull \hbox (badness 3930) in paragraph at lines 208--209
 []|\OT1/ptm/m/n/8.5 Fault de-tec-tion for gas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 []|\OT1/ptm/m/n/8.5 Leakage de-tec-tion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 \OT1/ptm/m/n/8.5 a pneu-matic net-work
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 []\OT1/ptm/m/n/8.5 Krichel and Sawodny[]
  []
 
 
-Overfull \vbox (80.0pt too high) detected at line 211
+Overfull \vbox (80.0pt too high) detected at line 212
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--211
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 []|\OT1/ptm/m/n/8.5 Observers re-quired for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 []|\OT1/ptm/m/n/8.5 Fault de-tec-tion of a
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 211--212
+Underfull \hbox (badness 1596) in paragraph at lines 212--213
 \OT1/ptm/m/n/8.5 steam boiler feed wa-ter
  []
 
@@ -903,62 +909,62 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 6268) in paragraph at lines 212--213
+Underfull \hbox (badness 6268) in paragraph at lines 213--214
 []|\OT1/ptm/m/n/8.5 Estimation of a steam
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 213--214
+Underfull \hbox (badness 3503) in paragraph at lines 214--215
 []|\OT1/ptm/m/n/8.5 Surge con-trol for ax-ial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 []|\OT1/ptm/m/n/8.5 Rearranging and trans-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--215
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 \OT1/ptm/m/n/8.5 form-ing input-output
  []
 
 
-Underfull \hbox (badness 6842) in paragraph at lines 215--216
+Underfull \hbox (badness 6842) in paragraph at lines 216--217
 \OT1/ptm/m/n/8.5 lin-ear parameter-varying
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 \OT1/ptm/m/n/8.5 par-ity equa-tions []Blesa
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 218--218
+Underfull \hbox (badness 1661) in paragraph at lines 219--219
 []|\OT1/ptm/m/n/8.5 Detailed phys-i-cal model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 []|\OT1/ptm/m/n/8.5 Optimisation of the
  []
 
 
-Underfull \hbox (badness 8170) in paragraph at lines 218--219
+Underfull \hbox (badness 8170) in paragraph at lines 219--220
 \OT1/ptm/m/n/8.5 mod-elling of a mul-ti-
  []
 
 
-Underfull \hbox (badness 5622) in paragraph at lines 218--219
+Underfull \hbox (badness 5622) in paragraph at lines 219--220
 \OT1/ptm/m/n/8.5 stage com-pres-sor us-ing
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 218--219
+Underfull \hbox (badness 4144) in paragraph at lines 219--220
 \OT1/ptm/m/n/8.5 pa-ram-e-ter es-ti-ma-tion to
  []
 
 
-Overfull \hbox (10.48187pt too wide) in paragraph at lines 202--222
+Overfull \hbox (10.48187pt too wide) in paragraph at lines 203--223
 [][]
  []
 
@@ -966,72 +972,72 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 4859) in paragraph at lines 232--232
+Underfull \hbox (badness 4859) in paragraph at lines 233--233
 []|\OT1/ptm/m/n/8.5 Using if-then-else rules
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--232
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 \OT1/ptm/m/n/8.5 re-mains undis-cov-
  []
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 232--233
+Underfull \hbox (badness 5711) in paragraph at lines 233--234
 \OT1/ptm/m/n/8.5 an air com-pres-sor []Liu[]
  []
 
 
-Underfull \hbox (badness 8075) in paragraph at lines 234--235
+Underfull \hbox (badness 8075) in paragraph at lines 235--236
 []|\OT1/ptm/m/n/8.5 Analysis frame-work of
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 234--235
+Underfull \hbox (badness 4995) in paragraph at lines 235--236
 \OT1/ptm/m/n/8.5 fault de-tec-tion schemes
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 236--236
+Underfull \hbox (badness 1442) in paragraph at lines 237--237
 \OT1/ptm/m/n/8.5 proach, e.g. for main-te-
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 236--236
+Underfull \hbox (badness 1231) in paragraph at lines 237--237
 \OT1/ptm/m/n/8.5 nance strat-egy, over an-
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 236--236
+Underfull \hbox (badness 1132) in paragraph at lines 237--237
 \OT1/ptm/m/n/8.5 other based on pair-wise
  []
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 238--238
+Underfull \hbox (badness 4144) in paragraph at lines 239--239
 []|\OT1/ptm/m/n/8.5 Analysis of com-pres-sor
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 238--238
+Underfull \hbox (badness 1132) in paragraph at lines 239--239
 []|\OT1/ptm/m/n/8.5 Allows for dis-cov-ery of
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 238--238
+Underfull \hbox (badness 1552) in paragraph at lines 239--239
 \OT1/ptm/m/n/8.5 for each po-ten-tial spec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 \OT1/ptm/m/n/8.5 cip-ro-cat-ing com-pres-sors
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 240--240
+Underfull \hbox (badness 5592) in paragraph at lines 241--241
 []|\OT1/ptm/m/n/8.5 Postulation of po-ten-tial
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 240--240
+Underfull \hbox (badness 3098) in paragraph at lines 241--241
 \OT1/ptm/m/n/8.5 ta-tion of hu-man ex-pert
  []
 
@@ -1039,131 +1045,168 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 3375) in paragraph at lines 242--242
+Underfull \hbox (badness 3375) in paragraph at lines 243--243
 []|\OT1/ptm/m/n/8.5 Analysis of site equip-
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 242--242
+Underfull \hbox (badness 2662) in paragraph at lines 243--243
 \OT1/ptm/m/n/8.5 ment po-ten-tial ar-eas of
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 242--243
+Underfull \hbox (badness 1975) in paragraph at lines 243--244
 []|\OT1/ptm/m/n/8.5 Compressor safety eval-
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 242--243
+Underfull \hbox (badness 1342) in paragraph at lines 243--244
 \OT1/ptm/m/n/8.5 u-a-tion model []Zhu et al[]
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 244--244
+Underfull \hbox (badness 1496) in paragraph at lines 245--245
 []|\OT1/ptm/m/n/8.5 Derivation of qual-i-ta-tive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 \OT1/ptm/m/n/8.5 equa-tions from fun-da-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 \OT1/ptm/m/n/8.5 gov-ern-ing sys-tem op-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 \OT1/ptm/m/n/8.5 er-a-tion to al-low for
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 244--244
+Underfull \hbox (badness 1371) in paragraph at lines 245--245
 \OT1/ptm/m/n/8.5 anal-y-sis with-out ex-plicit
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 244--244
+Underfull \hbox (badness 1796) in paragraph at lines 245--245
 []|\OT1/ptm/m/n/8.5 No re-quire-ment for nu-
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 244--244
+Underfull \hbox (badness 2478) in paragraph at lines 245--245
 \OT1/ptm/m/n/8.5 mer-i-cally ac-cu-rate mea-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 []|\OT1/ptm/m/n/8.5 Requires ini-tial un-der-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 \OT1/ptm/m/n/8.5 stand-ing of phys-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--244
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
 \OT1/ptm/m/n/8.5 pro-cesses gov-ern-ing
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 244--245
+Underfull \hbox (badness 5316) in paragraph at lines 245--246
 []|\OT1/ptm/m/n/8.5 Fault De-tec-tion for an
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 246--246
+Underfull \hbox (badness 1412) in paragraph at lines 247--247
 \OT1/ptm/m/n/8.5 po-rate sys-tem be-haviour
  []
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 246--246
+Underfull \hbox (badness 3118) in paragraph at lines 247--247
 \OT1/ptm/m/n/8.5 main ex-per-tise for cre-
  []
 
 
-Overfull \vbox (30.0pt too high) detected at line 248
+Overfull \vbox (30.0pt too high) detected at line 249
  []
 
 
-Overfull \vbox (20.0pt too high) detected at line 248
+Overfull \vbox (20.0pt too high) detected at line 249
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []|\OT1/ptm/m/n/8.5 Correct se-lec-tion of
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 249--249
+Underfull \hbox (badness 1629) in paragraph at lines 250--250
 \OT1/ptm/m/n/8.5 thresh-olds de-pen-dent on
  []
 
 
-Overfull \hbox (10.48187pt too wide) in paragraph at lines 228--253
+Overfull \hbox (10.48187pt too wide) in paragraph at lines 229--254
  [][][] 
  []
 
 [2 <./Images/CompApps.pdf>] [3 <./Images/PharmacyCompAir-eps-converted-to.pdf> 
 <./Images/CompressorClassification.pdf>] [4 <./Images/perfmgmt-eps-converted-to
 .pdf>] [5] [6]
-Overfull \hbox (10.48187pt too wide) in alignment at lines 258--263
+Overfull \hbox (10.48187pt too wide) in alignment at lines 260--265
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (10.48187pt too wide) in alignment at lines 263--270
+Overfull \hbox (10.48187pt too wide) in alignment at lines 265--272
  [] [] [] [] [] 
  []
 
 
-Overfull \vbox (125.00003pt too high) detected at line 274
+Underfull \hbox (badness 3343) in paragraph at lines 274--274
+[]|\OT1/ptm/m/n/10 Support Vec-tor Ma-
  []
 
 
-Overfull \vbox (12.50003pt too high) detected at line 274
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\OT1/ptm/m/n/10 chine / Rel-e-vance
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 274--274
+[]|\OT1/ptm/m/n/10 A su-per-vised learn-
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 274--274
+\OT1/ptm/m/n/10 ing tech-nique which
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 274--274
+\OT1/ptm/m/n/10 when given a sam-
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 274--274
+\OT1/ptm/m/n/10 ple data set which
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 274--274
+\OT1/ptm/m/n/10 to which class each
+ []
+
+
+Underfull \hbox (badness 8113) in paragraph at lines 274--274
+\OT1/ptm/m/n/10 de-ter-mine the op-ti-
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 274--274
+[]|\OT1/ptm/m/n/10 Can ac-cu-rately clas-
  []
 
 
@@ -1177,155 +1220,175 @@ Underfull \hbox (badness 2035) in paragraph at lines 274--275
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-[]|\OT1/ptm/m/n/10 Fault di-ag-no-sis for
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+\OT1/ptm/m/n/10 Fault di-ag-no-sis for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 \OT1/ptm/m/n/10 re-cip-ro-cat-ing air
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 \OT1/ptm/m/n/10 com-pres-sor valves
  []
 
 
-Underfull \hbox (badness 3635) in paragraph at lines 276--277
+Underfull \hbox (badness 3635) in paragraph at lines 274--275
 []\OT1/ptm/m/n/10 Wang et al[] ([]2010[]),
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 278--279
-\OT1/ptm/m/n/10 cip-ro-cat-ing air com-
+Underfull \hbox (badness 2726) in paragraph at lines 274--275
+\OT1/ptm/m/n/10 et al[] ([]2012[]), []James
  []
 
 
-Overfull \vbox (112.50003pt too high) detected at line 281
+Underfull \hbox (badness 6094) in paragraph at lines 274--275
+\OT1/ptm/m/n/10 Li and Yu[] ([]1995[]);
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+\OT1/ptm/m/n/10 Fault di-ag-no-sis for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+\OT1/ptm/m/n/10 re-cip-ro-cat-ing air
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+\OT1/ptm/m/n/10 com-pres-sors []Verma
+ []
+
+
+Overfull \vbox (112.50003pt too high) detected at line 278
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 278--278
 []|\OT1/ptm/m/n/10 Decreased sen-si-tiv-ity
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 281--281
+Underfull \hbox (badness 5022) in paragraph at lines 278--278
 \OT1/ptm/m/n/10 of data anal-y-sis to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 \OT1/ptm/m/n/10 tion for cen-trifu-gal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
 []|\OT1/ptm/m/n/10 Reduced di-men-sion-
  []
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 282--282
+Underfull \hbox (badness 8132) in paragraph at lines 279--279
 \OT1/ptm/m/n/10 al-ity in-creases data
  []
 
 
-Underfull \hbox (badness 7379) in paragraph at lines 282--283
+Underfull \hbox (badness 7379) in paragraph at lines 279--280
 []|\OT1/ptm/m/n/10 Fault de-tec-tion and
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 282--283
+Underfull \hbox (badness 2903) in paragraph at lines 279--280
 \OT1/ptm/m/n/10 iso-la-tion for a cen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 \OT1/ptm/m/n/10 trifu-gal com-pres-sor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 []\OT1/ptm/m/n/10 Zanoli and As-tolfi[]
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 283--284
+Underfull \hbox (badness 3954) in paragraph at lines 280--281
 []|\OT1/ptm/m/n/10 Sensor and ac-tu-a-tor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 \OT1/ptm/m/n/10 fault di-ag-no-sis for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 \OT1/ptm/m/n/10 a cen-trifu-gal com-
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 283--284
+Underfull \hbox (badness 1975) in paragraph at lines 280--281
 \OT1/ptm/m/n/10 pres-sor []Zanoli et al[]
  []
 
 
-Overfull \vbox (225.00005pt too high) detected at line 288
+Overfull \vbox (225.00005pt too high) detected at line 284
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 288--289
+Underfull \hbox (badness 1210) in paragraph at lines 284--285
 \OT1/ptm/m/n/10 pres-sors (Namdeo et
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 289--290
+Underfull \hbox (badness 2512) in paragraph at lines 285--286
 \OT1/ptm/m/n/10 cip-ro-cat-ing com-pres-
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 289--290
+Underfull \hbox (badness 6608) in paragraph at lines 285--286
 \OT1/ptm/m/n/10 pa-ram-e-ter iden-ti-fi-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 []|\OT1/ptm/m/n/10 Performance pre-dic-
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 290--291
+Underfull \hbox (badness 1092) in paragraph at lines 286--287
 \OT1/ptm/m/n/10 tion of a cen-trifu-gal
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 290--291
+Underfull \hbox (badness 6220) in paragraph at lines 286--287
 \OT1/ptm/m/n/10 air com-pres-sor em-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 \OT1/ptm/m/n/10 ploy-ing ar-ti-fi-cial
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 290--291
+Underfull \hbox (badness 1968) in paragraph at lines 286--287
 \OT1/ptm/m/n/10 neu-ral net-works and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 \OT1/ptm/m/n/10 ge-netic al-go-rithms
  []
 
 
-Underfull \hbox (badness 4805) in paragraph at lines 290--291
+Underfull \hbox (badness 4805) in paragraph at lines 286--287
 []\OT1/ptm/m/n/10 Luo Fangqiong and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 \OT1/ptm/m/n/10 Huang Shengzhong[]
  []
 
@@ -1333,306 +1396,301 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 1502) in paragraph at lines 291--292
+Underfull \hbox (badness 1502) in paragraph at lines 287--288
 []|\OT1/ptm/m/n/10 Generation of a gas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 \OT1/ptm/m/n/10 gen-er-a-tors com-pres-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 \OT1/ptm/m/n/10 sor per-for-mance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 \OT1/ptm/m/n/10 char-ac-ter-is-tic map
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 291--292
+Underfull \hbox (badness 1533) in paragraph at lines 287--288
 \OT1/ptm/m/n/10 lam-rezaei[] ([]2009[]) []Yu
  []
 
 
-Overfull \vbox (87.50005pt too high) detected at line 293
+Overfull \vbox (87.50005pt too high) detected at line 289
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 293--294
+Underfull \hbox (badness 1533) in paragraph at lines 289--290
 \OT1/ptm/m/n/10 a her-metic com-pres-
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 294--295
+Underfull \hbox (badness 2512) in paragraph at lines 290--291
 \OT1/ptm/m/n/10 cip-ro-cat-ing com-pres-
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 294--295
+Underfull \hbox (badness 6608) in paragraph at lines 290--291
 \OT1/ptm/m/n/10 pa-ram-e-ter iden-ti-fi-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 []|\OT1/ptm/m/n/10 Performance pre-dic-
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 295--296
+Underfull \hbox (badness 1092) in paragraph at lines 291--292
 \OT1/ptm/m/n/10 tion of a cen-trifu-gal
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 295--296
+Underfull \hbox (badness 6220) in paragraph at lines 291--292
 \OT1/ptm/m/n/10 air com-pres-sor em-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 \OT1/ptm/m/n/10 ploy-ing ar-ti-fi-cial
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 295--296
+Underfull \hbox (badness 1968) in paragraph at lines 291--292
 \OT1/ptm/m/n/10 neu-ral net-works and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 \OT1/ptm/m/n/10 ge-netic al-go-rithms
  []
 
 
-Underfull \hbox (badness 4805) in paragraph at lines 295--296
+Underfull \hbox (badness 4805) in paragraph at lines 291--292
 []\OT1/ptm/m/n/10 Luo Fangqiong and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 \OT1/ptm/m/n/10 Huang Shengzhong[]
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 296--297
+Underfull \hbox (badness 5359) in paragraph at lines 292--293
 []|\OT1/ptm/m/n/10 Parameter iden-ti-fi-ca-
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 298--298
+Underfull \hbox (badness 2495) in paragraph at lines 294--294
 []|\OT1/ptm/m/n/10 Automatic clas-si-fi-ca-
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 298--298
+Underfull \hbox (badness 2707) in paragraph at lines 294--294
 \OT1/ptm/m/n/10 tion of out-put vari-
  []
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 298--298
+Underfull \hbox (badness 5711) in paragraph at lines 294--294
 \OT1/ptm/m/n/10 ables by or-gan-is-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 []|\OT1/ptm/m/n/10 Require rea-son-ably
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 298--298
+Underfull \hbox (badness 1348) in paragraph at lines 294--294
 \OT1/ptm/m/n/10 low data prepa-ra-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 \OT1/ptm/m/n/10 mod-u-lar pro-duc-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 \OT1/ptm/m/n/10 sys-tem []Demet-gul[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 []|\OT1/ptm/m/n/10 Stacked Re-stricted
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 300--300
+Underfull \hbox (badness 1655) in paragraph at lines 296--296
 \OT1/ptm/m/n/10 Boltz-mann Ma-chines
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 300--300
+Underfull \hbox (badness 6658) in paragraph at lines 296--296
 \OT1/ptm/m/n/10 (RBMs), which are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \OT1/ptm/m/n/10 them-selves sim-ple
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \OT1/ptm/m/n/10 un-su-per-vised neu-ral
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \OT1/ptm/m/n/10 un-der-stand-ing of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \OT1/ptm/m/n/10 data re-la-tion-ships
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 \OT1/ptm/m/n/10 ma-chine learn-ing
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 300--300
+Underfull \hbox (badness 2418) in paragraph at lines 296--296
 []|\OT1/ptm/m/n/10 Complex to ini-tially
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 []|\OT1/ptm/m/n/10 Reciprocating com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 \OT1/ptm/m/n/10 pres-sor valve fault
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 300--301
+Underfull \hbox (badness 1394) in paragraph at lines 296--297
 \OT1/ptm/m/n/10 di-ag-no-sis []Tran et al[]
  []
 
 
-Overfull \vbox (50.00002pt too high) detected at line 302
+Overfull \vbox (50.00002pt too high) detected at line 298
  []
 
 
-Overfull \vbox (37.50002pt too high) detected at line 302
+Overfull \vbox (37.50002pt too high) detected at line 298
  []
 
 
-Underfull \hbox (badness 7379) in paragraph at lines 302--303
+Underfull \hbox (badness 7379) in paragraph at lines 298--299
 []|\OT1/ptm/m/n/10 Fault de-tec-tion and
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 302--303
+Underfull \hbox (badness 2903) in paragraph at lines 298--299
 \OT1/ptm/m/n/10 iso-la-tion for a cen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 \OT1/ptm/m/n/10 trifu-gal com-pres-sor
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 302--303
+Underfull \hbox (badness 3657) in paragraph at lines 298--299
 \OT1/ptm/m/n/10 based on PCA and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 []|\OT1/ptm/m/n/10 Adaptive clus-ter-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 \OT1/ptm/m/n/10 for pneu-matic sys-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 \OT1/ptm/m/n/10 tem fault de-tec-tion
  []
 
 
-Overfull \vbox (75.00002pt too high) detected at line 305
+Overfull \vbox (75.00002pt too high) detected at line 301
  []
 
 
-Overfull \vbox (25.00002pt too high) detected at line 305
+Overfull \vbox (25.00002pt too high) detected at line 301
  []
 
 
-Overfull \vbox (25.00002pt too high) detected at line 305
+Overfull \vbox (25.00002pt too high) detected at line 301
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 305--306
+Underfull \hbox (badness 1320) in paragraph at lines 301--302
 []|\OT1/ptm/m/n/10 Fault di-ag-no-sis of a
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 305--306
+Underfull \hbox (badness 4634) in paragraph at lines 301--302
 \OT1/ptm/m/n/10 pneu-matic air brak-
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 305--306
+Underfull \hbox (badness 2772) in paragraph at lines 301--302
 \OT1/ptm/m/n/10 ing sys-tem []Lin-gling[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 []|\OT1/ptm/m/n/10 Fault de-tec-tion via
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 \OT1/ptm/m/n/10 pres-sor vari-ables
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 \OT1/ptm/m/n/10 com-pressed di-men-
  []
 
 
-Overfull \hbox (10.48187pt too wide) in alignment at lines 270--307
- [] [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 4859) in paragraph at lines 308--308
+Underfull \hbox (badness 4859) in paragraph at lines 304--304
 []|\OT1/ptm/m/n/10 Statistical es-ti-ma-tion
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 308--308
+Underfull \hbox (badness 2961) in paragraph at lines 304--304
 \OT1/ptm/m/n/10 tween two or more
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 308--308
+Underfull \hbox (badness 5756) in paragraph at lines 304--304
 []|\OT1/ptm/m/n/10 Reasonably low ef-
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 308--308
+Underfull \hbox (badness 4739) in paragraph at lines 304--304
 \OT1/ptm/m/n/10 ploy-ment with con-
  []
 
 
-Underfull \hbox (badness 5091) in paragraph at lines 308--309
+Underfull \hbox (badness 5091) in paragraph at lines 304--305
 \OT1/ptm/m/n/10 in par-al-lel []Kopanos
  []
 
 
-Overfull \hbox (10.48187pt too wide) in alignment at lines 307--310
+Overfull \hbox (10.48187pt too wide) in alignment at lines 272--306
  [] [] [] [] [] 
  []
 
@@ -1640,11 +1698,11 @@ Overfull \hbox (10.48187pt too wide) in alignment at lines 307--310
 
 ] [8] [9] [10]
 
-Package natbib Warning: Citation `RefB' on page 11 undefined on input line 350.
+Package natbib Warning: Citation `RefB' on page 11 undefined on input line 346.
 
 
 
-Package natbib Warning: Citation `RefJ' on page 11 undefined on input line 350.
+Package natbib Warning: Citation `RefJ' on page 11 undefined on input line 346.
 
 
 Package epstopdf Info: Source file: <example.eps>
@@ -1655,13 +1713,13 @@ Package epstopdf Info: Source file: <example.eps>
 (epstopdf)                    size: 2421 bytes
 (epstopdf)             Command: <repstopdf --outfile=example-eps-converted-to.p
 df example.eps>
-(epstopdf)             \includegraphics on input line 364.
+(epstopdf)             \includegraphics on input line 360.
 Package epstopdf Info: Output file is already uptodate.
-<example-eps-converted-to.pdf, id=373, 202.7575pt x 202.7575pt>
+<example-eps-converted-to.pdf, id=374, 202.7575pt x 202.7575pt>
 File: example-eps-converted-to.pdf Graphic file (type pdf)
 
 <use example-eps-converted-to.pdf>
-Package pdftex.def Info: example-eps-converted-to.pdf used on input line 364.
+Package pdftex.def Info: example-eps-converted-to.pdf used on input line 360.
 (pdftex.def)             Requested size: 202.757pt x 202.757pt.
 Package epstopdf Info: Source file: <example.eps>
 (epstopdf)                    date: 2015-10-29 14:29:44
@@ -1671,14 +1729,14 @@ Package epstopdf Info: Source file: <example.eps>
 (epstopdf)                    size: 2421 bytes
 (epstopdf)             Command: <repstopdf --outfile=example-eps-converted-to.p
 df example.eps>
-(epstopdf)             \includegraphics on input line 374.
+(epstopdf)             \includegraphics on input line 370.
 Package epstopdf Info: Output file is already uptodate.
 File: example-eps-converted-to.pdf Graphic file (type pdf)
  <use example-eps-converted-to.pdf>
-Package pdftex.def Info: example-eps-converted-to.pdf used on input line 374.
+Package pdftex.def Info: example-eps-converted-to.pdf used on input line 370.
 (pdftex.def)             Requested size: 371.25pt x 371.26225pt.
 
-(./SeanHayesPaper1.bbl
+(./SeanHayesPaper1longtable.bbl
 Underfull \hbox (badness 1024) in paragraph at lines 29--33
 \OT1/ptm/m/n/10 In-dus-try. Chem-i-cal En-gi-neer-ing Trans-ac-tions 33:271--
  []
@@ -2185,34 +2243,35 @@ Underfull \hbox (badness 1033) in paragraph at lines 307--313
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 423.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 419.
 [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 423.
- (./SeanHayesPaper1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 423.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 423.
-Package rerunfilecheck Info: File `SeanHayesPaper1.out' has not changed.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 419.
+ (./SeanHayesPaper1longtable.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 419.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 419.
+Package rerunfilecheck Info: File `SeanHayesPaper1longtable.out' has not change
+d.
 (rerunfilecheck)             Checksum: 747B6F8D3E2EBF5D37CD43FF110C155B;936.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 423.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 419.
  ) 
 Here is how much of TeX's memory you used:
- 6722 strings out of 493308
- 100402 string characters out of 6141367
- 216013 words of memory out of 5000000
- 10002 multiletter control sequences out of 15000+600000
+ 6902 strings out of 493308
+ 102661 string characters out of 6141367
+ 308593 words of memory out of 5000000
+ 10178 multiletter control sequences out of 15000+600000
  34137 words of font info for 73 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,10n,33p,1361b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,10n,33p,1370b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2013/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2013/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2013/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb><c:/texlive/2013/texmf-dist/fonts/type1/urw/times
 /utmb8a.pfb><c:/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/te
 xlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on SeanHayesPaper1.pdf (14 pages, 488009 bytes).
+Output written on SeanHayesPaper1longtable.pdf (14 pages, 488231 bytes).
 PDF statistics:
- 523 PDF objects out of 1000 (max. 8388607)
- 435 compressed objects within 5 object streams
+ 524 PDF objects out of 1000 (max. 8388607)
+ 436 compressed objects within 5 object streams
  95 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
