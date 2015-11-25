@@ -1,6 +1,6 @@
-close(gcf)
+%   close(gcf)
 
-figure
+%   figure
 
 % axis([0 100000 0 100])
 xlim([0 100000]);
@@ -14,7 +14,7 @@ axis([0 100000 0 100])
 
 rectangle('Position',[700 2 50000 60],'FaceColor','g')
 
-rectangle('Position',[1 2 4000 45],'LineStyle','--')
+rectangle('Position',[1 2 4000 45],'FaceColor','b','LineStyle','--')
 
 xlabel('Compressor Capacity (l/s)')
 ylabel('Pressure (bar)')

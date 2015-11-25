@@ -1,0 +1,74 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Catterson and Costello(2013)}]{Catterson2013}
+Catterson V, Costello J (2013) {Increasing the Adoption of Prognostic Systems
+  for Health Management in the Power Industry}. Chemical Engineering
+  Transactions 33:271--276, \doi{10.3303/CET1333046},
+  \urlprefix\url{http://www.aidic.it/cet/13/33/046.pdf}
+
+\bibitem[{Facchinetti et~al(????)Facchinetti, Benetti, and
+  Vedova}]{Facchinetti}
+Facchinetti T, Benetti G, Vedova MLD (????) {Modeling and real-time control of
+  an industrial air multi-compressor system}
+
+\bibitem[{Friden et~al(2012)Friden, Bergfors, Bjork, and
+  Mazharsolook}]{Friden2012}
+Friden H, Bergfors L, Bjork A, Mazharsolook E (2012) {Energy and LCC Optimised
+  Design of Compressed Air Systems: A Mixed Integer Optimisation Approach with
+  General Applicability}. 2012 UKSim 14th International Conference on Computer
+  Modelling and Simulation (Lcc):491--496, \doi{10.1109/UKSim.2012.74},
+  \urlprefix\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6205496}
+
+\bibitem[{IEA(2012)}]{IEA2012}
+IEA (2012) {International Energy Agency}. \urlprefix\url{http://www.iea.org}
+
+\bibitem[{Mazid and Martin(2008)}]{Mazid2008}
+Mazid AM, Martin R (2008) {Automation of compressor test procedure using
+  advantech data acquisition module}. In: 2008 10th International Conference on
+  Control, Automation, Robotics and Vision, IEEE, December, pp 2266--2271,
+  \doi{10.1109/ICARCV.2008.4795885},
+  \urlprefix\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4795885}
+
+\bibitem[{Pathak et~al(2015)Pathak, Khan, and Roy}]{Pathak2015}
+Pathak N, Khan M, Roy N (2015) {Acoustic based appliance state identifications
+  for fine-grained energy analytics}. IEEE International Conference on
+  Pervasive Computing and Communications (PerCom) pp 63--70,
+  \urlprefix\url{http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=7146510}
+
+\bibitem[{Radgen(2006)}]{radgen2006efficiency}
+Radgen P (2006) {Efficiency through compressed air energy audits}. In: Energy
+  Audit Conference, www. audit06. fi
+
+\bibitem[{Saidur et~al(2010)Saidur, Rahim, and Hasanuzzaman}]{Saidur2010}
+Saidur R, Rahim N, Hasanuzzaman M (2010) {A review on compressed-air energy use
+  and energy savings}. Renewable and Sustainable Energy Reviews
+  14(4):1135--1153, \doi{10.1016/j.rser.2009.11.013},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1364032109002755}
+
+\bibitem[{SEAI(2007)}]{SEAI2007}
+SEAI (2007) {Special Working Group HVAC (SPIN I) 2007}. Tech. Rep. Spin I,
+  \urlprefix\url{http://www.seai.ie/Your{\_}Business/Large{\_}Energy{\_}Users/Special{\_}Initiatives/Special{\_}Working{\_}Groups/HVAC{\_}SWG{\_}07/}
+
+\bibitem[{Tran et~al(2014)Tran, Althobiani, and Ball}]{Tran2014}
+Tran VT, Althobiani F, Ball A (2014) {An approach to fault diagnosis of
+  reciprocating compressor valves using Teager-Kaiser energy operator and deep
+  belief networks}. Expert Systems with Applications 41(9):4113--4122,
+  \doi{10.1016/j.eswa.2013.12.026},
+  \urlprefix\url{http://dx.doi.org/10.1016/j.eswa.2013.12.026}
+
+\bibitem[{Vachtsevanos et~al(2006)Vachtsevanos, Lewis, Roemer, Hess, and
+  Wu}]{Vachtsevanos2006}
+Vachtsevanos G, Lewis F, Roemer M, Hess A, Wu B (2006) {Intelligent Fault
+  Diagnosis and Prognosis for Engineering Systems}. John Wiley {\&} Sons, Inc.,
+  Hoboken, NJ, USA, \doi{10.1002/9780470117842},
+  \urlprefix\url{http://doi.wiley.com/10.1002/9780470117842}
+
+\end{thebibliography}
