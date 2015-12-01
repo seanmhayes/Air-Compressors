@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{51}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -24,6 +24,14 @@ Blesa J, Jimenez P, Rotondo D, Nejjari F, Puig V (2014) {An Interval NLPV
   IEEE Transactions on Industrial Electronics 0046(c):1--1,
   \doi{10.1109/TIE.2014.2386293},
   \urlprefix\url{http://ieeexplore.ieee.org/articleDetails.jsp?arnumber=6998858}
+
+\bibitem[{Bruton et~al(2014)Bruton, Raftery, O'Donovan, Aughney, Keane, and
+  O'Sullivan}]{Bruton2014}
+Bruton K, Raftery P, O'Donovan P, Aughney N, Keane MM, O'Sullivan D (2014)
+  {Development and alpha testing of a cloud based automated fault detection and
+  diagnosis tool for Air Handling Units}. Automation in Construction 39:70--83,
+  \doi{10.1016/j.autcon.2013.12.006},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0926580513002276}
 
 \bibitem[{Catterson and Costello(2013)}]{Catterson2013}
 Catterson V, Costello J (2013) {Increasing the Adoption of Prognostic Systems
@@ -82,6 +90,14 @@ Glass aS, Gruber P, Roos M, Todtli J (1995) {Qualitative model-based fault
   detection in air-handling units}. IEEE Control Systems Magazine 15(4):11--22,
   \doi{10.1109/37.408465},
   \urlprefix\url{http://www.scopus.com/inward/record.url?eid=2-s2.0-0029359274{\&}partnerID=40{\&}md5=190fc8710ebf04754f9055cc492f4691}
+
+\bibitem[{House et~al(2001)House, Vaezi-Nejad, and Whitcomb}]{House2001}
+House JM, Vaezi-Nejad H, Whitcomb JM (2001) {An expert rule set for fault
+  detection in air-handling units / Discussion}. In: ASHRAE Transactions,
+  American Society of Heating, Refrigeration and Air Conditioning Engineers,
+  Inc., Atlanta, vol 107, p 858,
+  \urlprefix\url{http://search.proquest.com/docview/192523824?accountid=14504
+  http://godot.lib.sfu.ca/GODOT/hold{\_}tab.cgi?url{\_}ver=Z39.88-2004{\&}rft{\_}val{\_}fmt=info:ofi/fmt:kev:mtx:journal{\&}genre=proceeding{\&}sid=ProQ:ProQ:sciencejournals{\&}atitle=An+expert+rule+set+for+fault+detection+in+air-handling+units+/+Discussion{\&}title=ASHRAE+Transactions{\&}issn=00012505{\&}date=2001-01-01{\&}volume=107{\&}issue={\&}spage=858{\&}au=House,+John+M;Vaezi-Nejad,+Hossein;Whitcomb,+J+Michael{\&}isbn={\&}jtitle=ASHRAE+Transactions{\&}btitle={\&}rft{\_}id=inf}
 
 \bibitem[{IEA(2012)}]{IEA2012}
 IEA (2012) {International Energy Agency}. \urlprefix\url{http://www.iea.org}
@@ -258,6 +274,11 @@ Wang F, Song L, Zhang L, Li H (2010) {Fault Diagnosis for Reciprocating Air
   International Symposium on Information Science and Engineering
   (109047):255--258, \doi{10.1109/ISISE.2010.91},
   \urlprefix\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5945097}
+
+\bibitem[{Wang(2014)}]{Wang2014}
+Wang L (2014) {Energy efficiency technologies for sustainable food processing}.
+  Energy Efficiency 7(5):791--810, \doi{10.1007/s12053-014-9256-8},
+  \urlprefix\url{http://link.springer.com/10.1007/s12053-014-9256-8}
 
 \bibitem[{Wang and Cui(2005)}]{Wang2005}
 Wang S, Cui J (2005) {Sensor-fault detection, diagnosis and estimation for
