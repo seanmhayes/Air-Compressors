@@ -33,6 +33,8 @@ for i = 1: height(TestDataMatlab)
     TestDataMatlab.PlantroomTemperature(i,1) = ((22 - 18)*rand(1,1))+18;
 end
 
+TestDataMatlab.ID = [1:height(TestDataMatlab)]';
+
 
     
    
