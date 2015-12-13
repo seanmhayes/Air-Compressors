@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{60}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -83,6 +83,17 @@ Friden H, Bergfors L, Bjork A, Mazharsolook E (2012) {Energy and LCC Optimised
   Modelling and Simulation (Lcc):491--496, \doi{10.1109/UKSim.2012.74},
   \urlprefix\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6205496}
 
+\bibitem[{Gao et~al(2015{\natexlab{a}})Gao, Cecati, and Ding}]{Gao2015a}
+Gao Z, Cecati C, Ding SX (2015{\natexlab{a}}) {A Survey of Fault Diagnosis and
+  Fault-Tolerant Techniques Part I: Fault Diagnosis}. Industrial Electronics,
+  IEEE Transactions on PP(99):1, \doi{10.1109/TIE.2015.2417501}
+
+\bibitem[{Gao et~al(2015{\natexlab{b}})Gao, Cecati, and Ding}]{Gao2015}
+Gao Z, Cecati C, Ding SX (2015{\natexlab{b}}) {A Survey of Fault Diagnosis and
+  Fault-Tolerant Techniques Part II: Fault Diagnosis with Knowledge-Based and
+  Hybrid/Active Approaches}. Industrial Electronics, IEEE Transactions on
+  PP(99):1, \doi{10.1109/TIE.2015.2419013}
+
 \bibitem[{Ghorbanian and Gholamrezaei(2009)}]{Ghorbanian2009}
 Ghorbanian K, Gholamrezaei M (2009) {An artificial neural network approach to
   compressor performance prediction}. Applied Energy 86(7-8):1210--1221,
@@ -118,6 +129,12 @@ Jinru L, Yibing L, Keguo Y (2008) {Fault diagnosis of piston compressor based
   Intelligent Control and Automation pp 6006--6010,
   \doi{10.1109/WCICA.2008.4592852},
   \urlprefix\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4592852}
+
+\bibitem[{Katipamula and Brambley(2005)}]{Katipamula2005}
+Katipamula S, Brambley M (2005) {Review Article: Methods for Fault Detection,
+  Diagnostics, and Prognostics for Building Systems—A Review, Part I}.
+  HVAC{\&}R Research 11(2):169--187, \doi{10.1080/10789669.2005.10391133},
+  \urlprefix\url{http://www.tandfonline.com/doi/abs/10.1080/10789669.2005.10391133}
 
 \bibitem[{Kopanos et~al(2015)Kopanos, Xenos, Cicciotti, Pistikopoulos, and
   Thornhill}]{Kopanos2015}
@@ -175,6 +192,10 @@ Nair AT, Radhakrishnan TK, Srinivasan K, {Rominus Valsalam} S (2011) {Kalman
   Conference on Process Automation, Control and Computing pp 1--5,
   \doi{10.1109/PACC.2011.5978971},
   \urlprefix\url{http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=5978971$\backslash$nhttp://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5978971}
+
+\bibitem[{Namdeo et~al(2008)Namdeo, Manepatil, and Saraswat}]{Namdeo2008}
+Namdeo R, Manepatil S, Saraswat S (2008) {Detection of Valve Leakage in
+  Reciprocating Compressor Using Artificial Neural Network ( Ann )} pp 1--8
 
 \bibitem[{Pathak et~al(2015)Pathak, Khan, and Roy}]{Pathak2015}
 Pathak N, Khan M, Roy N (2015) {Acoustic based appliance state identifications
@@ -266,6 +287,27 @@ Vachtsevanos G, Lewis F, Roemer M, Hess A, Wu B (2006) {Intelligent Fault
   Hoboken, NJ, USA, \doi{10.1002/9780470117842},
   \urlprefix\url{http://doi.wiley.com/10.1002/9780470117842}
 
+\bibitem[{Venkatasubramanian(2003)}]{Venkatasubramanian2003}
+Venkatasubramanian V (2003) {A review of process fault detection and diagnosis:
+  Part III: Process history based methods}. Computers {\&} chemical {\ldots}
+  27:293--311, \doi{10.1016/S0098-1354(02)00162-X},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S009813540200162X}
+
+\bibitem[{Venkatasubramanian et~al(2003{\natexlab{a}})Venkatasubramanian,
+  Rengaswamy, and Kavuri}]{Venkatasubramanian2003a}
+Venkatasubramanian V, Rengaswamy R, Kavuri SN (2003{\natexlab{a}}) {A review of
+  process fault detection and diagnosis: Part II: Qualitative models and search
+  strategies}. Computers {\&} Chemical Engineering 27(3):313--326,
+  \doi{10.1016/S0098-1354(02)00161-8},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0098135402001618$\backslash$nhttp://www.sciencedirect.com/science/article/pii/S0098135402001618/pdfft?md5=09aaf3029aa870816812fdf60c453e47{\&}pid=1-s2.0-S0098135402001618-main.pdf}
+
+\bibitem[{Venkatasubramanian et~al(2003{\natexlab{b}})Venkatasubramanian,
+  Rengaswamy, Yin, and Kavuri}]{Venkatasubramanian2003b}
+Venkatasubramanian V, Rengaswamy R, Yin K, Kavuri SN (2003{\natexlab{b}}) {A
+  review of process fault detection and diagnosis}. Computers {\&} Chemical
+  Engineering 27(3):293--311, \doi{10.1016/S0098-1354(02)00160-6},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0098135402001606}
+
 \bibitem[{Verma et~al(2011)Verma, Roy, and Salour}]{Verma2011}
 Verma NK, Roy A, Salour A (2011) {An optimized fault diagnosis method for
   reciprocating air compressors based on SVM}. Proceedings - 2011 IEEE
@@ -278,6 +320,10 @@ Wang F, Song L, Zhang L, Li H (2010) {Fault Diagnosis for Reciprocating Air
   International Symposium on Information Science and Engineering
   (109047):255--258, \doi{10.1109/ISISE.2010.91},
   \urlprefix\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5945097}
+
+\bibitem[{Wang(2008)}]{Wang2008}
+Wang L (2008) {Energy efficiency and management in food processing facilities}.
+  CRC Press
 
 \bibitem[{Wang(2014)}]{Wang2014}
 Wang L (2014) {Energy efficiency technologies for sustainable food processing}.

@@ -76,9 +76,7 @@ grestore
 %
 \begin{document}
 
-\title{Air Compressor Mode Identification Using Real-Time Clustering Methods for Efficiency Degradation Detection%\thanks{Grants or other notes
-%about the article that should go on the front page should be
-%placed here. General acknowledgments should be placed at the end of the article.}
+\title{Compressed Air System Fault Detection Using Rule-Based Expert Systems with K-Means Clustering for Mode Identification and Efficiency Degradation Detection\thanks{This work was funded by Marine Renewable Energy Ireland (MaREI) at University College Cork}
 }
 %\subtitle{Do you have a subtitle?\\ If so, write it here}
 
@@ -110,9 +108,8 @@ grestore
 \maketitle
 
 \begin{abstract}
-Insert your abstract here. Include keywords, PACS and mathematical
-subject classification numbers as needed.
-\keywords{First keyword \and Second keyword \and More}
+A rule based expert system for compressed air system fault detection and operational performance management is presented. The expert rule set takes a qualitative model based approach to fault detection, relying on fundamental engineering principles to detect when the compressed air system is not performing as expected. K-means clustering is on the compressor power consumption employed for mode identification and intelligent efficiency monitoring. The system is formally coded in MATLAB with a GUI for visualisation. The tool has been trialled on a compressed air system which is representative of installations in global industry.
+\keywords{Fault detection \and Clustering \and Compressed Air \and Expert Systems  \and Mode Identification \and Energy Efficiency}
 % \PACS{PACS code1 \and PACS code2 \and more}
 % \subclass{MSC code1 \and MSC code2 \and more}
 \end{abstract}
@@ -120,24 +117,13 @@ subject classification numbers as needed.
 \section{Introduction}
 \label{intro}
 
-In 2012 industry consumed 2,542 Mtoe of energy globally, which represented  over 28\% of the 8,980 Mtoe of global final energy consumption \cite{IEA2012}. In an Irish context, industry consumed 2.26 Mtoe of energy in 2012, representing almost 22\% of Ireland’s 10.3 Mtoe of final energy consumption. Within the category of industrial energy, compressed air is recognised as an energy intensive utility, accounting for 10\% of industrial electricity in the European Union \cite{Saidur2010}. Energy costs typically account for 78\% of the total life cycle cost of a compressed air system \cite{radgen2006efficiency}. Compressed air is known colloquially in industry as the “fourth fuel”, due to the high electrical cost associated with generation. Compressed air systems are typically running at 19\% overall system efficiency \cite{Saidur2010}, due to energy losses largely due to lost heat of generation and leakages.
+In 2012 industry consumed 2,542 Mtoe of energy globally, which represented  over 28\% of the 8,980 Mtoe of global final energy consumption \cite{IEA2012}. In an Irish context, industry consumed 2.26 Mtoe of energy in 2012, representing almost 22\% of Ireland’s 10.3 Mtoe of final energy consumption. Within the category of industrial energy, compressed air is recognised as an energy intensive utility, accounting for 10\% of industrial electricity in the European Union (\cite{Saidur2010}). Energy costs typically account for 78\% of the total life cycle cost of a compressed air system (\cite{radgen2006efficiency}). Compressed air is known colloquially in industry as the “fourth fuel”, due to the high electrical cost associated with generation. Compressed air systems are typically running at 19\% overall system efficiency (\cite{Saidur2010}), due to energy losses largely due to lost heat of generation and leakages.
 
-Compressed air has been recognised as having significant energy saving potential in the food industry \cite{Wang2014}, not least through measures such as retrofitting of variable speed drives, inlet air temperature reduction, waste heat recovery, and pressure and leakage reduction (cite Wang 2008 from Wang 2014 paper).
-
-\section{Thermodynamics of Air Compression}
-The thermodynamics of air compression are outlined in \autoref{fig:thermocomp}.
-
-\begin{figure}
-\includegraphics[height = \textheight]{./Images/Compression_ThermoDiagrams.pdf}
-\caption{Thermodynamics of Air Compression}
-\label{fig:thermocomp}
-\end{figure}
-
-
+Compressed air has been recognised as having significant energy saving potential in industry (\cite{Wang2014}), not least through measures such as retrofitting of variable speed drives, inlet air temperature reduction, waste heat recovery, and pressure and leakage reduction (\cite{Wang2008}). It is therefore desirable to manage the performance of air compressors in order to minimise their associated energy consumption, which is the goal of this paper. 
 
 \section{Determining the operational performance of an air compressor}
 \label{sec:probstatement}
-A wide range of configurations and types of compressed air systems are installed in industry. In many cases there exist systems which are running sub-optimally, either due to unsuitability for the task at hand or running in a faulty condition. Given that compressed air represents such a dense form of energy transport, it is beneficial in terms of long and short term overall energy efficiency goals to manage the performance of air compressors. Performance management is typically achieved through means such as those in  \autoref{tab:perfmgmt}. The key disadvantages of existing methods are either that they are manual and periodic in nature, or that they require the intervention of a human expert in compressed air systems to be effective. In the case of maintenance contracts and periodic audits, there is also the potential for unnecessary work to be carried out, as both these measures are typically carried out on a timescale basis. The intervention of a human expert also lends itself to an inefficient method of performance measurement. An expert may be particularly well versed with one type of system, but not another. The disparate range of compressed air systems can lead to an expert restricting themselves to one type of system, preventing possible lessons learned to be applied in other suitable cases.
+A wide range of configurations and types of compressed air systems are installed in industry. In many cases there exist systems which are running sub-optimally, either due to unsuitability for the task at hand or running in a faulty condition. Given that compressed air represents such a dense form of energy transport, it is beneficial in terms of long and short term overall energy efficiency goals to manage the performance of air compressors. Performance management is typically achieved through means such as those in  \autoref{tab:perfmgmt}. The key disadvantages of existing methods are either that they are manual and periodic in nature, or that they require the intervention of a human expert in compressed air systems to be effective. In the case of maintenance contracts and periodic audits, there is also the potential for unnecessary work to be carried out, as both these measures are typically carried out on a timescale basis. The intervention of a human expert can also lend itself to an inefficient method of performance measurement. An expert may be particularly well versed with one type of system, but not another. The disparate range of compressed air systems can lead to an expert restricting themselves to one type of system, preventing possible lessons learned to be applied in other suitable cases.
 
 % Table generated by Excel2LaTeX from sheet 'Sheet1'
 \begin{table}
@@ -159,25 +145,28 @@ A wide range of configurations and types of compressed air systems are installed
 
 %	Bumph about current methods to detect performance degradation
 
-In order to analyse a particular compressed air system it is useful to understand how it might relate to other installations. The system analysed in this paper consists of two rotary tooth air compressors with a heated desiccant dryer, with the layout given in \autoref{fig:compairlayout}. These machines are rotary tooth type machines, which are widely deployed across industry for applications with medium pressure and capacity requirements, as shown in \autoref{fig:CompApps}\cite{SEAI2007} The various types of compressors typically used in industry are shown in \autoref{fig:comptypes}. Reciprocating and rotary machines are both positive displacement type machines. They work through isolation of a quantity of air in a space which is then reduced in volume. Centrifugal machines are aerodynamic machines, which operate by imparting kinetic energy to air, which is then converted to pressure energy by stopping the moving air. The three most common types of compressor in industry are rotary, reciprocating and centrifugal machines. The application ranges of these types are shown in \autoref{fig:CompApps} \cite{SEAI2007}.
+In order to analyse a particular compressed air system it is useful to understand how it might relate to other installations. The system analysed in this paper consists of two rotary tooth air compressors with a heated desiccant dryer, with the layout given in \autoref{fig:compairlayout}. These machines are rotary tooth type machines, which are widely deployed across industry for applications with medium pressure and capacity requirements, as shown in \autoref{fig:CompApps} (\cite{SEAI2007}). The various types of compressors typically used in industry are shown in \autoref{fig:comptypes}. Reciprocating and rotary machines are both positive displacement type machines. They work through isolation of a quantity of air in a space which is then reduced in volume. Centrifugal machines are aerodynamic machines, which operate by imparting kinetic energy to air, which is then converted to pressure energy by stopping the moving air. The three most common types of compressor in industry are rotary, reciprocating and centrifugal machines.
 
-\begin{figure*}
-\includegraphics[width = \textwidth]{./Images/PharmacyCompAir.eps}
+\begin{figure}
+\includegraphics[width = \columnwidth]{./Images/PharmacyCompAir.eps}
 \caption{Test Site Compressed Air System Layout}
 \label{fig:compairlayout}
-\end{figure*}
+\end{figure}
 
 \begin{figure}
 \includegraphics[width = \columnwidth]{./Images/CompApps.pdf}
 \caption{Compressor Application Suitability}
 \label{fig:CompApps}
 \end{figure}
-\begin{figure*}
 
+\begin{figure*}
 \includegraphics[width = \textwidth]{./Images/CompressorClassification.pdf}
 \caption{Compressor Types}
 \label{fig:comptypes}
 \end{figure*}
+
+%\subsection{Current research into performance management}
+%\label{subsec:perfmgmtmethods}
 
 Research is being carried out to define the future of compressed air system performance management. In this review the research considered is that of ongoing analysis of compressed air system data. This ongoing analysis could be designated as having any of the goals outlined in \autoref{tab:goalsmgmt}.
 
@@ -189,20 +178,25 @@ Research is being carried out to define the future of compressed air system perf
     \toprule
     Goal  & Description & Example Work \\
     \midrule
-    Fault Detection and Diagnosis & Monitor system parameters to determine when system is in fault condition and the potential reasons for the identified fault & Using vibration, pressure and current signals to diagnose valve faults for a reciprocating compressor \cite{Tran2014} \\
-    Prognostics & Monitoring system parameters to determine when a component of a system will no longer perform its intended function \cite{Vachtsevanos2006} & Determining the remaining useful life of a gaseous circuit breaker  based on gas pressure and ambient temperature \cite{Catterson2013} \\
-    Analytics & Monitoring system parameters to discover meaningful patterns which may advise on potential improvements to system operation & Determining abnormal appliance power consumption based on analysis of individual appliance’s acoustic noise \cite{Pathak2015} \\
-    Automated Commissioning & Achieving, verifying and documenting that the performance of a system satisfies the current user requirement & Automatically carrying out the normal testing procedure for an air compressor by replicating the tasks normally carried out during commissioning \cite{Mazid2008} \\
-    Optimisation & Improving system operation or design as measured against some defined criteria & Development of a tool which delivers an optimal design for a compressed air system based on energy and life cycle costing \cite{Friden2012} \\
-    Control & Managing the operation of a system in order that operating conditions remain in line with design states and undesirable states are avoided & Development of a control algorithm for fixed speed compressors that provides the pressure control capabilities of a variable speed system while limiting energy consumption \cite{Facchinetti} \\
+    Fault Detection and Diagnosis & Monitor system parameters to determine when system is in fault condition and the potential reasons for the identified fault & Using vibration, pressure and current signals to diagnose valve faults for a reciprocating compressor (\cite{Tran2014}) \\
+    Prognostics & Monitoring system parameters to determine when a component of a system will no longer perform its intended function (\cite{Vachtsevanos2006}) & Determining the remaining useful life of a gaseous circuit breaker  based on gas pressure and ambient temperature (\cite{Catterson2013}) \\
+    Analytics & Monitoring system parameters to discover meaningful patterns which may advise on potential improvements to system operation & Determining abnormal appliance power consumption based on analysis of individual appliance’s acoustic noise (\cite{Pathak2015}) \\
+    Automated Commissioning & Achieving, verifying and documenting that the performance of a system satisfies the current user requirement & Automatically carrying out the normal testing procedure for an air compressor by replicating the tasks normally carried out during commissioning (\cite{Mazid2008}) \\
+    Optimisation & Improving system operation or design as measured against some defined criteria & Development of a tool which delivers an optimal design for a compressed air system based on energy and life cycle costing (\cite{Friden2012}) \\
+    Control & Managing the operation of a system in order that operating conditions remain in line with design states and undesirable states are avoided & Development of a control algorithm for fixed speed compressors that provides the pressure control capabilities of a variable speed system while limiting energy consumption (\cite{Facchinetti}) \\
     \bottomrule
     \end{tabular}%
   \label{tab:goalsmgmt}%
 \end{table}%
 
-\subsection{Current research into performance management}
-\label{subsec:perfmgmtmethods}
-\autoref{fig:perfmgmtmethods}.
+This review categorises industrial utility performance management methods into three high-level classifications, which are themselves subdivided into individual methods. These three categories are:
+\begin{enumerate}
+\item Quantitative model based methods
+\item Qualitative model based methods
+\item Process history based methods
+\end{enumerate}
+These three categories are shown visually in \autoref{fig:perfmgmtmethods}, which is adapted from previous works on system performance management and diagnostic approaches (\cite{Katipamula2005}, \cite{Venkatasubramanian2003}, \cite{Venkatasubramanian2003a}, \cite{Venkatasubramanian2003b}, \cite{Gao2015}, \cite{Gao2015a}).
+
 
 \begin{figure*}
 \includegraphics[width=\textwidth]{./Images/perfmgmt.eps}
@@ -210,7 +204,19 @@ Research is being carried out to define the future of compressed air system perf
 \label{fig:perfmgmtmethods}
 \end{figure*}
 
-Quantitative model based methods are summarised in ...
+\subsection{Quantitative model based methods}
+In the field of compressor performance management, one approach which may be used is that of the development of a quantitative model describing the compressor’s operation, and analysing actual operation with respect to this modelled operation in order to achieve one of the goals outlined in \autoref{tab:goalsmgmt}. This comparison may lead to the generation of differences between measured and modelled variables, which are termed residuals. This concept of inconsistency between variables is known as redundancy.
+
+Redundancy may be either physical or analytical. Physical redundancy relies on the installation of parallel sensors on the system being analysed. Residual differences between parallel sensors may then highlight sensor issues. This form of redundancy has historically been prevalent in safety-critical systems such as aircraft control. However in many applications space and cost requirements render this method less desirable.
+
+Analytical or artificial redundancy may be achieved through formalisation of the fundamental relationships between the states, inputs and outputs of a system, as is the case in quantitative model based methods of performance improvement. This inherent redundancy may take either a direct or a temporal approach.
+
+A direct approach to analytical redundancy is to derive algebraic equations between different sensor measurements. This concept is useful when limited sensor instrumentation is present on a system, as data which may be desirable to know may be calculated from data which is available. If a sensor is available for the calculated value, the concept of redundancy may be used to generate a residual. If the residual exceeds a given threshold then a sensor fault may be present.
+
+In contrast, temporal redundancy is obtained by analysing the difference relationships between sensor outputs and actuator inputs. If an actuator input is intended to produce a difference between sensors, and this difference is not present, then either a sensor or actuator fault may be present.
+
+In this paper four key methods are discussed with respect to the generation of residuals for redundancy purposes. These are outlined in \autoref{tab:quantimodel}. The key difference between these methods is how the residuals are generated and classified.
+
 
 \begin{table*}
 \caption{Quantitative model based methods}
@@ -218,23 +224,31 @@ Quantitative model based methods are summarised in ...
 \toprule
 Method &	Description&	Benefits&	Disadvantages&	Examples \\
 \toprule
-\multirow{4}{.18\textwidth}{Kalman Filters} &\multirow{4}{.18\textwidth}{A Kalman filter allows the combination of observed and predicted parameters to more accurately predict future parameters than with a physical model alone. It also allows for the reduction of the effects of noisy data on models.} & Very accurate&	Computationally expensive&	Surge control for axial compressors \cite{Backi2013}\\
+\multirow{4}{.18\textwidth}{Kalman Filters} &\multirow{4}{.18\textwidth}{A Kalman filter allows the combination of observed and predicted parameters to more accurately predict future parameters than with a physical model alone. It also allows for the reduction of the effects of noisy data on models.} & Very accurate&	Computationally expensive&	Surge control for axial compressors (\cite{Backi2013})\\
 &  &  Transients may be modelled&	Complex to create&	Fault detection for gas turbine compressors \cite{Salar2010} \\
-& & & Typically require many inputs from system	&State estimation of a thermal power plant \cite{Nair2011})\\
-& & & & Leakage detection of a pneumatic network \cite{Krichel2011}\\
+& & & Typically require many inputs from system	&State estimation of a thermal power plant (\cite{Nair2011})\\
+& & & & Leakage detection of a pneumatic network (\cite{Krichel2011})\\
 \midrule
-\multirow{3}{.18\textwidth}{Diagnostic Observers} & \multirow{3}{.18\textwidth}{Employing state observers, typically one for each fault, which represent a different output from a model, in order that observed differences in outputs may be attributed to faults to how to change a model to remove deviations from expected behaviour} & Accurate isolation of individual faults possible &	Observers required for each individual potential fault state &	Fault detection of a steam boiler feed water preheater \cite{Tarantino2000}\\
- & & & & Estimation of a steam boiler’s pressure given fuel and feed water conditions \cite{Ramezanifar2006}\\
- & & & & Surge control for axial compressors \cite{Backi2013}\\
+\multirow{3}{.18\textwidth}{Diagnostic Observers} & \multirow{3}{.18\textwidth}{Employing state observers, typically one for each fault, which represent a different output from a model, in order that observed differences in outputs may be attributed to faults to how to change a model to remove deviations from expected behaviour} & Accurate isolation of individual faults possible &	Observers required for each individual potential fault state &	Fault detection of a steam boiler feed water preheater (\cite{Tarantino2000})\\
+ & & & & Estimation of a steam boiler’s pressure given fuel and feed water conditions (\cite{Ramezanifar2006})\\
+ & & & & Surge control for axial compressors (\cite{Backi2013})\\
  \midrule
-Parity Relations &	Rearranging and transforming input-output models of a system in order to highlight individual fault conditions &	Accurate isolation of individual faults possible &	Less effective at identifying multiplicative faults &	Fault diagnosis of a wind farm using interval nonlinear parameter-varying parity equations \cite{Blesa2014}\\
+Parity Relations &	Rearranging and transforming input-output models of a system in order to highlight individual fault conditions &	Accurate isolation of individual faults possible &	Less effective at identifying multiplicative faults &	Fault diagnosis of a wind farm using interval nonlinear parameter-varying parity equations (\cite{Blesa2014})\\
 \midrule
 Parameter Estimation & Comparison of modelled data, normally using ordinary and partial differential equations, with measured data, with analysis of any residuals to diagnose faults
- & High level of confidence in modelled data & Detailed physical model required for accuracy & Optimisation of the modelling of a multistage compressor using parameter estimation to determine the surge line \cite{DapengNiu2011} \\
+ & High level of confidence in modelled data & Detailed physical model required for accuracy & Optimisation of the modelling of a multistage compressor using parameter estimation to determine the surge line (\cite{DapengNiu2011}) \\
 \bottomrule
 \end{tabular}
 \label{tab:quantimodel}
 \end{table*}
+
+\subsection{Qualitative model based methods}
+\label{subsec:qualimodel}
+Qualitative model based methods may be distinguished from quantitative model based methods by their abstraction of the physical principles governing the operation of a system. Where quantitative methods seek precise numerical values for the parameters of a system, qualitative methods are generally satisfied with simplified models of a system.
+
+To demonstrate this difference the example of an air compressor in operation is considered. If a quantitative model is used for analysis of this system, it can require inputs of all possible system and environmental variables (voltage, current, ambient air conditions) in order to make a calculation on what the compressed air flowrate should be. A qualitative approach to this situation would be to hypothesise that with an increase in current drawn by the compressor, an increase in compressed air flowrate should also be observed. While the quantitative approach may flag a slight decrease in performance of the machine if the expected flowrate is not met, the qualitative approach will immediately highlight a serious issue with the compressor if an increase in power does not correspond to an increase in flowrate. The time required to develop quantitative solutions is typically greater than that for qualitative solutions. This suggests that for rapid deployment of ad-hoc compressor performance management solutions, a qualitative approach may be more suitable.
+
+Example qualitative model based methods are summarised in \autoref{tab:qualimodel}. Of particular note in this set of performance management methods is rule-based expert systems, which die to the benefits outlined in \autoref{tab:qualimodel} have been selected as a method to trial in this paper.
 
 % Table generated by Excel2LaTeX from sheet 'Sheet2'
 \begin{table*}[htbp]
@@ -244,21 +258,21 @@ Parameter Estimation & Comparison of modelled data, normally using ordinary and 
     \toprule
     Method & Description & Benefits & Disadvantages & Examples \\
     \midrule
-    Expert Systems & Using if-then-else rules derived from engineering knowledge of a system’s operation to flag when and why a fault is present in operation & Quick deployment potential & Potential that knowledge remains undiscovered/undocumented & Fault diagnosis assistance using IF-THEN rules for an air compressor \cite{Liu2001}\\
+    Expert Systems & Using if-then-else rules derived from engineering knowledge of a system’s operation to flag when and why a fault is present in operation & Quick deployment potential & Potential that knowledge remains undiscovered/undocumented & Fault diagnosis assistance using IF-THEN rules for an air compressor (\cite{Liu2001})\\
     \midrule
-    Physical Redundancy & Installing parallel sensors in order that site personnel be notified of an error if sensor values do not match & Simple in concept & Cost and space constraints may limit additional sensor placement & Analysis framework of fault detection schemes based on redundant sensors for aircraft \cite{Wheeler2011}\\
+    Physical Redundancy & Installing parallel sensors in order that site personnel be notified of an error if sensor values do not match & Simple in concept & Cost and space constraints may limit additional sensor placement & Analysis framework of fault detection schemes based on redundant sensors for aircraft (\cite{Wheeler2011})\\
     \midrule
-    Analytical Hierarchy Process & Decision support for selection of a particular approach, e.g. for maintenance strategy, over another based on pairwise comparisons of suitability toward various goals & Allows documentation of expert decision making in formal manner & Limited real-time performance analysis potential & Maintenance strategy selection for equipment at an oil refinery \cite{Bevilacqua2000}\\
+    Analytical Hierarchy Process & Decision support for selection of a particular approach, e.g. for maintenance strategy, over another based on pairwise comparisons of suitability toward various goals & Allows documentation of expert decision making in formal manner & Limited real-time performance analysis potential & Maintenance strategy selection for equipment at an oil refinery (\cite{Bevilacqua2000})\\
     \midrule
-    Spectrum Analysis & Analysis of compressor drive and vibrational frequency response to alert when response drifts from normal & Allows for discovery of faults which may be difficult to postulate from first principles & Detailed analysis required for each potential spectrum case & Vibration analysis of reciprocating compressors for valve failure diagnosis \cite{RuilinLin2010}\\
+    Spectrum Analysis & Analysis of compressor drive and vibrational frequency response to alert when response drifts from normal & Allows for discovery of faults which may be difficult to postulate from first principles & Detailed analysis required for each potential spectrum case & Vibration analysis of reciprocating compressors for valve failure diagnosis (\cite{RuilinLin2010})\\
     \midrule
-    Fault Tree Analysis & Postulation of potential areas of failure in equipment & Allows formal documentation of human expert knowledge & Scope of fault detection is as limited as human expert’s knowledge and expertise & Reliability assessment of an anti-surge control system for a centrifugal compressor \cite{Ren2012}\\
+    Fault Tree Analysis & Postulation of potential areas of failure in equipment & Allows formal documentation of human expert knowledge & Scope of fault detection is as limited as human expert’s knowledge and expertise & Reliability assessment of an anti-surge control system for a centrifugal compressor (\cite{Ren2012})\\
     \midrule
-    FMEA / FMECA & Analysis of site equipment potential areas of failure and potential effect on other equipment & Critical analysis of most risk-prone areas of a system & Time consuming for development & Compressor safety evaluation model \cite{Zhu2013}\\
+    FMEA / FMECA & Analysis of site equipment potential areas of failure and potential effect on other equipment & Critical analysis of most risk-prone areas of a system & Time consuming for development & Compressor safety evaluation model (\cite{Zhu2013})\\
     \midrule
-    Qualitative Physics Based & Derivation of qualitative equations from fundamental physical equations governing system operation to allow for analysis without explicit requirement for numerical values & No requirement for numerically accurate measurement of system variables & Requires initial understanding of physical processes governing system operation & Fault Detection for an AHU \cite{Glass1995}\\
+    Qualitative Physics Based & Derivation of qualitative equations from fundamental physical equations governing system operation to allow for analysis without explicit requirement for numerical values & No requirement for numerically accurate measurement of system variables & Requires initial understanding of physical processes governing system operation & Fault Detection for an AHU (\cite{Glass1995})\\
     \midrule
-    Digraphs & Representation of qualitative models using directed graphs to efficiently incorporate system behaviour for effective analysis & Allows visual representation of qualitative physical equations & Requires considerable domain expertise for creation & FDD for a typical industrial process using SDG for model decomposition \cite{Shin2007}\\
+    Digraphs & Representation of qualitative models using directed graphs to efficiently incorporate system behaviour for effective analysis & Allows visual representation of qualitative physical equations & Requires considerable domain expertise for creation & FDD for a typical industrial process using SDG for model decomposition (\cite{Shin2007})\\
     \midrule
     \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{Limits and Alarms}} & \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{Implementation of user defined limits on key parameters which flag when exceeded or are not met}} & \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{With correct identification of thresholds can quickly highlight issues with systems}} & Little diagnosis and isolation potential & \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{Incorporated into modern compressor PLCs}} \\
     \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Correct selection of thresholds dependent on user expertise & \multicolumn{1}{c}{} \\
@@ -267,6 +281,20 @@ Parameter Estimation & Comparison of modelled data, normally using ordinary and 
   \label{tab:qualimodel}%
 \end{table*}%
 
+\subsection{Process history based methods}
+Process history based methods may be subdivided into qualitative and quantitative categories, or grey and black-box methods respectively. Both categories are summarised in \autoref{tab:prochist}.
+
+\subsubsection{Qualitative process history based methods - expert systems}
+\label{subsubsec:prochistexpert}
+Expert systems as applied to the process history methodology as opposed to the qualitative model methodology are concerned with extracting useful features from historical data, and using qualitative knowledge of the relevant system to explain and make use of these features.
+One example of this methodology was employed during the creation of rules in \autoref{sec:rules}. While some rules were developed using hypotheses about the compressed air system under analysis, analysis of data gathered showed that under normal conditions, the oil pressure of the air compressor rose with increasing outlet pressure, and fell with decreasing outlet pressure. While this could have been hypothesised beforehand, it was not until the data was analysed that this feature was noticed. This lead to the development of a rule to flag when oil pressure did not track compressor outlet pressure.
+
+The limitations associated with process history based expert systems are similar to those associated with qualitative model based expert systems. In both cases a reliance is placed on the ability of the human expert to accurately determine rules and possible fault diagnoses. In the case of the oil pressure rule described above, it is hypothesised that a potential cause of fault should the oil pressure not rise when expected be that the oil pump has failed. However it is acknowledged that this fault may be equally symptomatic of a blocked valve or a sensor failure.
+
+\subsubsection{Quantitative process history based methods}
+Quantitative methods for system fault detection seek to extract useful features from historical data in a black-box fashion. The terminology of black-box is used to denote methods which are not influenced by fundamental engineering relationships between variables, but rely on statistical and machine learning methods to extract useful features. This is distinguished from qualitative or gray-box methods which employ a modicum of understanding of the physical processes governing a system’s operation.
+
+Quantitative methods attempt to classify or group data into useful classes through pattern recognition. These methods are generally stochastic in nature, i.e. they do not assume that the future state of the system is necessarily influenced by past and present states. This gives such methods a probabilistic aspect, or a confidence rating in how accurately they are able to predict and classify system variables
 
 
 
@@ -287,50 +315,50 @@ Parameter Estimation & Comparison of modelled data, normally using ordinary and 
     \toprule 
     \endhead
     
-    Support Vector Machine / Relevance Vector Machine & A supervised learning technique which when given a sample data set which is labelled according to which class each point belongs in, can determine the optimal plane which splits classes allowing accurate future classification of variables & Can accurately classify non-linear data & Can be computationally expensive in implementation & Compressed air load forecasting for large flows \cite{Liu2013};  Fault diagnosis for reciprocating air compressor valves \cite{Wang2010}, \cite{Cui2009}, \cite{Qin2012}, \cite{JamesLi1995}; Fault diagnosis for reciprocating air compressors \cite{Verma2011} \\
+    Support Vector Machine / Relevance Vector Machine & A supervised learning technique which when given a sample data set which is labelled according to which class each point belongs in, can determine the optimal plane which splits classes allowing accurate future classification of variables & Can accurately classify non-linear data & Can be computationally expensive in implementation & Compressed air load forecasting for large flows (\cite{Liu2013});  Fault diagnosis for reciprocating air compressor valves (\cite{Wang2010}), (\cite{Cui2009}), (\cite{Qin2012}), (\cite{JamesLi1995}); Fault diagnosis for reciprocating air compressors (\cite{Verma2011}) \\
 
     \midrule
     
     \multirow{3}[0]{.18\textwidth}{PCA} & \multirow{3}[0]{.18\textwidth}{Analysis of a population of variables to determine the population extremes in a given number of directions or components, allowing categorisation of each data point in terms of its position in each direction} & Decreased sensitivity of data analysis to noise & \multirow{3}[0]{.18\textwidth}{Training data must explicitly demonstrate variance in data} & Sensor fault detection, diagnosis and estimation for centrifugal chillers \cite{Wang2005}\\
-    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Reduced dimensionality increases data understanding & \multicolumn{1}{c}{} & Fault detection and isolation for a centrifugal compressor \cite{Zanoli2013}\\
-    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} &       & \multicolumn{1}{c}{} & Sensor and actuator fault diagnosis for a centrifugal compressor \cite{Zanoli2010a}\\
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Reduced dimensionality increases data understanding & \multicolumn{1}{c}{} & Fault detection and isolation for a centrifugal compressor (\cite{Zanoli2013})\\
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} &       & \multicolumn{1}{c}{} & Sensor and actuator fault diagnosis for a centrifugal compressor (\cite{Zanoli2010a})\\
     \midrule
     
         
-    \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{Artificial Neural Networks}} & \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{Creation of a network of elements or neurons which may determine output values based on interconnected element's response to external inputs. Networks may be supervised where instances of faulty operation are labelled, allowing the network to generate expected outputs for arbitrary unknown inputs. Networks may also be unsupervised, in which case the topology is adaptively determined based on the inputs.}} & \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{Can effectively predict non-linear relationships in data}} & \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{Structure of neural network requires intuitive development}} & Valve failure detection for reciprocating compressors (Namdeo et al. 2008) \\
-    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Neural network based fault diagnosis of a reciprocating compressor employing genetic algorithms for initial parameter identification \cite{Jinru2008}\\
-    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Performance prediction of a centrifugal air compressor employing artificial neural networks and genetic algorithms \cite{LuoFangqiong2011}\\
-    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Generation of a gas generator’s compressor performance characteristic map \cite{Ghorbanian2009} \cite{Yu2007}\\
+    \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{Artificial Neural Networks}} & \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{Creation of a network of elements or neurons which may determine output values based on interconnected element's response to external inputs. Networks may be supervised where instances of faulty operation are labelled, allowing the network to generate expected outputs for arbitrary unknown inputs. Networks may also be unsupervised, in which case the topology is adaptively determined based on the inputs.}} & \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{Can effectively predict non-linear relationships in data}} & \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{Structure of neural network requires intuitive development}} & Valve failure detection for reciprocating compressors (\cite{Namdeo2008}) \\
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Neural network based fault diagnosis of a reciprocating compressor employing genetic algorithms for initial parameter identification (\cite{Jinru2008})\\
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Performance prediction of a centrifugal air compressor employing artificial neural networks and genetic algorithms \cite({LuoFangqiong2011})\\
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Generation of a gas generator’s compressor performance characteristic map (\cite{Ghorbanian2009}, \cite{Yu2007})\\
     \midrule
     \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{Genetic Algorithms}} & \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{Determining the optimum point a system can operate at, by selecting random members of a population of samples and using them as parents of successive samples, which tend toward the optimal sample}} & \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{Easily transferred to existing simulations and  models}} & \multicolumn{1}{c}{\multirow{4}[0]{.18\textwidth}{No assurance that optimal application will indeed be the global optimum}} & Noise minimisation of a hermetic compressor \cite{Dasilva2004}\\
-    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Neural network based fault diagnosis of a reciprocating compressor employing genetic algorithms for initial parameter identification \cite{Jinru2008} \\ %
-    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Performance prediction of a centrifugal air compressor employing artificial neural networks and genetic algorithms \cite{LuoFangqiong2011}\\
-    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Parameter identification for a centrifugal compressor model \cite{Xiaogang2013}\\
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Neural network based fault diagnosis of a reciprocating compressor employing genetic algorithms for initial parameter identification (\cite{Jinru2008}) \\ %
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Performance prediction of a centrifugal air compressor employing artificial neural networks and genetic algorithms (\cite{LuoFangqiong2011})\\
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Parameter identification for a centrifugal compressor model (\cite{Xiaogang2013})\\
     \midrule
-    Decision Tree Learning & Automatic classification of output variables by organising data into subsets, generating rules in a tree like structure & Require reasonably low data preparation effort & Highly unstable when perturbations in training data are present & Fault diagnosis for a modular production system \cite{Demetgul2013}\\
+    Decision Tree Learning & Automatic classification of output variables by organising data into subsets, generating rules in a tree like structure & Require reasonably low data preparation effort & Highly unstable when perturbations in training data are present & Fault diagnosis for a modular production system (\cite{Demetgul2013})\\
     \midrule
-    Deep Belief Networks & Stacked Restricted Boltzmann Machines (RBMs), which are themselves simple unsupervised neural networks & Allow more complex understanding of data relationships than with lower level machine learning techniques & Complex to initially understand structure & Reciprocating compressor valve fault diagnosis \cite{Tran2014}\\
+    Deep Belief Networks & Stacked Restricted Boltzmann Machines (RBMs), which are themselves simple unsupervised neural networks & Allow more complex understanding of data relationships than with lower level machine learning techniques & Complex to initially understand structure & Reciprocating compressor valve fault diagnosis (\cite{Tran2014})\\
     \midrule
-    \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{Clustering}} & \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{Grouping data readings into different groups where intragroup similarity is greater than intergroup similarity}} & \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{Relatively simple to deploy}} & \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{Some qualitative assessment for optimal number of clusters may be required}} & Fault detection and isolation for a centrifugal compressor based on PCA and Clustering \cite{Zanoli2010}\\
-    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Adaptive clustering for pneumatic system fault detection \cite{Petkovic2012}\\
+    \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{Clustering}} & \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{Grouping data readings into different groups where intragroup similarity is greater than intergroup similarity}} & \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{Relatively simple to deploy}} & \multicolumn{1}{c}{\multirow{2}[0]{.18\textwidth}{Some qualitative assessment for optimal number of clusters may be required}} & Fault detection and isolation for a centrifugal compressor based on PCA and Clustering (\cite{Zanoli2010})\\
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & Adaptive clustering for pneumatic system fault detection (\cite{Petkovic2012})\\
     \midrule
-    \multirow{2}{.18\textwidth}{Bayesian Networks} & \multirow{2}{.18\textwidth}{Creation by learning or using prior knowledge of graphical probabilistic models which give relationships between variables} & \multirow{2}{.18\textwidth}{Can provide an excellent interpolation to real world simulations} & \multirow{2}{.18\textwidth}{Calculation of parameters for Bayesian models can be initially difficult} & Fault diagnosis of a pneumatic air braking system \cite{Lingling2010}\\
-          &       &       &       & Fault detection via classification of compressor variables compressed dimensionally via PCA \cite{Liu2009}\\
+    \multirow{2}{.18\textwidth}{Bayesian Networks} & \multirow{2}{.18\textwidth}{Creation by learning or using prior knowledge of graphical probabilistic models which give relationships between variables} & \multirow{2}{.18\textwidth}{Can provide an excellent interpolation to real world simulations} & \multirow{2}{.18\textwidth}{Calculation of parameters for Bayesian models can be initially difficult} & Fault diagnosis of a pneumatic air braking system (\cite{Lingling2010})\\
+          &       &       &       & Fault detection via classification of compressor variables compressed dimensionally via PCA (\cite{Liu2009})\\
     \midrule
-    Regression Modelling & Statistical estimation of the relationship between two or more variables & Reasonably low effort required for deployment with concept simple to understand & Requires strongly defined relationships between variables to be of any use & Optimisation of a network of compressors in parallel \cite{Kopanos2015} \\ %
+    Regression Modelling & Statistical estimation of the relationship between two or more variables & Reasonably low effort required for deployment with concept simple to understand & Requires strongly defined relationships between variables to be of any use & Optimisation of a network of compressors in parallel (\cite{Kopanos2015})\\ %
     \bottomrule
     \end{longtable}%
 \end{center}
 % %\end{longtable}%
 \twocolumn
 
-\lipsum[1-10]
 
 \section{Rule base development and testing}
 \label{sec:rules}
 
 \subsection{Nomenclature for rule parameters}
 \label{subsec:nomenclature}
+Before discussing the development of the expert rule set concerning air compressor performance assessment, it is useful to define the naming convention used. \autoref{tab:nomenclature} gives the nomenclature used in rule development.
 
 % Table generated by Excel2LaTeX from sheet 'Naming Convention'
 \begin{table}[htbp]
@@ -403,11 +431,23 @@ Parameter Estimation & Comparison of modelled data, normally using ordinary and 
 \subsection{Rule formulation methodology}
 \label{subsec:rulemethodology}
 
-One of the approaches for performance management of air compressors outlined in \autoref{subsec:perfmgmtmethods} is that of Expert Systems. This is a qualitative method which can use rule sets to encode expert knowledge about a system for flagging when a fault in operation is present. This method has been used with success in the case of HVAC (\cite{Bruton2014}, \cite{House2001}) and the area of air compressors (\cite{Liu2001}). Rules for system analysis are typically derived by taking a fundamental engineering overview of the system, and hypothesising potential rules to determine particular faults.
+One of the approaches for performance management of air compressors outlined in \autoref{subsec:qualimodel} is that of Expert Systems. This is a qualitative method which can use rule sets to encode expert knowledge about a system for flagging when a fault in operation is present. This method has been used with success in the case of HVAC (\cite{Bruton2014}, \cite{House2001}) and the area of air compressors (\cite{Liu2001}). Rules for system analysis are typically derived by taking a fundamental engineering overview of the system, and hypothesising potential rules to determine particular faults.
 
-\autoref{fig:compairflow} shows a high level overview of the test site air compressor, which is a two-stage rotary tooth machine. The figure highlights the expected temperature changes as the compressed air is operated on y each fundamental component. These expected operations form the basis for an initial set of rules to flag when the machine is not operating as expected. To illustrate this point the first element of compression is analysed in detail.
+\autoref{fig:compairflow} shows a high level overview of the test site air compressor, which is a two-stage rotary tooth machine. The figure highlights the expected temperature changes as the compressed air is operated on by each fundamental component. These expected operations form the basis for an initial set of rules to flag when the machine is not operating as expected. To illustrate this point the first element of compression is analysed in detail.
+
+\begin{figure*}
+\includegraphics[width = \textwidth]{./Images/2StageRotaryCompressorIdeal.eps}
+\caption{Two stage compressor air flow}
+\label{fig:compairflow}
+\end{figure*}
 
 Element 1 of the air compressor compresses air from atmospheric pressure (\SI{101325}{\pascal}) to \SI{250000}{\pascal}. When the compressor is at minimum loading, it is designed to produce \SI{41}{\liter \per \second} of free air. It is useful to analyse the thermodynamics of compressing air at this point. \autoref{fig:thermocomp} shows the relevant thermodynamic diagrams for the compression of this volume of air isothermally, adiabatically and polytropically. The air is compressed in a space which is surrounded by ambient air, which is not an ideal heat reservoir. Therefore the isothermal compression case is not valid. The air is not however thermally isolated from its surroundings, therefore the adiabatic case is also not valid. Actual air compression typically follows the polytropic process model, with the polytropic exponent of \autoref{eq:polytropcompression} ranging between 1 and 1.4.
+
+\begin{figure}
+\includegraphics[height = \textheight]{./Images/Compression_ThermoDiagrams.pdf}
+\caption{Thermodynamics of Air Compression}
+\label{fig:thermocomp}
+\end{figure}
 
 \begin{eqnarray}
 \label{eq:polytropcompression}
@@ -444,34 +484,34 @@ In a similar manner to Rule 1, Rules 2, 3 and 4 fire when the expected temperatu
 Rules 5, 6, 7, 8 and 9 are threshold rules, in that they fire when defined thresholds for T1, T2, T3, T4 and T5 respectively are exceeded. These threshold values have been devised through a combination of historical data analysis and manufacturer defined alarm levels where available.
 
 \begin{equation}
-\text{Rule 5. } T1 > \SI{35}{\degreeCelsius}
+\text{Rule 5. } (T1-E1) > T11
 \label{eq:rule5}
 \end{equation}
 
 \begin{equation}
-\text{Rule 6. } T2 > \SI{155}{\degreeCelsius}
+\text{Rule 6. } (T2 - E2) > T12
 \label{eq:rule6}
 \end{equation}
 
 \begin{equation}
-\text{Rule 7. } T3 > \SI{24}{\degreeCelsius}
+\text{Rule 7. } (T3 - E3) > T13
 \label{eq:rule7}
 \end{equation}
 
 \begin{equation}
-\text{Rule 8. } T4 > \SI{120}{\degreeCelsius}
+\text{Rule 8. } (T4 - E4) > T14
 \label{eq:rule8}
 \end{equation}
 
 \begin{equation}
-\text{Rule 9. } T5 > \SI{21}{\degreeCelsius}
+\text{Rule 9. } (T5 0 E5) > T15
 \label{eq:rule9}
 \end{equation}
 
 The first element of compression in a two-stage compressor is designed to compress air to an intermediate pressure, before intercooling and compression to final delivery pressure by the second element of compression. If this intermediate pressure is not acheived, it is indicative of either a pressure sensor fault, or a fault in element 1 operation. If the first element of compression is faulty in operation, this will lead to excessive strain on the second element of compression to achieve final delivery pressure. Rule 10 flags when this intermediate pressure is not met.
 
 \begin{equation}
-\text{Rule 10. } P1 < \SI{2.5}{\bar} + E6
+\text{Rule 10. } (P1 + E6) < P6
 \label{eq:rule10}
 \end{equation}
 
@@ -489,14 +529,20 @@ If the motor driving the compressor is switching on and off excessively, it will
 \label{eq:rule12}
 \end{equation}
 
-In an air compressor lubricated by oil, the oil should circulate when the compressor is loaded. If the oil pressure does not rise with the compressor loaded, it is indicative of a blockage in the oil circulation system, a failure of the oil pump, or a pressure sensor fault.
+\autoref{fig:mechcompressor} shows the mechanical layout of a two stage air compressor. In an air compressor lubricated by oil, the oil should circulate when the compressor is loaded. If the oil pressure does not rise with the compressor loaded, it is indicative of a blockage in the oil circulation system, a failure of the oil pump, or a pressure sensor fault.
 
 \begin{equation}
-\text{Rule 13. }(P4(t) + \SI{100}{\milli \bar}) < P4(t-1)
+\text{Rule 13. }(P4(t) + E9) < P4(t-1)
 \label{eq:rule13}
 \end{equation}
 
-The compression of air in both the first and second element of a two-stage air compressor follows defined thermodynamic principles. If the compression chamber were thermally isolated from its surroundings, the compression would be adiabatic. If it were in thermal contact with an ideal heat reservoir, the compression would be isothermal. Neither of these is the case, and actual air compression is polytropic, as defined by \autoref{eq:polytropcompression}. The temperature rise of compressed air for each of the three types of compression is given in \autoref{fig:thermocomp}. The theoretical maximum temperature rise of air under compression is given by the adiabatic case. Therefore, while it is known that the air will compress polytropically, it can be assumed that if the outlet temperature of either the first or second element of compression is greater than that dictated by the adiabatic case (with the polytropic exponent of \autopageref{eq:polytropcompression} set to 1.4), then a fault is present in the system. This fault may either be in one of the relevant temperature sensors, or additional heat may be being supplied to the air under compression. This principle dictates when Rules 14 and 15 are fired.
+\begin{figure}
+\includegraphics[width = .9\columnwidth]{./Images/MechanicalCompressor.eps}
+\caption{Mechanical drive two stage compressor}
+\label{fig:mechcompressor}
+\end{figure}
+
+The compression of air in both the first and second element of a two-stage air compressor follows defined thermodynamic principles. If the compression chamber were thermally isolated from its surroundings, the compression would be adiabatic. If it were in thermal contact with an ideal heat reservoir, the compression would be isothermal. Neither of these is the case, and actual air compression is polytropic, as defined by \autoref{eq:polytropcompression}. The temperature rise of compressed air for each of the three types of compression is given in \autoref{fig:thermocomp}. The theoretical maximum temperature rise of air under compression is given by the adiabatic case. Therefore, while it is known that the air will compress polytropically, it can be assumed that if the outlet temperature of either the first or second element of compression is greater than that dictated by the adiabatic case (with the polytropic exponent of \autoref{eq:polytropcompression} set to 1.4), then a fault is present in the system. This fault may either be in one of the relevant temperature sensors, or additional heat may be being supplied to the air under compression. This principle dictates when Rules 14 and 15 are fired.
 
 \begin{equation}
 \text{Rule 14. } T2 > T1 * \left(\frac{P1}{P5}\right)^\frac{\gamma-1}{\gamma}
@@ -504,28 +550,14 @@ The compression of air in both the first and second element of a two-stage air c
 \end{equation}
 
 \begin{equation}
-\text{Rule 15. } T4 > T3 * \left(\frac{P2}{P1}\right)^\frac{\gamma-1}{\gamma}
+\text{Rule 15. } T4 > T3 * \left(\frac{P2}{P1}\right)^\frac{\gamma-1}{\gamma} \\
 \label{eq:rule15}
 \end{equation}
+$\text{where } \gamma = \text{heat capacity ratio of air (1.4)}$
 
-\lipsum[1-10]
+Rules 1-15 are summarised in \autoref{tab:ruleset}, along with the potential faults which would explain each rule being fired. The potential impact on system performance of each rule being fired is given in \autoref{tab:ruleimpact}/
 
-\autoref{fig:mechcompressor} shows the mechanical layout of a two stage air compressor.
-
-\begin{figure*}
-\includegraphics[width = \textwidth]{./Images/2StageRotaryCompressorIdeal.eps}
-\caption{Two stage compressor air flow}
-\label{fig:compairflow}
-\end{figure*}
-
-
-\begin{figure*}
-\includegraphics[width = \textwidth]{./Images/MechanicalCompressor.eps}
-\caption{Mechanical drive two stage compressor}
-\label{fig:mechcompressor}
-\end{figure*}
-
-   
+  
 % Table generated by Excel2LaTeX from sheet 'Sheet1'
 \begin{table*}[htbp]
   \centering
@@ -557,80 +589,41 @@ The compression of air in both the first and second element of a two-stage air c
   \label{tab:ruleset}%
 \end{table*}%
 
-% Table generated by Excel2LaTeX from sheet 'Sheet1'
-\begin{table*}[htbp]
-  \centering
-  \caption{Add caption}
-    \begin{tabular}{rrrrrrrrrrrrrrrrrp{.05\textwidth}p{.05\textwidth}p{.05\textwidth}}
-    \toprule
-          & \multicolumn{16}{c}{Potential Faults}                                                                                         & \multicolumn{3}{c}{Impact} \\
-    \midrule
-    Rule  & T1    & T2    & T3    & T4    & T5    & P1    & P2    & N1    & P10   & C1    & C2    & C3    & C4    & C5    & C6    & C7    & CA User Requirement & Energy & Maintenance / Equipment Life \\
-    \midrule
-    1     & X     & X     &       &       &       &       &       &       &       & X     &       &       &       &       &       &       & X     &       & X \\
-    2     &       & X     & X     &       &       &       &       &       &       &       & X     &       &       &       &       &       &       & X     & X \\
-    3     &       &       & X     & X     &       &       &       &       &       &       &       & X     &       &       &       &       & X     &       & X \\
-    4     &       &       &       & X     & X     &       &       &       &       &       &       &       & X     &       &       &       &       & X     &  \\
-    5     & X     &       &       &       &       &       &       &       &       &       &       &       &       &       &       &       &       & X     &  \\
-    6     &       & X     &       &       &       &       &       &       &       & X     &       &       &       &       &       &       &       & X     & X \\
-    7     &       &       & X     &       &       &       &       &       &       &       & X     &       &       &       &       &       &       & X     & X \\
-    8     &       &       &       & X     &       &       &       &       &       &       &       & X     &       &       &       &       &       & X     & X \\
-    9     &       &       &       &       & X     &       &       &       &       &       &       &       & X     &       &       &       &       & X     & X \\
-    10    &       &       &       &       &       & X     &       &       &       & X     &       &       &       &       &       &       & X     &       &  \\
-    11    &       &       &       &       &       &       & X     &       &       &       &       &       &       &       &       & X     &       & X     & X \\
-    12    &       &       &       &       &       &       &       & X     &       &       &       &       &       & X     &       &       &       & X     & X \\
-    13    &       &       &       &       &       &       &       &       & X     &       &       &       &       &       & X     &       &       &       & X \\
-    14    &       & X     &       &       &       &       &       &       &       & X     &       &       &       &       &       &       &       & X     & X \\
-    15    &       &       &       & X     &       &       &       &       &       &       &       & X     &       &       &       &       &       & X     & X \\
-    \bottomrule
-    \end{tabular}%
-  \label{tab:addlabel}%
-\end{table*}%
-
-
-
-\lipsum[1-10]
-
-
-% Table generated by Excel2LaTeX from sheet 'Naming Convention'
+% Table generated by Excel2LaTeX from sheet 'RuleImpact'
 \begin{table}[htbp]
   \centering
-  \caption{Rule set naming convention}
-    \begin{tabular}{rr}
+  \caption{Impact of rules on compressor performance}
+    \begin{tabular}{p{.1\columnwidth}p{.2\columnwidth}p{.2\columnwidth}p{.2\columnwidth}}
     \toprule
-    Reference & Item \\
+          & \multicolumn{3}{c}{Impact} \\
     \midrule
-    T1    & Plant Room Temperature \\
-    T2    & Element 1 Outlet Temperature \\
-    T3    & Element 2 Inlet Temperature \\
-    T4    & Element 2 Outlet Temperature \\
-    T5    & Final Delivery Temperature \\
-    P1    & Compressed Air Pressure in Intercooler  \\
-    P2    & Compressed Air Final Delivery Pressure \\
-    P3    & Compressed Air Receiver Pressure \\
-    N1    & Motor starts per 5 minutes \\
-    P10   & Oil Pressure \\
-    P11   & Ambient Pressure \\
-    C1    & Element 1 \\
-    C2    & Intercooler \\
-    C3    & Element 2 \\
-    C4    & After Cooler \\
-    C5    & Motor \\
-    C6    & Oil Pump \\
-    C7    & Load/Unload Valve \\
+    Rule  & CA User Requirement & Energy & Maintenance / Equipment Life \\
+    1     & X     &       & X \\
+    2     &       & X     & X \\
+    3     & X     &       & X \\
+    4     &       & X     &  \\
+    5     &       & X     &  \\
+    6     &       & X     & X \\
+    7     &       & X     & X \\
+    8     &       & X     & X \\
+    9     &       & X     & X \\
+    10    & X     &       &  \\
+    11    &       & X     & X \\
+    12    &       & X     & X \\
+    13    &       &       & X \\
+    14    &       & X     & X \\
+    15    &       & X     & X \\
     \bottomrule
     \end{tabular}%
-  \label{tab:namingconvention}%
+  \label{tab:ruleimpact}%
 \end{table}%
 
-
-
-
-\lipsum[1-10]
+\bigskip
+%\lipsum[1]
 
 \section{Operational mode identification}
 \label{sec:modeidentification}
-It was noted during rule set development that it is desirable to know the mode of operation of an air compressor when applying rules. This follows on from lessons learned in similar work relating to HVAC \cite{Bruton2014}. With a HVAC unit, the different modes of operation that are useful to determine which rules to apply are Heating, Cooling with Outdoor Air, Mechanical Cooling with 100\% Air and Mechanical Cooling with Minimum Outdoor Air, with these modes categorised into Occupied and Unoccupied Modes \cite{House2001}. Knowing the mode of operation of equipment can ensure that rules are only applied where pertinent, reducing false positives.
+It was noted during rule set development that it is desirable to know the mode of operation of an air compressor when applying rules. This follows on from lessons learned in similar work relating to HVAC \cite{Bruton2014}. With a HVAC unit, the different modes of operation that are useful to determine which rules to apply are Heating, Cooling with Outdoor Air, Mechanical Cooling with 100\% Air and Mechanical Cooling with Minimum Outdoor Air, with these modes further categorised into Occupied and Unoccupied Modes \cite{House2001}. Knowing the mode of operation of equipment can ensure that rules are only applied where pertinent, reducing false positive occurences.
 
 The modes of operation designated for a variable speed air compressor are given in \autoref{tab:opmodes}. To determine which mode of operation the compressor is actually in, the power drawn by the machine was analysed. The Compressed Air and Gas Institute (CAGI) specifies a standard data sheet for air compressors which major manufacturers adhere to \cite{CAGI}. The input power to the compressor as given on this sheet where available is also given in \autoref{tab:opmodes}. Modes 1 and 3 were recognised as being useful modes to have knowledge of, despite not having prior knowledge of the associated input power from the CAGI data sheet. From visual observation of a power meter installed at the test site, it was noted that Mode 1 had an approximate power requirement of \SI{1}{\kilo \watt}, and Mode 2 an approximate power requirement of \SI{20}{\kilo \watt}
 
@@ -657,7 +650,7 @@ The modes of operation designated for a variable speed air compressor are given 
 
 To monitor the power drawn by the compressor for mode identification, a clustering methodology was trialled. This unsupervised learning method allows the compressor power meter data to be grouped into distinct clusters as per \autoref{tab:opmodes}. An additional benefit to be gained from this approach is that a drift upward in the geometric mean or centroid of any cluster could diagnose a decrease in efficiency of the machine at that operating point, as more power is required to achieve the same output.
 
-K-means clustering was used to group the electrical meter data into clusters. The general methodology of K-means clustering is shown in \autoref{fig:clusteroverview}. K-means clustering consists of two fundamental iterative steps preceded by one initial step. The number of clusters is set initially and denoted $K$. Centroids for the $K$ clusters are then randomly initialised. All data points are then indexed according the cluster centroid closest to them, as shown in \autoref{eq:clustergrouping},
+K-means clustering was used to group the electrical meter data into clusters. The general methodology of K-means clustering is shown in \autoref{fig:clusteroverview}. K-means clustering consists of two fundamental iterative steps preceded by one initial step. The number of clusters is set initially and denoted $K$. Centroids for the $K$ clusters are then randomly initialised. All data points are then indexed according to the cluster centroid closest to them, as shown in \autoref{eq:clustergrouping},
 
 \begin{equation}
 c^{(i)}  := \underset{k}{min}  \lVert {x^{(i)} - \mu_k} \rVert ^2 \quad \text{for} \quad i = (1, 2, ..., m)
@@ -697,7 +690,7 @@ In order to try to gain more useful information about compressor power at differ
 \label{fig:3meansclustering}
 \end{figure}
 
-The ideal level of accuracy for mode identification would be to determine cluster centroids for each of Modes 1-8. However the test site air compressors are significantly oversized compared to the compressed air demand. It was known that at no point in the training set did the compressor operate in Mode 8, and very rarely operated in Modes 4-7. Therefore a 7-means clustering approach was trialled. The results of this trial are shown in \autoref{fig:7meansclustering}. When comparing the results with \autoref{tab:opmodes}, it is clear that there are two superfluous clusters in the region between Modes 2 and 3. That the analysis was unable to identify cluster centroids for Modes 5 and 6 is attributable to two factors. Firstly, there is a very low incidence of data points in these operating modes in the data set used. Secondly, the compressor takes a number of seconds to ramp up or down between Modes 2 and 3. The high granularity of the data set (recording every 10 s) meant that a reasonably significant number of data points are recorded between these modes, and so the superfluous clusters have been identified.
+The ideal level of accuracy for mode identification would be to determine cluster centroids for each of Modes 1-8. However the test site air compressors are significantly oversized compared to the compressed air demand. It was known that at no point in the training set did the compressor operate in Mode 8, and very rarely operated in Modes 4-7. Therefore a 7-means clustering approach was trialled. The results of this trial are shown in \autoref{fig:7meansclustering}. When comparing the results with \autoref{tab:opmodes}, it is clear that there are two superfluous clusters in the region between Modes 2 and 3. That the analysis was unable to identify cluster centroids for Modes 5 and 6 is attributable to two factors. Firstly, there is a very low incidence of data points in these operating modes in the data set used. Secondly, the compressor takes a number of seconds to ramp up or down between Modes 2 and 3. The relatively high granularity of the data set (recording every 10 s) meant that a reasonably significant number of data points are recorded between these modes, and so the superfluous clusters have been identified.
 
 \begin{figure}
 \includegraphics[width = \columnwidth]{./Images/7MeansClustering.pdf}
@@ -705,7 +698,7 @@ The ideal level of accuracy for mode identification would be to determine cluste
 \label{fig:7meansclustering}
 \end{figure}
 
-Then I decided to try 5 to get rid of the two superfluous clusters.
+While the 7-means clustering exercise identified superfluous clusters, it demonstrated that for the trial data set clustering was able to effectively identify five modes of operation. Therefore 5-means clustering was implemented on the data set to group the data into operational modes 1-4 and 7. The results of this implementation are shown in \autoref{fig:5meansclustering}. As expected this approach was able to correctly group the data into the required operational modes as per \autoref{tab:opmodes}.
 
 \begin{figure}
 \includegraphics[width = \columnwidth]{./Images/5MeansClustering.pdf}
@@ -713,99 +706,89 @@ Then I decided to try 5 to get rid of the two superfluous clusters.
 \label{fig:5meansclustering}
 \end{figure}
 
+\subsection{Mode application to rules}
+\label{subsec:modeapplication}
+The clustering method for mode identification was used to apply rules only when pertinent. The applicability of rules to different modes of operation is given in \autoref{tab:modeapplication}.
 
-Follow the path made out in the rapidminer results document already prepared.
+% Table generated by Excel2LaTeX from sheet 'ModeApplication'
+\begin{table}[htbp]
+  \centering
+  \caption{Rule applicability of modes}
+    \begin{tabular}{r|rrr}
+    \toprule
+          & \multicolumn{3}{c}{Mode} \\
+    \midrule
+     Rule & 1     & 2     & 3:8 \\
+     \midrule
+    1     &       &       & X \\
+    2     &       &       & X \\
+    3     &       &       & X \\
+    4     &       &       & X \\
+    5     & X     & X     & X \\
+    6     &       &       & X \\
+    7     &       &       & X \\
+    8     &       &       & X \\
+    9     &       &       & X \\
+    10    &       &       & X \\
+    11    &       & X     &  \\
+    12    &       &       & X \\
+    13    &       &       & X \\
+    14    &       &       & X \\
+    15    &       &       & X \\
+    \bottomrule
+    \end{tabular}%
+  \label{tab:modeapplication}%
+\end{table}%
 
-\lipsum[1-10]
 
+\subsection{Mode application to efficiency monitoring}
+\label{subsec:modeefficiency}
+A useful application of the 5-means clustering method trialled would be to detect when the efficiency of the air compressor deteriorates. This could be achieved by continually updating the cluster centroids with new data and monitoring if there is an increase in power consumption for any given mode. The results of this approach are shown in \autoref{fig:efficiencymonitoring}. There is a slight increase in power consumption for Mode 1 which may be attributable to an increase over time in the cooling of the power electronics associated with the variable speed drive controller. Future work will monitor these cluster centroids over a longer time span, allowing for concrete determination of when the power usage of the compressor is excessive compared to historical data.
 
-\section{Fault detection effectiveness}
+\begin{figure}
+\includegraphics[width = \columnwidth]{./Images/EfficiencyDegradation.pdf}
+\caption{Clustering for efficiency monitoring}
+\label{fig:efficiencymonitoring}
+\end{figure}
+
+\section{Fault detection implementation}
+\subsection{Data extraction}
+In order to apply the compressor performance rule set it was required to extract the operational data from the test site air compressors. A Modbus network was created to achieve this goal. The Modbus network daisy-chains the two air compressors on site with the compressed air dryer. A proprietary gateway exposes the Modbus registers of the 50 key performance parameters required for analysis. This gateway is supervised by a Tridium JACE box which acts as a Modbus master. The JACE box is connected to the internet using a 4G mobile modem, which allows for remote access and download of operational data. A screenshot of the web interface of the JACE box is shown in \autoref{fig:jacescreen}.
+
+\begin{figure*}
+\includegraphics[width = 0.9 \textwidth]{./Images/JACE_Screen.png}
+\caption{Screenshot of compressed air monitoring system}
+\label{fig:jacescreen}
+\end{figure*}
+
+\subsection{Rule set and clustering implementation}
+The data which was extracted from the compressed air monitoring system was stored in a MySQL database, to allow for analysis using MATLAB. Clustering was used to determine the operational mode of the air compressor at any given point. This knowledge was then used to apply pertinent rules to the data as per \autoref{tab:modeapplication}. To allow for visualisation of the knowledge gained from the analysis a GUI was created. A screenshot of this GUI is shown in \autoref{fig:ruletester}, with testing of rule 14 shown for demonstration purposes. The top section of the GUI displays operational data relevant to the rule being checked. The lower section shows the status of the rule being checked. A value of 1 denotes that the rule has fired, and 0 that there is no issue. 
+
+It is clear that in the case of rule 14, the rule fires frequently. This suggests either that the compressed air is picking up heat in excess to the heat of compression, or that a sensor is faulty. This GUI may be used for continual analysis of the compressor performance to allow for intelligent recommendations as to when the compressor is operating sub-optimally.
+
+\begin{figure*}
+\includegraphics[width = 0.9\textwidth]{./Images/RuleTester.png}
+\caption{Screenshot of compressor performance assessment GUI}
+\label{fig:ruletester}
+\end{figure*}
+
 
 \section{Conclusions and future work}
 \label{sec:conclusions}
+A rule based expert system has been created for fault detection of an industrial compressed air system. The expert system employs k-means clustering for mode identification and improved energy efficiency monitoring. Implementation has been achieved using MATLAB, with results demonstrated using a custom-built GUI.
+
+It is planned to automate the process of data extraction from the system Modbus network, as currently Excel sheets are required to be downloaded manually and added to the tool's MySQL database. As more data is added to the system, an analysis of the energy efficiency performance will be carried out using real-time udates to the operational mode cluster centroids.
 
 
-\section{Background: Air Compressor Operational Concerns}
-\label{sec:1}
-\section{Variable Speed Compressor Operational Modes}
-\label{sec:2}
-\section{Clustering for Mode Identification}
-\label{sec:3}
- 
-
-\section{Real-Time Analysis Implementation}
-\label{sec:4}
-\section{Results}
-\label{sec:5}
-\section{Discussion}
-\label{sec:6}
-\section{Conclusions}
-\label{sec:7}
-
-
-\section{Section title}
-\label{sec:10}
-Your text comes here. Separate text sections with
-\section{Section X}
-\label{sec:x}
-%Text with citations \cite{RefB} and \cite{RefJ}.
-\subsection{Subsection title}
-\label{sec:20}
-as required. Don't forget to give each section 
-and subsection a unique label (see Sect.~\ref{sec:1}).
-\paragraph{Paragraph headings} Use paragraph headings as needed.
-\begin{equation}
-a^2+b^2=c^2
-\end{equation}
-
-% For one-column wide figures use
-\begin{figure}
-% Use the relevant command to insert your figure file.
-% For example, with the graphicx package use
-  \includegraphics{example.eps}
-% figure caption is below the figure
-\caption{Please write your figure caption here}
-\label{fig:1}       % Give a unique label
-\end{figure}
-%
-% For two-column wide figures use
-\begin{figure*}
-% Use the relevant command to insert your figure file.
-% For example, with the graphicx package use
-  \includegraphics[width=0.75\textwidth]{example.eps}
-% figure caption is below the figure
-\caption{Please write your figure caption here}
-\label{fig:2}       % Give a unique label
-\end{figure*}
-%
-% For tables use
-\begin{table}
-% table caption is above the table
-\caption{Please write your table caption here}
-\label{tab:1}       % Give a unique label
-% For LaTeX tables use
-\begin{tabular}{lll}
-\hline\noalign{\smallskip}
-first & second & third  \\
-\noalign{\smallskip}\hline\noalign{\smallskip}
-number & number & number \\
-number & number & number \\
-\noalign{\smallskip}\hline
-\end{tabular}
-\end{table}
-
-\lipsum[1-10]
-
-%\begin{acknowledgements}
-%If you'd like to thank anyone, place your comments here
-%and remove the percent signs.
-%\end{acknowledgements}
-\newpage
+\begin{acknowledgements}
+Thanks are extended to the School of Pharmacy at University College Cork for allowing the building compressed air system to be used for trial purposes. This work was funded by Marine Renwewable Energy Ireland (MaREI) at University College Cork.
+\end{acknowledgements}
+%\newpage
 % BibTeX users please use one of
 \bibliographystyle{spbasic}      % basic style, author-year citations
 %\bibliographystyle{spmpsci}      % mathematics and physical sciences
 %\bibliographystyle{spphys}       % APS-like style for physics
-\bibliography{JournalPaper1.bib}   % name your BibTeX data base
+\bibliography{JournalPaper1A.bib}   % name your BibTeX data base
 
 % Non-BibTeX users please use
 %\begin{thebibliography}{}
