@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: SeanHayesPaper1_0B.aux
+The style file: spbasic.bst
+Database file #1: JournalPaper1B.bib.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty year in Facchinetti; set to ????
+`journal' is a missing field, not a string, for entry Facchinetti
+while executing---line 1650 of file spbasic.bst
+Warning--empty journal in Facchinetti
+Warning--there's a number but no volume in Friden2012
+Warning--missing institution in SEAI2007
+You've used 30 entries,
+            3270 wiz_defined-function locations,
+            896 strings with 13031 characters,
+and the built_in function-call counts, 40769 in all, are:
+= -- 4556
+> -- 807
+< -- 18
++ -- 394
+- -- 252
+* -- 3072
+:= -- 4679
+add.period$ -- 29
+call.type$ -- 30
+change.case$ -- 238
+chr.to.int$ -- 27
+cite$ -- 34
+duplicate$ -- 4189
+empty$ -- 3149
+format.name$ -- 332
+if$ -- 8491
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 308
+newline$ -- 100
+num.names$ -- 120
+pop$ -- 1025
+preamble$ -- 1
+purify$ -- 204
+quote$ -- 0
+skip$ -- 1538
+stack$ -- 0
+substring$ -- 4070
+swap$ -- 2191
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 264
+warning$ -- 4
+while$ -- 259
+width$ -- 0
+write$ -- 378
+(There was 1 error message)

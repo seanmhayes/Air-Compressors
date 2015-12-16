@@ -1,0 +1,202 @@
+\begin{thebibliography}{36}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Blum(2014)}]{Blum2014}
+Blum H (2014) {The economic efficiency of energy-consuming equipment: a DEA
+  approach}. Energy Efficiency 8(2):281--298
+
+\bibitem[{Bruton et~al(2013)Bruton, Raftery, Kennedy, Keane, and
+  O’Sullivan}]{Bruton2013}
+Bruton K, Raftery P, Kennedy B, Keane MM, O’Sullivan DTJ (2013) {Review of
+  automated fault detection and diagnostic tools in air handling units}. Energy
+  Efficiency
+
+\bibitem[{Bruton et~al(2014{\natexlab{a}})Bruton, Coakley, Raftery, Cusack,
+  Keane, and O’Sullivan}]{Bruton2014a}
+Bruton K, Coakley D, Raftery P, Cusack DO, Keane MM, O’Sullivan DTJ
+  (2014{\natexlab{a}}) {Comparative analysis of the AHU InFO fault detection
+  and diagnostic expert tool for AHUs with APAR}. Energy Efficiency
+
+\bibitem[{Bruton et~al(2014{\natexlab{b}})Bruton, Raftery, O'Donovan, Aughney,
+  Keane, and O'Sullivan}]{Bruton2014}
+Bruton K, Raftery P, O'Donovan P, Aughney N, Keane MM, O'Sullivan D
+  (2014{\natexlab{b}}) {Development and alpha testing of a cloud based
+  automated fault detection and diagnosis tool for Air Handling Units}.
+  Automation in Construction 39:70--83
+
+\bibitem[{CAGI(2015)}]{CAGI}
+CAGI (2015) {Performance Verification Data Sheets}
+
+\bibitem[{Catterson and Costello(2013)}]{Catterson2013}
+Catterson V, Costello J (2013) {Increasing the Adoption of Prognostic Systems
+  for Health Management in the Power Industry}. Chemical Engineering
+  Transactions 33:271--276
+
+\bibitem[{Facchinetti et~al(2014)Facchinetti, Benetti, and {Della
+  Vedova}}]{Facchinetti}
+Facchinetti T, Benetti G, {Della Vedova} ML (2014) {Modeling and real-time
+  control of an industrial air multi-compressor system}. In: Proceedings of the
+  9th IEEE International Symposium on Industrial Embedded Systems (SIES 2014),
+  IEEE, pp 67--76, \doi{10.1109/SIES.2014.6871189}
+
+\bibitem[{Fleiter et~al(2012)Fleiter, Gruber, Eichhammer, and
+  Worrell}]{Fleiter2012}
+Fleiter T, Gruber E, Eichhammer W, Worrell E (2012) {The German energy audit
+  program for firms—a cost-effective way to improve energy efficiency?}
+  Energy Efficiency 5(4):447--469
+
+\bibitem[{Friden et~al(2012)Friden, Bergfors, Bjork, and
+  Mazharsolook}]{Friden2012}
+Friden H, Bergfors L, Bjork A, Mazharsolook E (2012) {Energy and LCC Optimised
+  Design of Compressed Air Systems: A Mixed Integer Optimisation Approach with
+  General Applicability}. 2012 UKSim 14th International Conference on Computer
+  Modelling and Simulation (Lcc):491--496
+
+\bibitem[{Gao et~al(2015{\natexlab{a}})Gao, Cecati, and Ding}]{Gao2015a}
+Gao Z, Cecati C, Ding SX (2015{\natexlab{a}}) {A Survey of Fault Diagnosis and
+  Fault-Tolerant Techniques Part I: Fault Diagnosis}. Industrial Electronics,
+  IEEE Transactions on PP(99):1
+
+\bibitem[{Gao et~al(2015{\natexlab{b}})Gao, Cecati, and Ding}]{Gao2015}
+Gao Z, Cecati C, Ding SX (2015{\natexlab{b}}) {A Survey of Fault Diagnosis and
+  Fault-Tolerant Techniques Part II: Fault Diagnosis with Knowledge-Based and
+  Hybrid/Active Approaches}. Industrial Electronics, IEEE Transactions on
+  PP(99):1
+
+\bibitem[{House et~al(2001)House, Vaezi-Nejad, and Whitcomb}]{House2001}
+House JM, Vaezi-Nejad H, Whitcomb JM (2001) {An expert rule set for fault
+  detection in air-handling units / Discussion}. In: ASHRAE Transactions,
+  American Society of Heating, Refrigeration and Air Conditioning Engineers,
+  Inc., Atlanta, vol 107, p 858
+
+\bibitem[{IEA(2012)}]{IEA2012}
+IEA (2012) {International Energy Agency}
+
+\bibitem[{Katipamula and Brambley(2005)}]{Katipamula2005}
+Katipamula S, Brambley M (2005) {Review Article: Methods for Fault Detection,
+  Diagnostics, and Prognostics for Building Systems—A Review, Part I}.
+  HVAC{\&}R Research 11(2):169--187
+
+\bibitem[{Laurijssen et~al(2013)Laurijssen, Faaij, and
+  Worrell}]{Laurijssen2013}
+Laurijssen J, Faaij A, Worrell E (2013) {Benchmarking energy use in the paper
+  industry: A benchmarking study on process unit level}. Energy Efficiency
+  6(1):49--63
+
+\bibitem[{Liu(2001)}]{Liu2001}
+Liu SYSC (2001) {An Efficient Expert System for Air Compressor
+  Troubleshooting}. Expert Systems 18(4):203--214
+
+\bibitem[{Mazid and Martin(2008)}]{Mazid2008}
+Mazid AM, Martin R (2008) {Automation of compressor test procedure using
+  advantech data acquisition module}. In: 2008 10th International Conference on
+  Control, Automation, Robotics and Vision, IEEE, December, pp 2266--2271,
+  \doi{10.1109/ICARCV.2008.4795885}
+
+\bibitem[{Mills et~al(2007)Mills, Shamshoian, Blazek, Naughton, Seese, Tschudi,
+  and Sartor}]{Mills2007}
+Mills E, Shamshoian G, Blazek M, Naughton P, Seese RS, Tschudi W, Sartor D
+  (2007) {The business case for energy management in high-tech industries}.
+  Energy Efficiency 1(1):5--20
+
+\bibitem[{Murray et~al(2012)Murray, Rocher, and O'Sullivan}]{Murray2012}
+Murray SN, Rocher B, O'Sullivan D (2012) {Static Simulation: A sufficient
+  modelling technique for retrofit analysis}. Energy and Buildings 47:113--121
+
+\bibitem[{Murray et~al(2014)Murray, Walsh, Kelliher, and
+  O'Sullivan}]{Murray2014}
+Murray SN, Walsh BP, Kelliher D, O'Sullivan D (2014) {Multi-Variable
+  Optimization of Thermal Energy Efficiency Retrofitting of Buildings using
+  Static Modelling and Genetic Algorithms - A Case Study}. Building and
+  Environment
+
+\bibitem[{O’Donovan et~al(2015{\natexlab{a}})O’Donovan, Leahy, Bruton, and
+  O’Sullivan}]{ODonovan2015a}
+O’Donovan P, Leahy K, Bruton K, O’Sullivan DTJ (2015{\natexlab{a}}) {An
+  industrial big data pipeline for data-driven analytics maintenance
+  applications in large-scale smart manufacturing facilities}. Journal of Big
+  Data 2(1):25
+
+\bibitem[{O’Donovan et~al(2015{\natexlab{b}})O’Donovan, Leahy, Bruton, and
+  O’Sullivan}]{ODonovan2015}
+O’Donovan P, Leahy K, Bruton K, O’Sullivan DTJ (2015{\natexlab{b}}) {Big
+  data in manufacturing: a systematic mapping study}. Journal of Big Data
+  2(1):20
+
+\bibitem[{O’Sullivan et~al(2004)O’Sullivan, Keane, Kelliher, and
+  Hitchcock}]{OSullivan2004}
+O’Sullivan D, Keane M, Kelliher D, Hitchcock R (2004) {Improving building
+  operation by tracking performance metrics throughout the building lifecycle
+  (BLC)}. Energy and Buildings 36(11):1075--1090
+
+\bibitem[{Pathak et~al(2015)Pathak, Khan, and Roy}]{Pathak2015}
+Pathak N, Khan M, Roy N (2015) {Acoustic based appliance state identifications
+  for fine-grained energy analytics}. IEEE International Conference on
+  Pervasive Computing and Communications (PerCom) pp 63--70
+
+\bibitem[{Radgen(2006)}]{radgen2006efficiency}
+Radgen P (2006) {Efficiency through compressed air energy audits}. In: Energy
+  Audit Conference, www. audit06. fi
+
+\bibitem[{Saidur et~al(2010)Saidur, Rahim, and Hasanuzzaman}]{Saidur2010}
+Saidur R, Rahim N, Hasanuzzaman M (2010) {A review on compressed-air energy use
+  and energy savings}. Renewable and Sustainable Energy Reviews
+  14(4):1135--1153
+
+\bibitem[{SEAI(2007)}]{SEAI2007}
+SEAI (2007) {Special Working Group HVAC (SPIN I) 2007}. Tech. Rep. Spin I
+
+\bibitem[{Tran et~al(2014)Tran, Althobiani, and Ball}]{Tran2014}
+Tran VT, Althobiani F, Ball A (2014) {An approach to fault diagnosis of
+  reciprocating compressor valves using Teager-Kaiser energy operator and deep
+  belief networks}. Expert Systems with Applications 41(9):4113--4122
+
+\bibitem[{Vachtsevanos et~al(2006)Vachtsevanos, Lewis, Roemer, Hess, and
+  Wu}]{Vachtsevanos2006}
+Vachtsevanos G, Lewis F, Roemer M, Hess A, Wu B (2006) {Intelligent Fault
+  Diagnosis and Prognosis for Engineering Systems}. John Wiley {\&} Sons, Inc.,
+  Hoboken, NJ, USA
+
+\bibitem[{Venkatasubramanian(2003)}]{Venkatasubramanian2003}
+Venkatasubramanian V (2003) {A review of process fault detection and diagnosis:
+  Part III: Process history based methods}. Computers {\&} chemical {\ldots}
+  27:293--311
+
+\bibitem[{Venkatasubramanian et~al(2003{\natexlab{a}})Venkatasubramanian,
+  Rengaswamy, and Kavuri}]{Venkatasubramanian2003a}
+Venkatasubramanian V, Rengaswamy R, Kavuri SN (2003{\natexlab{a}}) {A review of
+  process fault detection and diagnosis: Part II: Qualitative models and search
+  strategies}. Computers {\&} Chemical Engineering 27(3):313--326
+
+\bibitem[{Venkatasubramanian et~al(2003{\natexlab{b}})Venkatasubramanian,
+  Rengaswamy, Yin, and Kavuri}]{Venkatasubramanian2003b}
+Venkatasubramanian V, Rengaswamy R, Yin K, Kavuri SN (2003{\natexlab{b}}) {A
+  review of process fault detection and diagnosis}. Computers {\&} Chemical
+  Engineering 27(3):293--311
+
+\bibitem[{Walsh et~al(2013)Walsh, Murray, and O'Sullivan}]{Walsh2013}
+Walsh BP, Murray SN, O'Sullivan D (2013) {Free-cooling thermal energy storage
+  using phase change materials in an evaporative cooling system}. Applied
+  Thermal Engineering 59(1-2):618--626
+
+\bibitem[{Wang(2008)}]{Wang2008}
+Wang L (2008) {Energy efficiency and management in food processing facilities}.
+  CRC Press
+
+\bibitem[{Wang(2014)}]{Wang2014}
+Wang L (2014) {Energy efficiency technologies for sustainable food processing}.
+  Energy Efficiency 7(5):791--810
+
+\bibitem[{Wang and Brown(2013)}]{Wang2013a}
+Wang Y, Brown Ma (2013) {Policy drivers for improving electricity end-use
+  efficiency in the USA: an economic–engineering analysis}. Energy Efficiency
+  7(3):517--546
+
+\end{thebibliography}

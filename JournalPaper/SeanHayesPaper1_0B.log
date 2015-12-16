@@ -1,0 +1,2326 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.17)  16 DEC 2015 14:25
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**SeanHayesPaper1_0B.tex
+(./SeanHayesPaper1_0B.tex
+LaTeX2e <2011/06/27>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+
+LaTeX Warning: File `example.eps' already exists on the system.
+               Not generating it from this source.
+
+(c:/texlive/2013/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
+
+(c:/texlive/2013/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)) (./svjour3.cls
+Document Class: svjour3 2007/05/08 v3.2 
+LaTeX document class for Springer journals
+(c:/texlive/2013/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
+\mathindent=\dimen102
+)
+Class Springer-SVJour3 Info: extra/valid Springer sub-package (-> *.clo) 
+(Springer-SVJour3)           not found in option list of \documentclass
+(Springer-SVJour3)           - autoactivating "global" style.
+ (./svglov3.clo
+File: svglov3.clo 2009/12/18 v3.2 style option for standardised journals
+
+SVJour Class option: svglov3.clo for standardised journals
+)
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
+\logodepth=\dimen103
+\headerboxheight=\dimen104
+\betweenumberspace=\dimen105
+\aftertext=\dimen106
+\headlineindent=\dimen107
+\c@inst=\count79
+\c@auth=\count80
+\instindent=\dimen108
+\authrun=\box26
+\authorrunning=\toks14
+\titrun=\box27
+\titlerunning=\toks15
+\combirun=\box28
+\c@lastpage=\count81
+\rubricwidth=\dimen109
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\spthmsep=\dimen110
+\c@theorem=\count87
+\c@case=\count88
+\c@conjecture=\count89
+\c@corollary=\count90
+\c@definition=\count91
+\c@example=\count92
+\c@exercise=\count93
+\c@lemma=\count94
+\c@note=\count95
+\c@problem=\count96
+\c@property=\count97
+\c@proposition=\count98
+\c@question=\count99
+\c@solution=\count100
+\c@remark=\count101
+\c@figure=\count102
+\c@table=\count103
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\figcapgap=\dimen111
+\tabcapgap=\dimen112
+\figgap=\dimen113
+\bibindent=\dimen114
+\@tempcntc=\count104
+) (c:/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(c:/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(c:/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(c:/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(c:/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
+)
+(c:/texlive/2013/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(c:/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count106
+)
+(c:/texlive/2013/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen117
+\lightrulewidth=\dimen118
+\cmidrulewidth=\dimen119
+\belowrulesep=\dimen120
+\belowbottomsep=\dimen121
+\aboverulesep=\dimen122
+\abovetopsep=\dimen123
+\cmidrulesep=\dimen124
+\cmidrulekern=\dimen125
+\defaultaddspace=\dimen126
+\@cmidla=\count107
+\@cmidlb=\count108
+\@aboverulesep=\dimen127
+\@belowrulesep=\dimen128
+\@thisruleclass=\count109
+\@lastruleclass=\count110
+\@thisrulewidth=\dimen129
+)
+(c:/texlive/2013/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen130
+)
+(c:/texlive/2013/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(c:/texlive/2013/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen131
+\extrarowheight=\dimen132
+\NC@list=\toks17
+\extratabsurround=\skip45
+\backup@length=\skip46
+)
+\TX@col@width=\dimen133
+\TX@old@table=\dimen134
+\TX@old@col=\dimen135
+\TX@target=\dimen136
+\TX@delta=\dimen137
+\TX@cols=\count111
+\TX@ftn=\toks18
+)
+(c:/texlive/2013/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip47
+\LTright=\skip48
+\LTpre=\skip49
+\LTpost=\skip50
+\LTchunksize=\count112
+\LTcapwidth=\dimen138
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count113
+\LT@rows=\count114
+\c@LT@tables=\count115
+\c@LT@chunks=\count116
+\LT@p@ftn=\toks19
+)
+(c:/texlive/2013/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count117
+)
+(c:/texlive/2013/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(c:/texlive/2013/texmf-dist/tex/latex/siunitx/siunitx.sty
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/expl3.sty
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3names.sty
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2014/01/04 v4640 L3 Experimental bootstrap code
+)
+Package: l3names 2014/01/04 v4640 L3 Namespace for primitives
+)
+(c:/texlive/2013/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count118
+)
+Package: expl3 2014/01/07 v4646 L3 Experimental code bundle wrapper
+
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2014/01/04 v4642 L3 Basic definitions
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2014/01/04 v4642 L3 Argument expansion
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2013/12/27 v4625 L3 Token lists
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2013/12/14 v4623 L3 Sequences and stacks
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2013/08/02 v4583 L3 Integers
+\c_max_int=\count119
+\l_tmpa_int=\count120
+\l_tmpb_int=\count121
+\g_tmpa_int=\count122
+\g_tmpb_int=\count123
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2013/12/14 v4623 L3 Quarks
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2014/01/04 v4642 L3 Control structures
+\g__prg_map_int=\count124
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2013/07/28 v4581 L3 Comma separated lists
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2013/08/25 v4587 L3 Experimental token manipulation
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2013/12/14 v4623 L3 Property lists
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2013/07/28 v4581 L3 Messages
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2013/10/13 v4596 L3 File and I/O operations
+\l_iow_line_count_int=\count125
+\l__iow_target_count_int=\count126
+\l__iow_current_line_int=\count127
+\l__iow_current_word_int=\count128
+\l__iow_current_indentation_int=\count129
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
+\c_zero_dim=\dimen139
+\c_max_dim=\dimen140
+\l_tmpa_dim=\dimen141
+\l_tmpb_dim=\dimen142
+\g_tmpa_dim=\dimen143
+\g_tmpb_dim=\dimen144
+\c_zero_skip=\skip51
+\c_max_skip=\skip52
+\l_tmpa_skip=\skip53
+\l_tmpb_skip=\skip54
+\g_tmpa_skip=\skip55
+\g_tmpb_skip=\skip56
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2013/12/08 v4614 L3 Experimental key-value interfaces
+\g__keyval_level_int=\count130
+\l_keys_choice_int=\count131
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2014/01/04 v4642 L3 Floating points
+\c__fp_leading_shift_int=\count132
+\c__fp_middle_shift_int=\count133
+\c__fp_trailing_shift_int=\count134
+\c__fp_big_leading_shift_int=\count135
+\c__fp_big_middle_shift_int=\count136
+\c__fp_big_trailing_shift_int=\count137
+\c__fp_Bigg_leading_shift_int=\count138
+\c__fp_Bigg_middle_shift_int=\count139
+\c__fp_Bigg_trailing_shift_int=\count140
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2013/07/28 v4581 L3 Experimental boxes
+\c_empty_box=\box33
+\l_tmpa_box=\box34
+\l_tmpb_box=\box35
+\g_tmpa_box=\box36
+\g_tmpb_box=\box37
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2013/12/14 v4624 L3 Coffin code layer
+\l__coffin_internal_box=\box38
+\l__coffin_internal_dim=\dimen145
+\l__coffin_offset_x_dim=\dimen146
+\l__coffin_offset_y_dim=\dimen147
+\l__coffin_x_dim=\dimen148
+\l__coffin_y_dim=\dimen149
+\l__coffin_x_prime_dim=\dimen150
+\l__coffin_y_prime_dim=\dimen151
+\c_empty_coffin=\box39
+\l__coffin_aligned_coffin=\box40
+\l__coffin_aligned_internal_coffin=\box41
+\l_tmpa_coffin=\box42
+\l_tmpb_coffin=\box43
+\l__coffin_display_coffin=\box44
+\l__coffin_display_coord_coffin=\box45
+\l__coffin_display_pole_coffin=\box46
+\l__coffin_display_offset_dim=\dimen152
+\l__coffin_display_x_dim=\dimen153
+\l__coffin_display_y_dim=\dimen154
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2012/08/29 v4156 L3 Experimental color support
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2013/07/28 v4581 L3 Experimental LuaTeX-specific functions
+\g__cctab_allocate_int=\count141
+\g__cctab_stack_int=\count142
+)
+(c:/texlive/2013/texmf-dist/tex/latex/l3kernel/l3candidates.sty
+Package: l3candidates 2014/01/06 v4643 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen155
+\l__box_bottom_dim=\dimen156
+\l__box_left_dim=\dimen157
+\l__box_right_dim=\dimen158
+\l__box_top_new_dim=\dimen159
+\l__box_bottom_new_dim=\dimen160
+\l__box_left_new_dim=\dimen161
+\l__box_right_new_dim=\dimen162
+\l__box_internal_box=\box47
+\l__coffin_bounding_shift_dim=\dimen163
+\l__coffin_left_corner_dim=\dimen164
+\l__coffin_right_corner_dim=\dimen165
+\l__coffin_bottom_corner_dim=\dimen166
+\l__coffin_top_corner_dim=\dimen167
+\l__coffin_scaled_total_height_dim=\dimen168
+\l__coffin_scaled_width_dim=\dimen169
+)
+(c:/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+(c:/texlive/2013/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2013/12/31 v4634 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count143
+\l__xparse_m_args_int=\count144
+\l__xparse_mandatory_args_int=\count145
+\l__xparse_processor_int=\count146
+\l__xparse_v_nesting_int=\count147
+)
+Package: siunitx 2013/07/31 v2.5s A comprehensive (SI) units package
+
+(c:/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(c:/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen170
+))
+(c:/texlive/2013/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2013/12/31 v4634 LaTeX2e option processing using LaTeX3 keys
+)
+Variant \tl_if_blank:VTF already defined; not changing it on line 50
+\l__siunitx_tmp_box=\box48
+\l__siunitx_tmp_dim=\dimen171
+\l__siunitx_tmp_int=\count148
+Variant \prop_get:NVNT already defined; not changing it on line 371
+Variant \prop_get:NVNF already defined; not changing it on line 372
+Variant \prop_get:NVNTF already defined; not changing it on line 373
+\l__siunitx_number_mantissa_length_int=\count149
+\l__siunitx_number_uncert_length_int=\count150
+\l__siunitx_round_int=\count151
+\l__siunitx_process_decimal_int=\count152
+\l__siunitx_process_uncertainty_int=\count153
+\l__siunitx_process_fixed_int=\count154
+\l__siunitx_process_integer_min_int=\count155
+\l__siunitx_process_precision_int=\count156
+\l__siunitx_group_min_int=\count157
+\l__siunitx_angle_marker_box=\box49
+\l__siunitx_angle_unit_box=\box50
+\l__siunitx_angle_marker_dim=\dimen172
+\l__siunitx_angle_unit_dim=\dimen173
+\l__siunitx_unit_int=\count158
+\l__siunitx_unit_denominator_int=\count159
+\l__siunitx_unit_numerator_int=\count160
+\l__siunitx_unit_prefix_int=\count161
+\l__siunitx_unit_prefix_base_int=\count162
+\l__siunitx_unit_prefix_gram_int=\count163
+\l__siunitx_number_product_int=\count164
+\c__siunitx_one_fill_skip=\skip57
+\l__siunitx_table_unit_align_skip=\skip58
+\l__siunitx_table_exponent_dim=\dimen174
+\l__siunitx_table_integer_dim=\dimen175
+\l__siunitx_table_mantissa_dim=\dimen176
+\l__siunitx_table_marker_dim=\dimen177
+\l__siunitx_table_result_dim=\dimen178
+\l__siunitx_table_uncert_dim=\dimen179
+\l__siunitx_table_fill_pre_dim=\dimen180
+\l__siunitx_table_fill_post_dim=\dimen181
+\l__siunitx_table_fill_mid_dim=\dimen182
+\l__siunitx_table_pre_box=\box51
+\l__siunitx_table_post_box=\box52
+\l__siunitx_table_mantissa_box=\box53
+\l__siunitx_table_result_box=\box54
+\l__siunitx_table_number_align_skip=\skip59
+\l__siunitx_table_text_align_skip=\skip60
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareBinaryPrefix with arg. spec. 'mmm' on line
+. 7101.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIPostPower with arg. spec. 'mm' on line
+. 7104.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIPrefix with arg. spec. 'mmm' on line
+. 7107.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIPrePower with arg. spec. 'mm' on line
+. 7110.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIQualifier with arg. spec. 'mm' on line
+. 7113.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIUnit with arg. spec. 'O{}mm' on line
+. 7116.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareSIUnitWithOptions with arg. spec. 'mmm' on
+. line 7119.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \ang with arg. spec. 'o>{\SplitArgument {2}{;}}m'
+. on line 7134.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \num with arg. spec. 'om' on line 7142.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \numlist with arg. spec. 'o>{\SplitList {;}}m' on
+. line 7150.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \numrange with arg. spec. 'omm' on line 7158.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \SIlist with arg. spec. 'o>{\SplitList {;}}mm' on
+. line 7169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \SIrange with arg. spec. 'ommm' on line 7180.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \SI with arg. spec. 'omom' on line 7191.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \sisetup with arg. spec. 'm' on line 7194.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \tablenum with arg. spec. 'om' on line 7206.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \si with arg. spec. 'om' on line 7217.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_num:w with arg. spec. 'om' on
+. line 7262.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_numrange:w with arg. spec.
+. 'omm' on line 7264.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_SI:w with arg. spec. 'omom' on
+. line 7266.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_SIlist:w with arg. spec. 'omm'
+. on line 7268.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_SIrange:w with arg. spec.
+. 'ommm' on line 7270.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \__siunitx_bookmark_si:w with arg. spec. 'om' on
+. line 7271.
+.................................................
+\g__file_internal_ior=\read1
+
+(c:/texlive/2013/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(c:/texlive/2013/texmf-dist/tex/latex/beamer/translator/translator-language-map
+pings.tex))) (c:/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip61
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen183
+)
+(c:/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count165
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count166
+\leftroot@=\count167
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count168
+\DOTSCASE@=\count169
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen184
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+
+
+Package amsmath Warning: Unable to redefine math accent \vec.
+
+\macc@depth=\count170
+\c@MaxMatrixCols=\count171
+\dotsspace@=\muskip16
+\c@parentequation=\count172
+\dspbrk@lvl=\count173
+\tag@help=\toks21
+\row@=\count174
+\column@=\count175
+\maxfields@=\count176
+\andhelp@=\toks22
+\eqnshift@=\dimen185
+\alignsep@=\dimen186
+\tagshift@=\dimen187
+\tagwidth@=\dimen188
+\totwidth@=\dimen189
+\lineht@=\dimen190
+\@envbody=\toks23
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+) (c:/texlive/2013/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(c:/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count177
+\rotFPtop=\skip64
+\rotFPbot=\skip65
+\rot@float@box=\box57
+\rot@mess@toks=\toks25
+)
+(./SeanHayesPaper1_0B.aux)
+\openout1 = `SeanHayesPaper1_0B.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 77.
+
+(c:/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(c:/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count178
+\scratchdimen=\dimen191
+\scratchbox=\box58
+\nofMPsegments=\count179
+\nofMParguments=\count180
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count181
+\MPscratchDim=\dimen192
+\MPnumerator=\count182
+\makeMPintoPDFobject=\count183
+\everyMPtoPDFconversion=\toks27
+) (c:/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(c:/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(c:/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(c:/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(c:/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(c:/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(c:/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(c:/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(c:/texlive/2013/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
+dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(c:/texlive/2013/texmf-dist/tex/latex/siunitx/config/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
+)
+\c__siunitx_mathsf_int=\count184
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 77
+.
+(c:/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 77
+.
+
+(c:/texlive/2013/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 77
+.
+
+(c:/texlive/2013/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 77
+.
+
+(c:/texlive/2013/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+\c__siunitx_mathtt_int=\count185
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+
+
+Package mathptmx Warning: There are no bold math fonts on input line 108.
+
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 108.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.29004> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.10005> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+
+SVJour3 Warning: Title too long for running head.
+Please supply a shorter form with \titlerunning prior to \maketitle
+
+Overfull \hbox (4.51355pt too wide) in paragraph at lines 111--112
+\OT1/ptm/m/n/10 clus-ter-ing is on the com-pres-sor power con-sump-tion em-ploy
+ed
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Overfull \hbox (5.09337pt too wide) in paragraph at lines 120--121
+\OT1/ptm/m/n/10 Com-pressed air is known col-lo-qui-ally in in-dus-try as the f
+ourth
+ []
+
+
+Overfull \hbox (3.64388pt too wide) in paragraph at lines 122--123
+\OT1/ptm/m/n/10 and pres-sure and leak-age re-duc-tion (Wang (2008)). It is the
+re-
+ []
+
+! Undefined control sequence.
+l.126 ... through means such as those in  \autoref
+                                                  {tab:perfmgmt}. The effect...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `ODonovan2015' on page 1 undefined on input li
+ne 126.
+
+[1{c:/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+[]|\OT1/ptm/m/n/8.5 Performance Man-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]|\OT1/ptm/m/n/8.5 Maintenance Con-
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 137--137
+\OT1/ptm/m/n/8.5 com-mon op-por-tu-ni-
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 137--138
+[]|\OT1/ptm/m/n/8.5 Dependent on skill
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\OT1/ptm/m/n/8.5 Sequence Con-
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 138--138
+[]|\OT1/ptm/m/n/8.5 Can draw on man-
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 138--139
+[]|\OT1/ptm/m/n/8.5 Initial con-fig-u-ra-tion
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 138--139
+\OT1/ptm/m/n/8.5 may not be main-
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 139--139
+\OT1/ptm/m/n/8.5 mon-i-tor-ing ca-pa-bil-
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 139--140
+[]|\OT1/ptm/m/n/8.5 Dependent on skill
+ []
+
+
+Underfull \hbox (badness 5637) in paragraph at lines 139--140
+\OT1/ptm/m/n/8.5 level of BMS re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+\OT1/ptm/m/n/8.5 viewer. Un-able to
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 139--140
+\OT1/ptm/m/n/8.5 pick up on sen-sor
+ []
+
+
+Overfull \hbox (12.10574pt too wide) in paragraph at lines 132--143
+ [][][] 
+ []
+
+! Undefined control sequence.
+l.148 ... dryer, with the layout given in \autoref
+                                                  {fig:compairlayout}. These...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.148 ...pacity requirements, as shown in \autoref
+                                                  {fig:CompApps} (\cite{SEAI...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.148 ...ly used in industry are shown in \autoref
+                                                  {fig:comptypes}. Reciproca...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package epstopdf Info: Source file: <./Images/PharmacyCompAir.eps>
+(epstopdf)                    date: 2015-12-12 14:28:56
+(epstopdf)                    size: 48327 bytes
+(epstopdf)             Output file: <./Images/PharmacyCompAir-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-12-12 14:29:09
+(epstopdf)                    size: 26606 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Images/PharmacyCompAir-e
+ps-converted-to.pdf ./Images/PharmacyCompAir.eps>
+(epstopdf)             \includegraphics on input line 151.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Images/PharmacyCompAir-eps-converted-to.pdf, id=9, 541.02126pt x 311.1625pt>
+File: ./Images/PharmacyCompAir-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Images/PharmacyCompAir-eps-converted-to.pdf>
+Package pdftex.def Info: ./Images/PharmacyCompAir-eps-converted-to.pdf used on 
+input line 151.
+(pdftex.def)             Requested size: 238.96417pt x 137.43419pt.
+
+<./Images/CompApps.pdf, id=10, 304.63812pt x 309.155pt>
+File: ./Images/CompApps.pdf Graphic file (type pdf)
+
+<use ./Images/CompApps.pdf>
+Package pdftex.def Info: ./Images/CompApps.pdf used on input line 157.
+(pdftex.def)             Requested size: 238.96417pt x 242.51266pt.
+
+<./Images/CompressorClassification.pdf, id=11, 963.6pt x 542.025pt>
+File: ./Images/CompressorClassification.pdf Graphic file (type pdf)
+
+<use ./Images/CompressorClassification.pdf>
+Package pdftex.def Info: ./Images/CompressorClassification.pdf used on input li
+ne 163.
+(pdftex.def)             Requested size: 495.0pt x 278.43057pt.
+
+! Undefined control sequence.
+l.171 ...ing any of the goals outlined in \autoref
+                                                  {tab:goalsmgmt}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.38362pt too wide) in paragraph at lines 171--172
+\OT1/ptm/m/n/10 ig-nated as hav-ing any of the goals out-lined in tab:goalsmgmt
+. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]|\OT1/ptm/m/n/8.5 Monitor sys-tem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+\OT1/ptm/m/n/8.5 for the iden-ti-fied
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+[]|\OT1/ptm/m/n/8.5 Using vi-bra-tion,
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 181--182
+\OT1/ptm/m/n/8.5 sig-nals to di-ag-nose
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 181--182
+\OT1/ptm/m/n/8.5 valve faults for a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+\OT1/ptm/m/n/8.5 re-cip-ro-cat-ing com-
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 181--182
+\OT1/ptm/m/n/8.5 pres-sor (Tran et al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]|\OT1/ptm/m/n/8.5 Monitoring sys-
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 182--182
+\OT1/ptm/m/n/8.5 tem pa-ram-e-ters to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+\OT1/ptm/m/n/8.5 de-ter-mine when
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+\OT1/ptm/m/n/8.5 a com-po-nent of
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 182--182
+\OT1/ptm/m/n/8.5 a sys-tem will no
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 182--182
+\OT1/ptm/m/n/8.5 longer per-form its
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+\OT1/ptm/m/n/8.5 in-tended func-tion
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 182--182
+\OT1/ptm/m/n/8.5 (Vacht-se-vanos et al
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 182--183
+\OT1/ptm/m/n/8.5 main-ing use-ful life
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 182--183
+\OT1/ptm/m/n/8.5 pres-sure and am-bi-
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 182--183
+\OT1/ptm/m/n/8.5 ter-son and Costello
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
+[]|\OT1/ptm/m/n/8.5 Monitoring sys-tem
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 183--183
+\OT1/ptm/m/n/8.5 pa-ram-e-ters to dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
+\OT1/ptm/m/n/8.5 cover mean-ing-ful
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 183--183
+\OT1/ptm/m/n/8.5 ad-vise on po-ten-tial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
+\OT1/ptm/m/n/8.5 im-prove-ments to
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+[]|\OT1/ptm/m/n/8.5 Determining ab-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\OT1/ptm/m/n/8.5 nor-mal ap-pli-ance
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 183--184
+\OT1/ptm/m/n/8.5 power con-sump-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+\OT1/ptm/m/n/8.5 based on anal-y-sis
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 183--184
+\OT1/ptm/m/n/8.5 of in-di-vid-ual ap-pli-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+\OT1/ptm/m/n/8.5 and doc-u-ment-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+\OT1/ptm/m/n/8.5 the cur-rent user
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 184--185
+\OT1/ptm/m/n/8.5 ing out the nor-mal
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 184--185
+\OT1/ptm/m/n/8.5 dur-ing com-mis-sion-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\OT1/ptm/m/n/8.5 Improving sys-tem
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 185--185
+\OT1/ptm/m/n/8.5 op-er-a-tion or de-sign
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+[]|\OT1/ptm/m/n/8.5 Development of a
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 185--186
+\OT1/ptm/m/n/8.5 tool which de-liv-ers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+\OT1/ptm/m/n/8.5 an op-ti-mal de-sign
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+\OT1/ptm/m/n/8.5 for a com-pressed
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 186--186
+\OT1/ptm/m/n/8.5 a-tion of a sys-tem
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 186--186
+\OT1/ptm/m/n/8.5 in or-der that op-er-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 186--186
+\OT1/ptm/m/n/8.5 at-ing con-di-tions re-
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 186--186
+\OT1/ptm/m/n/8.5 sign states and un-
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 186--186
+\OT1/ptm/m/n/8.5 de-sir-able states are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+[]|\OT1/ptm/m/n/8.5 Development of a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/ptm/m/n/8.5 sors that pro-vides
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/ptm/m/n/8.5 ca-pa-bil-i-ties of a
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 186--187
+\OT1/ptm/m/n/8.5 vari-able speed sys-
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 186--187
+\OT1/ptm/m/n/8.5 tem while lim-it-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/ptm/m/n/8.5 (Facchinetti et al
+ []
+
+
+Overfull \hbox (12.10574pt too wide) in paragraph at lines 177--190
+ [][][] 
+ []
+
+
+Overfull \hbox (8.96297pt too wide) in paragraph at lines 192--193
+[]\OT1/ptm/m/n/10 This re-view cat-e-gorises in-dus-trial util-ity per-for-manc
+e man-
+ []
+
+! Undefined control sequence.
+l.198 ...categories are shown visually in \autoref
+                                                  {fig:perfmgmtmethods}, whi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (25.28307pt too wide) in paragraph at lines 198--199
+\OT1/ptm/m/n/10 These three cat-e-gories are shown vi-su-ally in fig:perfmgmtme
+thods,
+ []
+
+
+Overfull \hbox (1.43414pt too wide) in paragraph at lines 198--199
+\OT1/ptm/m/n/10 and Bram-b-ley (2005), Venkata-sub-ra-ma-nian (2003), Venkata-
+ []
+
+
+Overfull \hbox (5.3837pt too wide) in paragraph at lines 198--199
+\OT1/ptm/m/n/10 sub-ra-ma-nian et al (2003a), Venkata-sub-ra-ma-nian et al (200
+3b),
+ []
+
+[2 <./Images/PharmacyCompAir-eps-converted-to.pdf> <./Images/CompApps.pdf>]
+Package epstopdf Info: Source file: <./Images/perfmgmt.eps>
+(epstopdf)                    date: 2015-11-24 15:53:03
+(epstopdf)                    size: 288378 bytes
+(epstopdf)             Output file: <./Images/perfmgmt-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-24 15:53:18
+(epstopdf)                    size: 148524 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Images/perfmgmt-eps-conv
+erted-to.pdf ./Images/perfmgmt.eps>
+(epstopdf)             \includegraphics on input line 202.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Images/perfmgmt-eps-converted-to.pdf, id=74, 997.7275pt x 613.29124pt>
+File: ./Images/perfmgmt-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Images/perfmgmt-eps-converted-to.pdf>
+Package pdftex.def Info: ./Images/perfmgmt-eps-converted-to.pdf used on input l
+ine 202.
+(pdftex.def)             Requested size: 495.0pt x 304.26791pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+! Undefined control sequence.
+l.208 ...eve one of the goals outlined in \autoref
+                                                  {tab:goalsmgmt}. This comp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (12.06386pt too wide) in paragraph at lines 212--213
+[]\OT1/ptm/m/n/10 Analytical or ar-ti-fi-cial re-dun-dancy may be achieved thro
+ugh
+ []
+
+
+Overfull \hbox (3.31387pt too wide) in paragraph at lines 216--217
+[]\OT1/ptm/m/n/10 In con-trast, tem-po-ral re-dun-dancy is ob-tained by analysi
+ng
+ []
+
+
+Overfull \hbox (1.77325pt too wide) in paragraph at lines 216--217
+\OT1/ptm/m/n/10 dif-fer-ence be-tween sen-sors, and this dif-fer-ence is not pr
+esent,
+ []
+
+
+Overfull \hbox (1.87366pt too wide) in paragraph at lines 224--225
+[]\OT1/ptm/m/n/10 To demon-strate this dif-fer-ence the ex-am-ple of an air com
+-
+ []
+
+[3 <./Images/CompressorClassification.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+l.232 ... during the creation of rules in \autoref
+                                                  {sec:rules}. While some ru...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (4.95311pt too wide) in paragraph at lines 231--233
+\OT1/ptm/m/n/10 con-cerned with ex-tract-ing use-ful fea-tures from his-tor-i-c
+al data,
+ []
+
+[4 <./Images/perfmgmt-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+! Undefined control sequence.
+l.246 ...fine the naming convention used. \autoref
+                                                  {tab:nomenclature} gives t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.773pt too wide) in paragraph at lines 246--247
+\OT1/ptm/m/n/10 con-cern-ing air com-pres-sor per-for-mance as-sess-ment, it is
+ use-
+ []
+
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+! Undefined control sequence.
+l.319 ...t of air compressors outlined in \autoref
+                                                  {subsec:qualimodel} is tha...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.321 \autoref
+              {fig:compairflow} shows a high level overview of the test site...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (4.96365pt too wide) in paragraph at lines 321--322
+\OT1/ptm/m/n/10 chine. The fig-ure high-lights the ex-pected tem-per-a-ture cha
+nges
+ []
+
+Package epstopdf Info: Source file: <./Images/2StageRotaryCompressorIdeal.eps>
+(epstopdf)                    date: 2015-12-01 10:45:57
+(epstopdf)                    size: 97018 bytes
+(epstopdf)             Output file: <./Images/2StageRotaryCompressorIdeal-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2015-12-01 10:46:06
+(epstopdf)                    size: 52702 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Images/2StageRotaryCompr
+essorIdeal-eps-converted-to.pdf ./Images/2StageRotaryCompressorIdeal.eps>
+(epstopdf)             \includegraphics on input line 324.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Images/2StageRotaryCompressorIdeal-eps-converted-to.pdf, id=91, 798.985pt x 
+543.02875pt>
+File: ./Images/2StageRotaryCompressorIdeal-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ./Images/2StageRotaryCompressorIdeal-eps-converted-to.pdf>
+Package pdftex.def Info: ./Images/2StageRotaryCompressorIdeal-eps-converted-to.
+pdf used on input line 324.
+(pdftex.def)             Requested size: 495.0pt x 336.42575pt.
+
+! Undefined control sequence.
+l.329 ...f compressing air at this point. \autoref
+                                                  {fig:thermocomp} shows the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.329 ... with the polytropic exponent of \autoref
+                                                  {eq:polytropcompression} r...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (6.1438pt too wide) in paragraph at lines 329--330
+\OT1/ptm/m/n/10 with the poly-tropic ex-po-nent of eq:polytropcompression rang-
+
+ []
+
+[5]
+<./Images/Compression_ThermoDiagrams.pdf, id=95, 195.09888pt x 615.23853pt>
+File: ./Images/Compression_ThermoDiagrams.pdf Graphic file (type pdf)
+
+<use ./Images/Compression_ThermoDiagrams.pdf>
+Package pdftex.def Info: ./Images/Compression_ThermoDiagrams.pdf used on input 
+line 332.
+(pdftex.def)             Requested size: 211.1472pt x 665.79448pt.
+
+
+LaTeX Warning: Float too large for page by 14.84018pt on input line 335.
+
+! Undefined control sequence.
+l.345 ... compression, in accordance with \autoref
+                                                  {fig:thermocomp}. If a dec...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.345 ...analysis, which is summarised in \autoref
+                                                  {tab:ruleset}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[6 <./Images/2StageRotaryCompressorIdeal-eps-converted-to.pdf>] [7 <./Images/Co
+mpression_ThermoDiagrams.pdf>]
+! Undefined control sequence.
+l.417 \autoref
+              {fig:mechcompressor} shows the mechanical layout of a two stag...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package epstopdf Info: Source file: <./Images/MechanicalCompressor.eps>
+(epstopdf)                    date: 2015-12-13 17:57:17
+(epstopdf)                    size: 45529 bytes
+(epstopdf)             Output file: <./Images/MechanicalCompressor-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2015-12-13 17:57:32
+(epstopdf)                    size: 26675 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Images/MechanicalCompres
+sor-eps-converted-to.pdf ./Images/MechanicalCompressor.eps>
+(epstopdf)             \includegraphics on input line 425.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Images/MechanicalCompressor-eps-converted-to.pdf, id=115, 697.60625pt x 412.
+54124pt>
+File: ./Images/MechanicalCompressor-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Images/MechanicalCompressor-eps-converted-to.pdf>
+Package pdftex.def Info: ./Images/MechanicalCompressor-eps-converted-to.pdf use
+d on input line 425.
+(pdftex.def)             Requested size: 215.06628pt x 127.18143pt.
+
+! Undefined control sequence.
+l.430 ...ion is polytropic, as defined by \autoref
+                                                  {eq:polytropcompression}. ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.430 ...types of compression is given in \autoref
+                                                  {fig:thermocomp}. The theo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.430 ...(with the polytropic exponent of \autoref
+                                                  {eq:polytropcompression} s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.443 Rules 1-15 are summarised in \autoref
+                                           {tab:ruleset}, along with the pot...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.443 ...ach rule being fired is given in \autoref
+                                                  {tab:ruleimpact}/
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 451.
+
+Overfull \hbox (7.86792pt too wide) in paragraph at lines 451--475
+ [][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+[]|\OT1/ptm/m/n/8.5 Maintenance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+\OT1/ptm/m/n/8.5 / Equip-ment
+ []
+
+[8 <./Images/MechanicalCompressor-eps-converted-to.pdf>]
+! Undefined control sequence.
+l.513 ...peed air compressor are given in \autoref
+                                                  {tab:opmodes}. To determin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.513 ...where available is also given in \autoref
+                                                  {tab:opmodes}. Modes 1 and...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (3.0437pt too wide) in paragraph at lines 513--514
+\OT1/ptm/m/n/10 air com-pres-sor are given in tab:opmodes. To de-ter-mine which
+
+ []
+
+! Undefined control sequence.
+l.536 ...ed into distinct clusters as per \autoref
+                                                  {tab:opmodes}. An addition...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (19.72298pt too wide) in paragraph at lines 536--537
+\OT1/ptm/m/n/10 me-ter data to be grouped into dis-tinct clus-ters as per tab:o
+pmodes.
+ []
+
+
+Underfull \vbox (badness 4899) has occurred while \output is active []
+
+ [9]
+! Undefined control sequence.
+l.538 ...f K-means clustering is shown in \autoref
+                                                  {fig:clusteroverview}. K-m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.538 ...oid closest to them, as shown in \autoref
+                                                  {eq:clustergrouping},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (12.44308pt too wide) in paragraph at lines 538--539
+\OT1/ptm/m/n/10 clus-ter cen-troid clos-est to them, as shown in eq:clustergrou
+ping, 
+ []
+
+! Undefined control sequence.
+l.547 ...ned to each cluster, as shown in \autoref
+                                                  {eq:centroidassign},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.554 ...ssigned to the $j^{th}$ cluster. \autoref
+                                                  {eq:clustergrouping} and \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.554 ...\autoref{eq:clustergrouping} and \autoref
+                                                  {eq:centroidassign} are th...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package epstopdf Info: Source file: <./Images/ClusteringOverview.eps>
+(epstopdf)                    date: 2015-12-10 18:49:58
+(epstopdf)                    size: 155096 bytes
+(epstopdf)             Output file: <./Images/ClusteringOverview-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-12-10 18:50:13
+(epstopdf)                    size: 82881 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Images/ClusteringOvervie
+w-eps-converted-to.pdf ./Images/ClusteringOverview.eps>
+(epstopdf)             \includegraphics on input line 557.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Images/ClusteringOverview-eps-converted-to.pdf, id=127, 341.275pt x 426.5937
+5pt>
+File: ./Images/ClusteringOverview-eps-converted-to.pdf Graphic file (type pdf)
+ <use ./Images/ClusteringOverview-eps-converted-to.pdf>
+Package pdftex.def Info: ./Images/ClusteringOverview-eps-converted-to.pdf used 
+on input line 557.
+(pdftex.def)             Requested size: 215.06628pt x 268.83359pt.
+
+! Undefined control sequence.
+l.562 ...Loaded or Modes 1-2 and 3-8 from \autoref
+                                                  {tab:opmodes} respectively...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.562 ...ts of this exercise are shown in \autoref
+                                                  {fig:twomeansclustering}. ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.562 ...uster centroids to the values in \autoref
+                                                  {tab:opmodes} and visual o...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.562 ...ful a value, as it is clear from \autoref
+                                                  {fig:twomeansclustering} t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (4.16394pt too wide) in paragraph at lines 562--563
+\OT1/ptm/m/n/10 sump-tion data into two groups, i.e. Idle/Unloaded and Loaded
+ []
+
+<./Images/2MeansClustering.pdf, id=128, 298.61563pt x 305.39093pt>
+File: ./Images/2MeansClustering.pdf Graphic file (type pdf)
+
+<use ./Images/2MeansClustering.pdf>
+Package pdftex.def Info: ./Images/2MeansClustering.pdf used on input line 565.
+(pdftex.def)             Requested size: 238.96417pt x 244.38763pt.
+
+! Undefined control sequence.
+l.570 ...r for idle mode or Mode 1 as per \autoref
+                                                  {tab:opmodes}. The results...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.570 ...ts of this exercise are shown in \autoref
+                                                  {fig:3meansclustering}. Mo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.570 ...oach for Modes 1, 2 and 3 as per \autoref
+                                                  {tab:opmodes}, as the clus...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<./Images/3MeansClustering.pdf, id=129, 380.32086pt x 387.1564pt>
+File: ./Images/3MeansClustering.pdf Graphic file (type pdf)
+
+<use ./Images/3MeansClustering.pdf>
+Package pdftex.def Info: ./Images/3MeansClustering.pdf used on input line 573.
+(pdftex.def)             Requested size: 238.96417pt x 243.25998pt.
+
+! Undefined control sequence.
+l.578 ...sults of this trial are shown in \autoref
+                                                  {fig:7meansclustering}. Wh...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.578 ... When comparing the results with \autoref
+                                                  {tab:opmodes}, it is clear...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (0.53394pt too wide) in paragraph at lines 578--579
+[]\OT1/ptm/m/n/10 The ideal level of ac-cu-racy for mode iden-ti-fi-ca-tion wou
+ld
+ []
+
+[10 <./Images/ClusteringOverview-eps-converted-to.pdf> <./Images/2MeansClusteri
+ng.pdf>] <./Images/7MeansClustering.pdf, id=140, 427.76816pt x 434.64381pt>
+File: ./Images/7MeansClustering.pdf Graphic file (type pdf)
+
+<use ./Images/7MeansClustering.pdf>
+Package pdftex.def Info: ./Images/7MeansClustering.pdf used on input line 581.
+(pdftex.def)             Requested size: 238.96417pt x 242.80197pt.
+
+! Undefined control sequence.
+l.586 ...this implementation are shown in \autoref
+                                                  {fig:5meansclustering}. As...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.586 ...equired operational modes as per \autoref
+                                                  {tab:opmodes}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (35.13261pt too wide) in paragraph at lines 586--587
+\OT1/ptm/m/n/10 The re-sults of this im-ple-men-ta-tion are shown in fig:5means
+clustering.
+ []
+
+<./Images/5MeansClustering.pdf, id=141, 427.76816pt x 440.66632pt>
+File: ./Images/5MeansClustering.pdf Graphic file (type pdf)
+
+<use ./Images/5MeansClustering.pdf>
+Package pdftex.def Info: ./Images/5MeansClustering.pdf used on input line 589.
+(pdftex.def)             Requested size: 238.96417pt x 246.16629pt.
+
+! Undefined control sequence.
+l.596 ...t modes of operation is given in \autoref
+                                                  {tab:modeapplication}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.1534pt too wide) in paragraph at lines 596--597
+\OT1/ptm/m/n/10 dif-fer-ent modes of op-er-a-tion is given in tab:modeapplicati
+on. 
+ []
+
+! Undefined control sequence.
+l.631 ...ts of this approach are shown in \autoref
+                                                  {fig:efficiencymonitoring}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (49.11328pt too wide) in paragraph at lines 631--632
+\OT1/ptm/m/n/10 mode. The re-sults of this ap-proach are shown in fig:efficienc
+ymonitoring.
+ []
+
+[11 <./Images/3MeansClustering.pdf> <./Images/7MeansClustering.pdf> <./Images/5
+MeansClustering.pdf>]
+<./Images/EfficiencyDegradation.pdf, id=160, 399.66315pt x 407.48235pt>
+File: ./Images/EfficiencyDegradation.pdf Graphic file (type pdf)
+
+<use ./Images/EfficiencyDegradation.pdf>
+Package pdftex.def Info: ./Images/EfficiencyDegradation.pdf used on input line 
+634.
+(pdftex.def)             Requested size: 238.96417pt x 243.63947pt.
+
+! Undefined control sequence.
+l.641 ...face of the JACE box is shown in \autoref
+                                                  {fig:jacescreen}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<./Images/JACE_Screen.png, id=161, 603.0028pt x 441.14813pt>
+File: ./Images/JACE_Screen.png Graphic file (type png)
+
+<use ./Images/JACE_Screen.png>
+Package pdftex.def Info: ./Images/JACE_Screen.png used on input line 644.
+(pdftex.def)             Requested size: 445.49698pt x 325.91945pt.
+
+! Undefined control sequence.
+l.650 ...rtinent rules to the data as per \autoref
+                                                  {tab:modeapplication}. To ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.650 ...reenshot of this GUI is shown in \autoref
+                                                  {fig:ruletester}, with tes...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<./Images/RuleTester.png, id=163, 992.95969pt x 587.94656pt>
+File: ./Images/RuleTester.png Graphic file (type png)
+
+<use ./Images/RuleTester.png>
+Package pdftex.def Info: ./Images/RuleTester.png used on input line 655.
+(pdftex.def)             Requested size: 445.49698pt x 263.78403pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+ [12 <./Images/EfficiencyDegradation.pdf>]
+[13 <./Images/JACE_Screen.png> <./Images/RuleTester.png>]
+(./SeanHayesPaper1_0B.bbl
+Underfull \hbox (badness 3158) in paragraph at lines 12--15
+[]\OT1/ptm/m/n/10 Blum H (2014) The eco-nomic ef-fi-ciency of energy-
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+Underfull \hbox (badness 3189) in paragraph at lines 18--23
+\OT1/ptm/m/n/10 9289-z, URL http://link.springer.com/10.1007/s12053-
+ []
+
+
+Overfull \hbox (24.99344pt too wide) in paragraph at lines 26--31
+\OT1/ptm/m/n/10 http://linkinghub.elsevier.com/retrieve/pii/S0926580513002276 
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 33--35
+[]\OT1/ptm/m/n/10 CAGI (2015) Per-for-mance Ver-i-fi-ca-tion Data Sheets.
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 37--41
+[]\OT1/ptm/m/n/10 Catterson V, Costello J (2013) In-creas-ing the Adop-
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 37--41
+\OT1/ptm/m/n/10 tion of Prog-nos-tic Sys-tems for Health Man-age-ment
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 37--41
+\OT1/ptm/m/n/10 in the Power In-dus-try. Chem-i-cal En-gi-neer-ing Trans-
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no î in font ptmr7t!
+
+Underfull \hbox (badness 1127) in paragraph at lines 49--53
+\OT1/ptm/m/n/10 5(4):447--469, DOI 10.1007/s12053-012-9157-7, URL
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 56--61
+\OT1/ptm/m/n/10 Con-fer-ence on Com-puter Mod-elling and Sim-u-la-
+ []
+
+
+Overfull \hbox (65.46297pt too wide) in paragraph at lines 56--61
+\OT1/ptm/m/n/10 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6
+205496 
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 74--80
+[]\OT1/ptm/m/n/10 House JM, Vaezi-Nejad H, Whit-comb JM (2001) An
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 74--80
+\OT1/ptm/m/n/10 / Dis-cus-sion. In: ASHRAE Trans-ac-tions, Amer-i-can
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 74--80
+\OT1/ptm/m/n/10 So-ci-ety of Heat-ing, Re-frig-er-a-tion and Air Con-di-
+ []
+
+
+Overfull \hbox (35.28346pt too wide) in paragraph at lines 74--80
+\OT1/ptm/m/n/10 http://search.proquest.com/docview/192523824?accountid=14504
+ []
+
+
+Overfull \hbox (13.8938pt too wide) in paragraph at lines 74--80
+\OT1/ptm/m/n/10 http://godot.lib.sfu.ca/GODOT/hold[]tab.cgi?url[]ver=Z39.88-
+ []
+
+
+Overfull \hbox (404.2374pt too wide) in paragraph at lines 74--80
+\OT1/ptm/m/n/10 2004&rft[]val[]fmt=info:ofi/fmt:kev:mtx:journal&genre=proceedin
+g&sid=ProQ:ProQ:sciencejournals&atitle=An+expert+rule+set+for+fault+detection+i
+n+air-
+ []
+
+
+Overfull \hbox (136.83145pt too wide) in paragraph at lines 74--80
+\OT1/ptm/m/n/10 handling+units+/+Discussion&title=ASHRAE+Transactions&issn=0001
+2505&date=2001-
+ []
+
+
+Overfull \hbox (55.48296pt too wide) in paragraph at lines 74--80
+\OT1/ptm/m/n/10 01-01&volume=107&issue=&spage=858&au=House,+John+M;Vaezi-
+ []
+
+
+Overfull \hbox (168.28008pt too wide) in paragraph at lines 74--80
+\OT1/ptm/m/n/10 Nejad,+Hossein;Whitcomb,+J+Michael&isbn=&jtitle=ASHRAE+Transact
+ions&btitle=&rft[]id=inf 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+[]\OT1/ptm/m/n/10 IEA (2012) In-ter-na-tional En-ergy Agency. URL
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no î in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
+[]\OT1/ptm/m/n/10 Katipamula S, Bram-b-ley M (2005) Re-view Ar-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
+\OT1/ptm/m/n/10 cle: Meth-ods for Fault De-tec-tion, Di-ag-nos-tics,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
+\OT1/ptm/m/n/10 and Prog-nos-tics for Build-ing Sys-temsA Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
+\OT1/ptm/m/n/10 view, Part I. HVAC&R Re-search 11(2):169--187,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
+\OT1/ptm/m/n/10 DOI 10.1080/10789669.2005.10391133, URL
+ []
+
+
+Overfull \hbox (58.44395pt too wide) in paragraph at lines 85--89
+\OT1/ptm/m/n/10 http://www.tandfonline.com/doi/abs/10.1080/10789669.2005.103911
+33 
+ []
+
+
+Underfull \hbox (badness 6268) in paragraph at lines 97--101
+[]\OT1/ptm/m/n/10 Liu SYSC (2001) An Ef-fi-cient Ex-pert Sys-tem for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--101
+\OT1/ptm/m/n/10 Air Com-pres-sor Trou-bleshoot-ing. Ex-pert Sys-tems
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 97--101
+\OT1/ptm/m/n/10 18(4):203--214, DOI 10.1111/1468-0394.00175, URL
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 103--108
+\OT1/ptm/m/n/10 In: 2008 10th In-ter-na-tional Con-fer-ence on Con-trol,
+ []
+
+
+Overfull \hbox (65.46297pt too wide) in paragraph at lines 103--108
+\OT1/ptm/m/n/10 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4
+795885 
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 111--115
+\OT1/ptm/m/n/10 RS, Tschudi W, Sar-tor D (2007) The busi-ness case
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+Underfull \hbox (badness 6204) in paragraph at lines 118--124
+[]\OT1/ptm/m/n/10 ODonovan P, Leahy K, Bru-ton K, OSul-li-van DTJ
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 118--124
+\OT1/ptm/m/n/10 (2015) An in-dus-trial big data pipeline for data-
+ []
+
+
+Underfull \hbox (badness 4144) in paragraph at lines 118--124
+\OT1/ptm/m/n/10 driven an-a-lyt-ics main-te-nance ap-pli-ca-tions in large-
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 118--124
+\OT1/ptm/m/n/10 scale smart man-u-fac-tur-ing fa-cil-i-ties. Jour-nal of Big
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
+\OT1/ptm/m/n/10 Data 2(1):25, DOI 10.1186/s40537-015-0034-z,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--124
+\OT1/ptm/m/n/10 URL "http://dx.doi.org/10.1186/s40537-015-0034-z
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 126--130
+\OT1/ptm/m/n/10 state iden-ti-fi-ca-tions for fine-grained en-ergy an-a-lyt-ics
+.
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 126--130
+\OT1/ptm/m/n/10 IEEE In-ter-na-tional Con-fer-ence on Per-va-sive Com-
+ []
+
+
+Overfull \hbox (17.41309pt too wide) in paragraph at lines 126--130
+\OT1/ptm/m/n/10 http://ieeexplore.ieee.org/xpls/abs[]all.jsp?arnumber=7146510 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \hbox (badness 2057) in paragraph at lines 136--140
+[]\OT1/ptm/m/n/10 Saidur R, Rahim N, Hasanuz-za-man M (2010) A re-
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 136--140
+\OT1/ptm/m/n/10 view on compressed-air en-ergy use and en-ergy sav-
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 136--140
+\OT1/ptm/m/n/10 ings. Re-new-able and Sus-tain-able En-ergy Re-views
+ []
+
+
+Overfull \hbox (52.02261pt too wide) in paragraph at lines 136--140
+\OT1/ptm/m/n/10 http://www.sciencedirect.com/science/article/pii/S1364032109002
+755 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+[]\OT1/ptm/m/n/10 SEAI (2007) Spe-cial Work-ing Group HVAC
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+\OT1/ptm/m/n/10 (SPIN I) 2007. Tech. Rep. Spin I, URL
+ []
+
+
+Overfull \hbox (240.2809pt too wide) in paragraph at lines 142--144
+\OT1/ptm/m/n/10 http://www.seai.ie/Your[]Business/Large[]Energy[]Users/Special[
+]Initiatives/Special[]Working[]Groups/HVAC[]SWG[]07/ 
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 146--151
+\OT1/ptm/m/n/10 fault di-ag-no-sis of re-cip-ro-cat-ing com-pres-sor valves
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 146--151
+\OT1/ptm/m/n/10 us-ing Teager-Kaiser en-ergy op-er-a-tor and deep be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--151
+\OT1/ptm/m/n/10 lief net-works. Ex-pert Sys-tems with Ap-pli-ca-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--151
+\OT1/ptm/m/n/10 41(9):4113--4122, DOI 10.1016/j.eswa.2013.12.026,
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 154--158
+\OT1/ptm/m/n/10 ken, NJ, USA, DOI 10.1002/9780470117842, URL
+ []
+
+
+Underfull \hbox (badness 5637) in paragraph at lines 160--164
+[]\OT1/ptm/m/n/10 Venkatasubramanian V (2003) A re-view of pro-cess
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 160--164
+\OT1/ptm/m/n/10 based meth-ods. Com-put-ers & chem-i-cal ... 27:293--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--164
+\OT1/ptm/m/n/10 311, DOI 10.1016/S0098-1354(02)00162-X, URL
+ []
+
+
+Overfull \hbox (54.24258pt too wide) in paragraph at lines 160--164
+\OT1/ptm/m/n/10 http://www.sciencedirect.com/science/article/pii/S0098135402001
+62X 
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 167--172
+[]\OT1/ptm/m/n/10 Venkatasubramanian V, Ren-gaswamy R, Kavuri SN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
+\OT1/ptm/m/n/10 Com-put-ers & Chem-i-cal En-gi-neer-ing 27(3):313--
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
+\OT1/ptm/m/n/10 326, DOI 10.1016/S0098-1354(02)00161-8, URL
+ []
+
+
+Overfull \hbox (578.99796pt too wide) in paragraph at lines 167--172
+\OT1/ptm/m/n/10 http://www.sciencedirect.com/science/article/pii/S0098135402001
+618$\OMS/ztmcm/m/n/10 n$\OT1/ptm/m/n/10 nhttp://www.sciencedirect.com/science/a
+rticle/pii/S0098135402001618/pdfft?md5=09aaf3029aa870816812fdf60c453e47&pid=1-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--179
+\OT1/ptm/m/n/10 311, DOI 10.1016/S0098-1354(02)00160-6, URL
+ []
+
+
+Overfull \hbox (24.99344pt too wide) in paragraph at lines 175--179
+\OT1/ptm/m/n/10 http://linkinghub.elsevier.com/retrieve/pii/S0098135402001606 
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 185--188
+[]\OT1/ptm/m/n/10 Wang L (2014) En-ergy ef-fi-ciency tech-nolo-gies for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
+\OT1/ptm/m/n/10 sus-tain-able food pro-cess-ing. En-ergy Ef-fi-ciency
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 185--188
+\OT1/ptm/m/n/10 7(5):791--810, DOI 10.1007/s12053-014-9256-8, URL
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+
+Underfull \hbox (badness 4328) in paragraph at lines 190--194
+[]\OT1/ptm/m/n/10 Wang Y, Brown Ma (2013) Pol-icy drivers for im-
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 190--194
+\OT1/ptm/m/n/10 prov-ing elec-tric-ity end-use ef-fi-ciency in the USA:
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 190--194
+\OT1/ptm/m/n/10 an eco-nomi-cengi-neer-ing anal-y-sis. En-ergy Ef-fi-ciency
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 190--194
+\OT1/ptm/m/n/10 7(3):517--546, DOI 10.1007/s12053-013-9237-3, URL
+ []
+
+)
+
+Package natbib Warning: There were undefined citations.
+
+[15
+
+] (./SeanHayesPaper1_0B.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 12021 strings out of 493308
+ 248383 string characters out of 6141367
+ 369231 words of memory out of 5000000
+ 15251 multiletter control sequences out of 15000+600000
+ 69720 words of font info for 161 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 39i,13n,35p,10430b,935s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2013/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2013/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2013/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><c:/texlive/2013/texmf-dist/fonts/type1/urw/symbol/usyr.pf
+b><c:/texlive/2013/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2013/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2013/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb><c:/texlive/2013/texmf-dist/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on SeanHayesPaper1_0B.pdf (15 pages, 777111 bytes).
+PDF statistics:
+ 216 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+
