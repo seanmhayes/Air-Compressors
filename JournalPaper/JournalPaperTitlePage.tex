@@ -1,0 +1,114 @@
+%%%%%%%%%%%%%%%%%%%%%%% file template.tex %%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% This is a general template file for the LaTeX package SVJour3
+% for Springer journals.          Springer Heidelberg 2010/09/16
+%
+% Copy it to a new file with a new name and use it as the basis
+% for your article. Delete % signs as needed.
+%
+% This template includes a few options for different layouts and
+% content for various journals. Please consult a previous issue of
+% your journal as needed.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% First comes an example EPS file -- just ignore it and
+% proceed on the \documentclass line
+% your LaTeX will extract the file if required
+\begin{filecontents*}{example.eps}
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 19 19 221 221
+%%CreationDate: Mon Sep 29 1997
+%%Creator: programmed by hand (JK)
+%%EndComments
+gsave
+newpath
+  20 20 moveto
+  20 220 lineto
+  220 220 lineto
+  220 20 lineto
+closepath
+2 setlinewidth
+gsave
+  .4 setgray fill
+grestore
+stroke
+grestore
+\end{filecontents*}
+%
+\RequirePackage{fix-cm}
+%
+%\documentclass{svjour3}                     % onecolumn (standard format)
+%\documentclass[smallcondensed]{svjour3}     % onecolumn (ditto)
+%\documentclass[smallextended]{svjour3}       % onecolumn (second format)
+\documentclass[twocolumn, natbib]{svjour3}          % twocolumn
+%
+\smartqed  % flush right qed marks, e.g. at end of proof
+%
+\usepackage{graphicx}
+%
+\usepackage{mathptmx}      % use Times fonts if available on your TeX system
+%
+% insert here the call for the packages your document requires
+%\usepackage{latexsym}
+% etc.
+%
+%\usepackage{natbib} % [numbers]
+\usepackage{hyperref}
+
+
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{lipsum}
+\usepackage{lscape}
+\usepackage{siunitx}
+\usepackage{amsmath}
+\usepackage{rotating}
+%\usepackage{cleveref}
+% please place your own definitions here and don't use \def but
+% \newcommand{}{}
+%
+% Insert the name of "your journal" with
+\journalname{Energy Efficiency}
+%
+\begin{document}
+
+\title{Performance Degradation Identification for Compressed Air Systems Using a Hybrid Machine Learning and Knowledge Based Fault Detection and Diagnostic System\thanks{This work was funded by Marine Renewable Energy Ireland (MaREI) at University College Cork}
+}
+%\subtitle{Do you have a subtitle?\\ If so, write it here}
+
+%\titlerunning{Short form of title}        % if too long for running head
+
+\author{Se\'an Martin Hayes         \and Ken Bruton \and
+        D.T.J. O'Sullivan %etc.
+}
+
+%\authorrunning{Short form of author list} % if too long for running head
+
+\institute{Se\'an Martin Hayes \and Ken Bruton \and D.T.J. O'Sullivan \at
+              School of Engineering \\
+              University College Cork \\
+              Ireland \\
+              Tel.: +353-21-4902913\\
+              Fax: +353-21-4276648\\
+              \email{sean.m.hayes@umail.ucc.ie}           %  \\
+%             \emph{Present address:} of F. Author  %  if needed
+           \and
+ %          S. Author \at
+  %            second address
+}
+
+\date{Received: date / Accepted: date}
+% The correct dates will be entered by the editor
+
+
+\maketitle
+
+
+
+\end{document}
+% end of file template.tex
+

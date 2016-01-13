@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.17)  12 JAN 2016 09:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.17)  13 JAN 2016 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**SeanHayesPaper1_0D.tex
-(./SeanHayesPaper1_0D.tex
+**JournalPaperBlindedManuscript.tex
+(./JournalPaperBlindedManuscript.tex
 LaTeX2e <2011/06/27>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 
@@ -766,8 +766,8 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box57
 \rot@mess@toks=\toks25
 )
-(./SeanHayesPaper1_0D.aux)
-\openout1 = `SeanHayesPaper1_0D.aux'.
+(./JournalPaperBlindedManuscript.aux)
+\openout1 = `JournalPaperBlindedManuscript.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
@@ -833,9 +833,9 @@ LaTeX Info: Redefining \ref on input line 77.
 LaTeX Info: Redefining \pageref on input line 77.
 LaTeX Info: Redefining \nameref on input line 77.
 
-(./SeanHayesPaper1_0D.out) (./SeanHayesPaper1_0D.out)
+(./JournalPaperBlindedManuscript.out) (./JournalPaperBlindedManuscript.out)
 \@outlinefile=\write3
-\openout3 = `SeanHayesPaper1_0D.out'.
+\openout3 = `JournalPaperBlindedManuscript.out'.
 
 
 (c:/texlive/2013/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
@@ -877,26 +877,26 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 \c__siunitx_mathtt_int=\count196
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
-
-
-Package mathptmx Warning: There are no bold math fonts on input line 109.
-
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 109.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 100.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.29004> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.10005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 100.
+
 
 SVJour3 Warning: Title too long for running head.
 Please supply a shorter form with \titlerunning prior to \maketitle
 
-Overfull \hbox (4.51355pt too wide) in paragraph at lines 111--112
+Overfull \hbox (4.51355pt too wide) in paragraph at lines 102--103
 \OT1/ptm/m/n/10 clus-ter-ing on the com-pres-sor power con-sump-tion is em-ploy
 ed
  []
+
+
+Package mathptmx Warning: There are no bold math fonts on input line 108.
 
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
@@ -908,92 +908,124 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-Overfull \hbox (15.54373pt too wide) in paragraph at lines 120--121
+Overfull \hbox (15.54373pt too wide) in paragraph at lines 111--112
 \OT1/ptm/m/n/10 quan-ti-fies the cost-benefit of im-proved ef-fi-ciency ([]Blum
 [] ([]2014[])).
  []
 
 
-Overfull \hbox (3.64388pt too wide) in paragraph at lines 124--125
-\OT1/ptm/m/n/10 and pres-sure and leak-age re-duc-tion ([]Wang[] ([]2008[])). I
-t is there-
+Overfull \hbox (2.7342pt too wide) in paragraph at lines 115--116
+\OT1/ptm/m/n/10 scale were to be ap-plied to the Eu-ro-pean Union fig-ures abov
+e,
  []
 
 [1{c:/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 []|\OT1/ptm/m/n/8.5 Performance Man-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-[]|\OT1/ptm/m/n/8.5 Maintenance Con-
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\OT1/ptm/m/n/8.5 Planned Main-te-
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 140--140
+Underfull \hbox (badness 2922) in paragraph at lines 133--133
 \OT1/ptm/m/n/8.5 com-mon op-por-tu-ni-
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 140--141
+Underfull \hbox (badness 2512) in paragraph at lines 133--134
 []|\OT1/ptm/m/n/8.5 Dependent on skill
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\OT1/ptm/m/n/8.5 Sequence Con-
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 142--142
+Underfull \hbox (badness 1210) in paragraph at lines 135--135
 []|\OT1/ptm/m/n/8.5 Can draw on man-
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 142--143
+Underfull \hbox (badness 2922) in paragraph at lines 135--136
 []|\OT1/ptm/m/n/8.5 Initial con-fig-u-ra-tion
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 142--143
+Underfull \hbox (badness 3049) in paragraph at lines 135--136
 \OT1/ptm/m/n/8.5 may not be main-
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 144--144
+Underfull \hbox (badness 4120) in paragraph at lines 137--137
 \OT1/ptm/m/n/8.5 mon-i-tor-ing ca-pa-bil-
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 144--145
+Underfull \hbox (badness 2512) in paragraph at lines 137--138
 []|\OT1/ptm/m/n/8.5 Dependent on skill
  []
 
 
-Underfull \hbox (badness 5637) in paragraph at lines 144--145
+Underfull \hbox (badness 5637) in paragraph at lines 137--138
 \OT1/ptm/m/n/8.5 level of BMS re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 \OT1/ptm/m/n/8.5 viewer. Un-able to
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 144--145
+Underfull \hbox (badness 3049) in paragraph at lines 137--138
 \OT1/ptm/m/n/8.5 pick up on sen-sor
  []
 
 
-Overfull \hbox (12.90573pt too wide) in paragraph at lines 134--148
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|\OT1/ptm/m/n/8.5 Computerised
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+\OT1/ptm/m/n/8.5 Main-te-nance Man-
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 139--139
+[]|\OT1/ptm/m/n/8.5 Reduction in man-
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 139--139
+\OT1/ptm/m/n/8.5 power re-quired for
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 139--140
+[]|\OT1/ptm/m/n/8.5 Requires sub-stan-tial
+ []
+
+
+Overfull \hbox (12.90573pt too wide) in paragraph at lines 127--143
  [][][] 
  []
 
 
-Underfull \vbox (badness 6252) has occurred while \output is active []
+Overfull \hbox (2.32298pt too wide) in paragraph at lines 146--147
+\OT1/ptm/m/n/10 search, a real world com-pressed air sys-tem was utilised, com-
+
+ []
 
 Package epstopdf Info: Source file: <./Images/PharmacyCompAir.eps>
 (epstopdf)                    date: 2015-12-12 14:28:56
@@ -1004,143 +1036,143 @@ pdf>
 (epstopdf)                    size: 26606 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Images/PharmacyCompAir-e
 ps-converted-to.pdf ./Images/PharmacyCompAir.eps>
-(epstopdf)             \includegraphics on input line 156.
+(epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Images/PharmacyCompAir-eps-converted-to.pdf, id=76, 541.02126pt x 311.1625pt
+<./Images/PharmacyCompAir-eps-converted-to.pdf, id=97, 541.02126pt x 311.1625pt
 >
 File: ./Images/PharmacyCompAir-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Images/PharmacyCompAir-eps-converted-to.pdf>
 Package pdftex.def Info: ./Images/PharmacyCompAir-eps-converted-to.pdf used on 
-input line 156.
+input line 149.
 (pdftex.def)             Requested size: 238.96417pt x 137.43419pt.
 
-<./Images/CompApps.pdf, id=77, 304.63812pt x 309.155pt>
+<./Images/CompApps.pdf, id=98, 304.63812pt x 309.155pt>
 File: ./Images/CompApps.pdf Graphic file (type pdf)
 
 <use ./Images/CompApps.pdf>
-Package pdftex.def Info: ./Images/CompApps.pdf used on input line 162.
+Package pdftex.def Info: ./Images/CompApps.pdf used on input line 155.
 (pdftex.def)             Requested size: 238.96417pt x 242.51266pt.
 
-<./Images/CompressorClassification.pdf, id=78, 963.6pt x 542.025pt>
+<./Images/CompressorClassification.pdf, id=99, 963.6pt x 542.025pt>
 File: ./Images/CompressorClassification.pdf Graphic file (type pdf)
 
 <use ./Images/CompressorClassification.pdf>
 Package pdftex.def Info: ./Images/CompressorClassification.pdf used on input li
-ne 168.
+ne 161.
 (pdftex.def)             Requested size: 495.0pt x 278.43057pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 []|\OT1/ptm/m/n/8.5 Monitor sys-tem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \OT1/ptm/m/n/8.5 for the iden-ti-fied
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 []|\OT1/ptm/m/n/8.5 Using vi-bra-tion,
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 186--187
+Underfull \hbox (badness 2057) in paragraph at lines 179--180
 \OT1/ptm/m/n/8.5 sig-nals to di-ag-nose
  []
 
 
-Underfull \hbox (badness 5726) in paragraph at lines 186--187
+Underfull \hbox (badness 5726) in paragraph at lines 179--180
 \OT1/ptm/m/n/8.5 valve faults for a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 \OT1/ptm/m/n/8.5 re-cip-ro-cat-ing com-
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 186--187
+Underfull \hbox (badness 1735) in paragraph at lines 179--180
 \OT1/ptm/m/n/8.5 pres-sor ([]Tran et al[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 []|\OT1/ptm/m/n/8.5 Monitoring sys-
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 188--188
+Underfull \hbox (badness 7558) in paragraph at lines 181--181
 \OT1/ptm/m/n/8.5 tem pa-ram-e-ters to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 \OT1/ptm/m/n/8.5 de-ter-mine when
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 \OT1/ptm/m/n/8.5 a com-po-nent of
  []
 
 
-Underfull \hbox (badness 7595) in paragraph at lines 188--188
+Underfull \hbox (badness 7595) in paragraph at lines 181--181
 \OT1/ptm/m/n/8.5 a sys-tem will no
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 188--188
+Underfull \hbox (badness 6608) in paragraph at lines 181--181
 \OT1/ptm/m/n/8.5 longer per-form its
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 \OT1/ptm/m/n/8.5 in-tended func-tion
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 188--188
+Underfull \hbox (badness 1648) in paragraph at lines 181--181
 \OT1/ptm/m/n/8.5 ([]Vacht-se-vanos et al[]
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 188--189
+Underfull \hbox (badness 2512) in paragraph at lines 181--182
 \OT1/ptm/m/n/8.5 main-ing use-ful life
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 188--189
+Underfull \hbox (badness 2073) in paragraph at lines 181--182
 \OT1/ptm/m/n/8.5 pres-sure and am-bi-
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 188--189
+Underfull \hbox (badness 1337) in paragraph at lines 181--182
 \OT1/ptm/m/n/8.5 ter-son and Costello[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
 []|\OT1/ptm/m/n/8.5 Monitoring sys-tem
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 190--190
+Underfull \hbox (badness 7558) in paragraph at lines 183--183
 \OT1/ptm/m/n/8.5 pa-ram-e-ters to dis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
 \OT1/ptm/m/n/8.5 cover mean-ing-ful
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 190--190
+Underfull \hbox (badness 2512) in paragraph at lines 183--183
 \OT1/ptm/m/n/8.5 ad-vise on po-ten-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
 \OT1/ptm/m/n/8.5 im-prove-ments to
  []
 
@@ -1148,152 +1180,151 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 []|\OT1/ptm/m/n/8.5 Determining ab-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 \OT1/ptm/m/n/8.5 nor-mal ap-pli-ance
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 190--191
+Underfull \hbox (badness 4739) in paragraph at lines 183--184
 \OT1/ptm/m/n/8.5 power con-sump-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 \OT1/ptm/m/n/8.5 based on anal-y-sis
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 190--191
+Underfull \hbox (badness 1478) in paragraph at lines 183--184
 \OT1/ptm/m/n/8.5 of in-di-vid-ual ap-pli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
 \OT1/ptm/m/n/8.5 and doc-u-ment-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
 \OT1/ptm/m/n/8.5 the cur-rent user
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 192--193
+Underfull \hbox (badness 1354) in paragraph at lines 185--186
 \OT1/ptm/m/n/8.5 ing out the nor-mal
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 192--193
+Underfull \hbox (badness 1983) in paragraph at lines 185--186
 \OT1/ptm/m/n/8.5 dur-ing com-mis-sion-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 []|\OT1/ptm/m/n/8.5 Improving sys-tem
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 194--194
+Underfull \hbox (badness 1342) in paragraph at lines 187--187
 \OT1/ptm/m/n/8.5 op-er-a-tion or de-sign
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 []|\OT1/ptm/m/n/8.5 Development of a
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 194--195
+Underfull \hbox (badness 1953) in paragraph at lines 187--188
 \OT1/ptm/m/n/8.5 tool which de-liv-ers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 \OT1/ptm/m/n/8.5 an op-ti-mal de-sign
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 \OT1/ptm/m/n/8.5 for a com-pressed
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 196--196
+Underfull \hbox (badness 4739) in paragraph at lines 189--189
 \OT1/ptm/m/n/8.5 a-tion of a sys-tem
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 196--196
+Underfull \hbox (badness 1924) in paragraph at lines 189--189
 \OT1/ptm/m/n/8.5 in or-der that op-er-
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 196--196
+Underfull \hbox (badness 1048) in paragraph at lines 189--189
 \OT1/ptm/m/n/8.5 at-ing con-di-tions re-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 196--196
+Underfull \hbox (badness 1158) in paragraph at lines 189--189
 \OT1/ptm/m/n/8.5 sign states and un-
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 196--196
+Underfull \hbox (badness 2529) in paragraph at lines 189--189
 \OT1/ptm/m/n/8.5 de-sir-able states are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 []|\OT1/ptm/m/n/8.5 Development of a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 \OT1/ptm/m/n/8.5 sors that pro-vides
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 \OT1/ptm/m/n/8.5 ca-pa-bil-i-ties of a
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 196--197
+Underfull \hbox (badness 2269) in paragraph at lines 189--190
 \OT1/ptm/m/n/8.5 vari-able speed sys-
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 196--197
+Underfull \hbox (badness 4205) in paragraph at lines 189--190
 \OT1/ptm/m/n/8.5 tem while lim-it-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 \OT1/ptm/m/n/8.5 ([]Facchinetti et al[]
  []
 
 
-Overfull \hbox (12.10574pt too wide) in paragraph at lines 182--200
+Overfull \hbox (12.10574pt too wide) in paragraph at lines 175--193
  [][][] 
  []
 
 
-Overfull \hbox (8.96297pt too wide) in paragraph at lines 202--203
-[]\OT1/ptm/m/n/10 This re-view cat-e-gorises in-dus-trial util-ity per-for-manc
-e man-
+Overfull \hbox (4.4631pt too wide) in paragraph at lines 195--196
+[]\OT1/ptm/m/n/10 This pa-per cat-e-gorises in-dus-trial util-ity per-for-mance
+ man-
  []
 
-
-Overfull \hbox (0.83366pt too wide) in paragraph at lines 208--209
+[2 <./Images/PharmacyCompAir-eps-converted-to.pdf>]
+Overfull \hbox (0.83366pt too wide) in paragraph at lines 201--202
 \OT1/ptm/m/n/10 is adapted from pre-vi-ous works on sys-tem per-for-mance man-
  []
 
-[2 <./Images/PharmacyCompAir-eps-converted-to.pdf> <./Images/CompApps.pdf>]
 Package epstopdf Info: Source file: <./Images/perfmgmt.eps>
 (epstopdf)                    date: 2015-11-24 15:53:03
 (epstopdf)                    size: 288378 bytes
@@ -1302,48 +1333,55 @@ Package epstopdf Info: Source file: <./Images/perfmgmt.eps>
 (epstopdf)                    size: 148524 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Images/perfmgmt-eps-conv
 erted-to.pdf ./Images/perfmgmt.eps>
-(epstopdf)             \includegraphics on input line 212.
+(epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
-
-<./Images/perfmgmt-eps-converted-to.pdf, id=184, 997.7275pt x 613.29124pt>
+<./Images/perfmgmt-eps-converted-to.pdf, id=157, 997.7275pt x 613.29124pt>
 File: ./Images/perfmgmt-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Images/perfmgmt-eps-converted-to.pdf>
 Package pdftex.def Info: ./Images/perfmgmt-eps-converted-to.pdf used on input l
-ine 212.
+ine 205.
 (pdftex.def)             Requested size: 495.0pt x 304.26791pt.
-
-Overfull \hbox (11.96342pt too wide) in paragraph at lines 224--225
+ [3 <./Images/CompressorClassification.pdf> <./Images/CompApps.pdf>]
+Overfull \hbox (11.96342pt too wide) in paragraph at lines 217--218
 \OT1/ptm/m/n/10 retrofitting mea-sures ([]Mur-ray et al[] ([]2012[]), []Mur-ray
  et al[] ([]2014[])). 
  []
 
 
-Overfull \hbox (1.87366pt too wide) in paragraph at lines 230--231
+Overfull \hbox (1.87366pt too wide) in paragraph at lines 224--225
 []\OT1/ptm/m/n/10 To demon-strate this dif-fer-ence the ex-am-ple of an air com
 -
- []
-
-[3 <./Images/CompressorClassification.pdf>]
-Overfull \hbox (4.95311pt too wide) in paragraph at lines 237--239
-\OT1/ptm/m/n/10 con-cerned with ex-tract-ing use-ful fea-tures from his-tor-i-c
-al data,
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 2020) has occurred while \output is active []
-
  [4 <./Images/perfmgmt-eps-converted-to.pdf>]
+Overfull \hbox (13.88365pt too wide) in paragraph at lines 229--230
+\OT1/ptm/m/n/10 ([]2012[])), and over-all sys-tem op-ti-mi-sa-tion ([]Kopanos e
+t al[] ([]2015[])). 
+ []
+
+
+Overfull \hbox (4.95311pt too wide) in paragraph at lines 233--235
+\OT1/ptm/m/n/10 con-cerned with ex-tract-ing use-ful fea-tures from his-tor-i-c
+al data,
+ []
+
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-
-Overfull \hbox (1.773pt too wide) in paragraph at lines 252--253
+[5]
+Overfull \hbox (1.773pt too wide) in paragraph at lines 248--249
 \OT1/ptm/m/n/10 con-cern-ing air com-pres-sor per-for-mance as-sess-ment, it is
  use-
+ []
+
+
+Overfull \hbox (4.38329pt too wide) in paragraph at lines 248--249
+\OT1/ptm/m/n/10 ployed on sim-i-lar two-stage com-pres-sor sys-tems. The nomen-
+
  []
 
 Missing character: There is no ¬ in font ptmr7t!
@@ -1363,35 +1401,32 @@ onverted-to.pdf>
 (epstopdf)                    size: 52702 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Images/2StageRotaryCompr
 essorIdeal-eps-converted-to.pdf ./Images/2StageRotaryCompressorIdeal.eps>
-(epstopdf)             \includegraphics on input line 330.
+(epstopdf)             \includegraphics on input line 326.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Images/2StageRotaryCompressorIdeal-eps-converted-to.pdf, id=239, 798.985pt x
+<./Images/2StageRotaryCompressorIdeal-eps-converted-to.pdf, id=320, 798.985pt x
  543.02875pt>
 File: ./Images/2StageRotaryCompressorIdeal-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use ./Images/2StageRotaryCompressorIdeal-eps-converted-to.pdf>
 Package pdftex.def Info: ./Images/2StageRotaryCompressorIdeal-eps-converted-to.
-pdf used on input line 330.
+pdf used on input line 326.
 (pdftex.def)             Requested size: 495.0pt x 336.42575pt.
 
-[5]
-<./Images/Compression_ThermoDiagrams.pdf, id=264, 195.09888pt x 615.23853pt>
+[6]
+<./Images/Compression_ThermoDiagrams.pdf, id=336, 195.09888pt x 615.23853pt>
 File: ./Images/Compression_ThermoDiagrams.pdf Graphic file (type pdf)
 
 <use ./Images/Compression_ThermoDiagrams.pdf>
 Package pdftex.def Info: ./Images/Compression_ThermoDiagrams.pdf used on input 
-line 338.
+line 334.
 (pdftex.def)             Requested size: 211.1472pt x 665.79448pt.
 
 
-LaTeX Warning: Float too large for page by 14.84018pt on input line 341.
+LaTeX Warning: Float too large for page by 14.84018pt on input line 337.
 
-
-Underfull \vbox (badness 4303) has occurred while \output is active []
-
- [6 <./Images/2StageRotaryCompressorIdeal-eps-converted-to.pdf>] [7 <./Images/C
-ompression_ThermoDiagrams.pdf>]
+[7 <./Images/2StageRotaryCompressorIdeal-eps-converted-to.pdf>] [8 <./Images/Co
+mpression_ThermoDiagrams.pdf>]
 Package epstopdf Info: Source file: <./Images/MechanicalCompressor.eps>
 (epstopdf)                    date: 2015-12-13 17:57:17
 (epstopdf)                    size: 45529 bytes
@@ -1401,35 +1436,44 @@ d-to.pdf>
 (epstopdf)                    size: 26675 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Images/MechanicalCompres
 sor-eps-converted-to.pdf ./Images/MechanicalCompressor.eps>
-(epstopdf)             \includegraphics on input line 431.
+(epstopdf)             \includegraphics on input line 427.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Images/MechanicalCompressor-eps-converted-to.pdf, id=295, 697.60625pt x 412.
+<./Images/MechanicalCompressor-eps-converted-to.pdf, id=378, 697.60625pt x 412.
 54124pt>
 File: ./Images/MechanicalCompressor-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ./Images/MechanicalCompressor-eps-converted-to.pdf>
 Package pdftex.def Info: ./Images/MechanicalCompressor-eps-converted-to.pdf use
-d on input line 431.
+d on input line 427.
 (pdftex.def)             Requested size: 215.06628pt x 127.18143pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 457.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 453.
 
-Overfull \hbox (7.86792pt too wide) in paragraph at lines 457--481
+Overfull \hbox (7.86792pt too wide) in paragraph at lines 453--477
  [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
 []|\OT1/ptm/m/n/8.5 Maintenance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
 \OT1/ptm/m/n/8.5 / Equip-ment
  []
 
-[8 <./Images/MechanicalCompressor-eps-converted-to.pdf>] [9]
+
+Overfull \hbox (0.80356pt too wide) in paragraph at lines 540--541
+\OT1/ptm/m/n/10 iden-ti-fi-ca-tion, a clus-ter-ing method-ol-ogy was de-vel-ope
+d. This
+ []
+
+
+Underfull \vbox (badness 4341) has occurred while \output is active []
+
+ [9 <./Images/MechanicalCompressor-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Images/ClusteringOverview.eps>
 (epstopdf)                    date: 2015-12-10 18:49:58
 (epstopdf)                    size: 155096 bytes
@@ -1439,71 +1483,98 @@ to.pdf>
 (epstopdf)                    size: 82881 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Images/ClusteringOvervie
 w-eps-converted-to.pdf ./Images/ClusteringOverview.eps>
-(epstopdf)             \includegraphics on input line 565.
+(epstopdf)             \includegraphics on input line 561.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Images/ClusteringOverview-eps-converted-to.pdf, id=345, 341.275pt x 426.5937
+<./Images/ClusteringOverview-eps-converted-to.pdf, id=411, 341.275pt x 426.5937
 5pt>
 File: ./Images/ClusteringOverview-eps-converted-to.pdf Graphic file (type pdf)
  <use ./Images/ClusteringOverview-eps-converted-to.pdf>
 Package pdftex.def Info: ./Images/ClusteringOverview-eps-converted-to.pdf used 
-on input line 565.
+on input line 561.
 (pdftex.def)             Requested size: 215.06628pt x 268.83359pt.
 
-Overfull \hbox (4.16394pt too wide) in paragraph at lines 570--571
+Overfull \hbox (4.16394pt too wide) in paragraph at lines 566--567
 \OT1/ptm/m/n/10 sump-tion data into two groups, i.e. Idle/Unloaded and Loaded
  []
 
-<./Images/2MeansClustering.pdf, id=350, 298.61563pt x 305.39093pt>
+[10 <./Images/ClusteringOverview-eps-converted-to.pdf>]
+<./Images/2MeansClustering.pdf, id=425, 298.61563pt x 305.39093pt>
 File: ./Images/2MeansClustering.pdf Graphic file (type pdf)
 
 <use ./Images/2MeansClustering.pdf>
-Package pdftex.def Info: ./Images/2MeansClustering.pdf used on input line 573.
+Package pdftex.def Info: ./Images/2MeansClustering.pdf used on input line 569.
 (pdftex.def)             Requested size: 238.96417pt x 244.38763pt.
 
-<./Images/3MeansClustering.pdf, id=354, 380.32086pt x 387.1564pt>
+<./Images/3MeansClustering.pdf, id=429, 380.32086pt x 387.1564pt>
 File: ./Images/3MeansClustering.pdf Graphic file (type pdf)
 
 <use ./Images/3MeansClustering.pdf>
-Package pdftex.def Info: ./Images/3MeansClustering.pdf used on input line 581.
+Package pdftex.def Info: ./Images/3MeansClustering.pdf used on input line 577.
 (pdftex.def)             Requested size: 238.96417pt x 243.25998pt.
 
-Overfull \hbox (0.53394pt too wide) in paragraph at lines 586--587
+Overfull \hbox (0.53394pt too wide) in paragraph at lines 582--583
 []\OT1/ptm/m/n/10 The ideal level of ac-cu-racy for mode iden-ti-fi-ca-tion wou
 ld
  []
 
-[10 <./Images/ClusteringOverview-eps-converted-to.pdf> <./Images/2MeansClusteri
-ng.pdf>] <./Images/7MeansClustering.pdf, id=373, 427.76816pt x 434.64381pt>
+<./Images/7MeansClustering.pdf, id=432, 427.76816pt x 434.64381pt>
 File: ./Images/7MeansClustering.pdf Graphic file (type pdf)
 
 <use ./Images/7MeansClustering.pdf>
-Package pdftex.def Info: ./Images/7MeansClustering.pdf used on input line 589.
+Package pdftex.def Info: ./Images/7MeansClustering.pdf used on input line 585.
 (pdftex.def)             Requested size: 238.96417pt x 242.80197pt.
 
-<./Images/5MeansClustering.pdf, id=376, 427.76816pt x 440.66632pt>
+<./Images/5MeansClustering.pdf, id=435, 427.76816pt x 440.66632pt>
 File: ./Images/5MeansClustering.pdf Graphic file (type pdf)
 
 <use ./Images/5MeansClustering.pdf>
-Package pdftex.def Info: ./Images/5MeansClustering.pdf used on input line 597.
+Package pdftex.def Info: ./Images/5MeansClustering.pdf used on input line 593.
 (pdftex.def)             Requested size: 238.96417pt x 246.16629pt.
- [11 <./Images/3MeansClustering.pdf> <./Images/7MeansClustering.pdf> <./Images/
-5MeansClustering.pdf>]
+
+Overfull \hbox (5.65242pt too wide) in paragraph at lines 633--634
+\OT1/ptm/m/n/10 A use-ful ap-pli-ca-tion of the 5-means clus-ter-ing method uti
+lised
+ []
+
+[11 <./Images/2MeansClustering.pdf> <./Images/3MeansClustering.pdf>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
-Overfull \hbox (1.73369pt too wide) in paragraph at lines 641--642
+Overfull \hbox (1.73369pt too wide) in paragraph at lines 635--636
 []\OT1/ptm/m/n/10 There is a slight in-crease in power con-sump-tion for Mode
  []
 
-<./Images/EfficiencyDegradation.pdf, id=406, 399.66315pt x 407.48235pt>
+<./Images/EfficiencyDegradation.pdf, id=460, 399.66315pt x 407.48235pt>
 File: ./Images/EfficiencyDegradation.pdf Graphic file (type pdf)
 
 <use ./Images/EfficiencyDegradation.pdf>
 Package pdftex.def Info: ./Images/EfficiencyDegradation.pdf used on input line 
-644.
+638.
 (pdftex.def)             Requested size: 238.96417pt x 243.63947pt.
+ [12 <./Images/7MeansClustering.pdf> <./Images/5MeansClustering.pdf> <./Images/
+EfficiencyDegradation.pdf>]
+Package epstopdf Info: Source file: <./Images/ImplementationSteps.eps>
+(epstopdf)                    date: 2016-01-13 14:34:01
+(epstopdf)                    size: 102129 bytes
+(epstopdf)             Output file: <./Images/ImplementationSteps-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2016-01-13 14:34:26
+(epstopdf)                    size: 54123 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Images/ImplementationSte
+ps-eps-converted-to.pdf ./Images/ImplementationSteps.eps>
+(epstopdf)             \includegraphics on input line 649.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Images/ImplementationSteps-eps-converted-to.pdf, id=484, 370.38374pt x 455.7
+025pt>
+File: ./Images/ImplementationSteps-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use ./Images/ImplementationSteps-eps-converted-to.pdf>
+Package pdftex.def Info: ./Images/ImplementationSteps-eps-converted-to.pdf used
+ on input line 649.
+(pdftex.def)             Requested size: 238.96417pt x 294.01277pt.
 Package epstopdf Info: Source file: <./Images/DataFlowArchitecture.eps>
 (epstopdf)                    date: 2015-12-21 11:19:41
 (epstopdf)                    size: 116582 bytes
@@ -1513,39 +1584,55 @@ d-to.pdf>
 (epstopdf)                    size: 62731 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Images/DataFlowArchitect
 ure-eps-converted-to.pdf ./Images/DataFlowArchitecture.eps>
-(epstopdf)             \includegraphics on input line 655.
+(epstopdf)             \includegraphics on input line 659.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Images/DataFlowArchitecture-eps-converted-to.pdf, id=409, 597.23125pt x 845.
+<./Images/DataFlowArchitecture-eps-converted-to.pdf, id=487, 597.23125pt x 845.
 1575pt>
 File: ./Images/DataFlowArchitecture-eps-converted-to.pdf Graphic file (type pdf
 )
  <use ./Images/DataFlowArchitecture-eps-converted-to.pdf>
 Package pdftex.def Info: ./Images/DataFlowArchitecture-eps-converted-to.pdf use
-d on input line 655.
+d on input line 659.
 (pdftex.def)             Requested size: 238.96417pt x 338.16017pt.
 
-<./Images/JACE_Screen.png, id=410, 603.0028pt x 441.14813pt>
+<./Images/JACE_Screen.png, id=488, 603.0028pt x 441.14813pt>
 File: ./Images/JACE_Screen.png Graphic file (type png)
 
 <use ./Images/JACE_Screen.png>
-Package pdftex.def Info: ./Images/JACE_Screen.png used on input line 661.
+Package pdftex.def Info: ./Images/JACE_Screen.png used on input line 665.
 (pdftex.def)             Requested size: 445.49698pt x 325.91945pt.
- [12 <./Images/EfficiencyDegradation.pdf> <./Images/DataFlowArchitecture-eps-co
-nverted-to.pdf>]
-<./Images/RuleTester.png, id=429, 992.95969pt x 587.94656pt>
+
+Underfull \vbox (badness 4673) has occurred while \output is active []
+
+
+Underfull \vbox (badness 2846) has occurred while \output is active []
+
+ [13 <./Images/ImplementationSteps-eps-converted-to.pdf> <./Images/DataFlowArch
+itecture-eps-converted-to.pdf>]
+<./Images/RuleTester.png, id=507, 992.95969pt x 587.94656pt>
 File: ./Images/RuleTester.png Graphic file (type png)
 
 <use ./Images/RuleTester.png>
-Package pdftex.def Info: ./Images/RuleTester.png used on input line 673.
+Package pdftex.def Info: ./Images/RuleTester.png used on input line 677.
 (pdftex.def)             Requested size: 445.49698pt x 263.78403pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (5.96341pt too wide) in paragraph at lines 687--688
+\OT1/ptm/m/n/10 on a static data set. The thresh-old rules were de-vel-oped heu
+ris-
+ []
 
 
-Underfull \vbox (badness 2970) has occurred while \output is active []
+Overfull \hbox (15.54279pt too wide) in paragraph at lines 691--692
+\OT1/ptm/m/n/10 This lim-ited the ef-fec-tive-ness of the K-means clus-ter-ing 
+method-
+ []
 
- [13 <./Images/JACE_Screen.png>] (./SeanHayesPaper1_0D.bbl
+[14 <./Images/JACE_Screen.png>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+ (./JournalPaperBlindedManuscript.bbl
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
@@ -1553,20 +1640,26 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
-Underfull \hbox (badness 2334) in paragraph at lines 29--33
+Underfull \hbox (badness 2334) in paragraph at lines 33--37
 []\OT1/ptm/m/n/8.5 Bruton K, Raftery P, O'Donovan P, Augh-ney N, Keane MM,
  []
 
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no î in font ptmr7t!
 
-Underfull \hbox (badness 1701) in paragraph at lines 68--72
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./Images/RuleTester.png>]
+Underfull \hbox (badness 1701) in paragraph at lines 91--95
 []\OT1/ptm/m/n/8.5 Gao Z, Ce-cati C, Ding SX (2015b) A Sur-vey of Fault Di-ag-
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 68--72
+Underfull \hbox (badness 1043) in paragraph at lines 91--95
 \OT1/ptm/m/n/8.5 no-sis and Fault-Tolerant Tech-niques Part II: Fault Di-ag-no-
 sis
  []
@@ -1576,46 +1669,59 @@ Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no î in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 <./Images/RuleTester.png>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
 
-Underfull \hbox (badness 4205) in paragraph at lines 148--151
+Underfull \hbox (badness 4205) in paragraph at lines 221--224
 []\OT1/ptm/m/n/8.5 Saidur R, Rahim N, Hasanuz-za-man M (2010) A re-view on
  []
 
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 711.
- [15
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 725.
+
+[17
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 711.
- (./SeanHayesPaper1_0D.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 711.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 711.
-Package rerunfilecheck Info: File `SeanHayesPaper1_0D.out' has not changed.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 725.
+ (./JournalPaperBlindedManuscript.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 725.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 725.
+Package rerunfilecheck Info: File `JournalPaperBlindedManuscript.out' has not c
+hanged.
 (rerunfilecheck)             Checksum: 8E822E007D52C2CA7DF90935679465DD;403.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 711.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 725.
  ) 
 Here is how much of TeX's memory you used:
- 15650 strings out of 493308
- 303496 string characters out of 6141367
- 449912 words of memory out of 5000000
- 18740 multiletter control sequences out of 15000+600000
- 69720 words of font info for 161 fonts, out of 8000000 for 9000
+ 15728 strings out of 493308
+ 305156 string characters out of 6141367
+ 451061 words of memory out of 5000000
+ 18799 multiletter control sequences out of 15000+600000
+ 69298 words of font info for 159 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,13n,35p,10430b,953s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,13n,35p,10441b,953s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2013/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2013/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2013/texmf-dist/fonts/type1
@@ -1625,10 +1731,10 @@ b><c:/texlive/2013/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2013/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2013/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb><c:/texlive/2013/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on SeanHayesPaper1_0D.pdf (15 pages, 846299 bytes).
+Output written on JournalPaperBlindedManuscript.pdf (17 pages, 908579 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
- 402 compressed objects within 5 object streams
- 114 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 595 PDF objects out of 1000 (max. 8388607)
+ 481 compressed objects within 5 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

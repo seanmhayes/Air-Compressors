@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: JournalPaperBlindedManuscript.aux
+The style file: spbasichayes.bst
+Database file #1: JournalPaper1E.bib.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+`journal' is a missing field, not a string, for entry Backi2013
+while executing---line 1638 of file spbasichayes.bst
+Warning--empty journal in Backi2013
+Warning--there's a number but no volume in Friden2012
+`journal' is a missing field, not a string, for entry Jiang2013
+while executing---line 1638 of file spbasichayes.bst
+Warning--empty journal in Jiang2013
+Warning--there's a number but no volume in Liu2013
+Warning--missing institution in SEAI2007
+Warning--there's a number but no volume in Wang2010
+You've used 54 entries,
+            3226 wiz_defined-function locations,
+            1072 strings with 19115 characters,
+and the built_in function-call counts, 75537 in all, are:
+= -- 8640
+> -- 1543
+< -- 35
++ -- 759
+- -- 483
+* -- 5495
+:= -- 8605
+add.period$ -- 47
+call.type$ -- 54
+change.case$ -- 441
+chr.to.int$ -- 49
+cite$ -- 60
+duplicate$ -- 7712
+empty$ -- 5601
+format.name$ -- 629
+if$ -- 15731
+int.to.chr$ -- 6
+int.to.str$ -- 1
+missing$ -- 512
+newline$ -- 172
+num.names$ -- 216
+pop$ -- 1875
+preamble$ -- 1
+purify$ -- 377
+quote$ -- 0
+skip$ -- 3073
+stack$ -- 0
+substring$ -- 7676
+swap$ -- 4169
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 474
+warning$ -- 6
+while$ -- 482
+width$ -- 0
+write$ -- 598
+(There were 2 error messages)
