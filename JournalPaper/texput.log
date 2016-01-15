@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.17)  21 DEC 2015 10:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.4.17)  15 JAN 2016 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**spbasichayes.tex
+**JournalPaperBlindedManuscript10.tex
 
 ! Emergency stop.
-<*> spbasichayes.tex
-                    
+<*> JournalPaperBlindedManuscript10.tex
+                                       
 *** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
  3 strings out of 493308
- 113 string characters out of 6141367
+ 132 string characters out of 6141367
  52434 words of memory out of 5000000
  3564 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
