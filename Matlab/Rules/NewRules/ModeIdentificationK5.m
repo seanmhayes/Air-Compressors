@@ -5,6 +5,9 @@
 %starting_centroids = [21 8 1];
 %starting_centroids = starting_centroids';
 
+% 5-Means Clustering Visualisation
+% ModeIdentificationK5.m
+
 [idx_kw_5, centroids_kw_5] = kmeans(TestDataMatlab.KW, 5);%, 'Start', starting_centroids);
 
 
@@ -32,4 +35,4 @@ text(xval_centroids(1)+50,centroids_kw_5(5),sprintf('c^{(5)} = %0.1f ', centroid
     'BackgroundColor','w', 'EdgeColor','k');
 
 hold off
-%axis square;
+axis square;

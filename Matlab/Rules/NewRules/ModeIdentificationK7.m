@@ -36,4 +36,4 @@ text(xval_centroids(1)+50,centroids_kw_7(7),sprintf('c^{(7)} = %0.1f ', centroid
     'BackgroundColor','w', 'EdgeColor','k');
 
 hold off
-%axis square;
+axis square;

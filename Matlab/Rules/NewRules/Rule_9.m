@@ -1,7 +1,7 @@
 %   See Rules_Summary.docx for description
 
 %   Inputs to Rule
-%   1. Final comrpessed air delivery temperature (Double)
+%   1. Final compressed air delivery temperature (Double)
 %       - Using dryer inlet temperature
 %   2. Machine Running (Boolean)
 %   3. Final compressed air delivery temperature warning Level (Double)

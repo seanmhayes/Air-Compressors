@@ -19,7 +19,7 @@ centroid_colors = [1:3]';
 
 hold on
 xval_centroids = ones(3,1)*(757/2);
-scatter(xval_centroids,centroids_kw_3,500,colors,'filled');
+scatter(xval_centroids,centroids_kw_3,500,centroid_colors,'filled');
 text(xval_centroids(1)+50,centroids_kw_3(1),sprintf('c^{(1)} = %0.1f ', centroids_kw_3(1)),'BackgroundColor','w', ...
     'EdgeColor','k');
 text(xval_centroids(1)+50,centroids_kw_3(2),sprintf('c^{(2)} = %0.1f ', centroids_kw_3(2)),...
@@ -28,4 +28,4 @@ text(xval_centroids(1)+50,centroids_kw_3(3),sprintf('c^{(3)} = %0.1f ', centroid
     'BackgroundColor','w', 'EdgeColor','k');
 
 hold off
-%axis square;
+axis square;
